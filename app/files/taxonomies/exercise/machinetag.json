@@ -1,0 +1,119 @@
+{
+  "predicates": [
+    {
+      "description": "ENISA manages the programme of pan-European exercises CE2018 logonamed Cyber Europe. This is a series of EU-level cyber incident and crisis management exercises for both the public and private sectors from the EU and EFTA Member States. The Cyber Europe exercises are simulations of large-scale cybersecurity incidents that escalate to become cyber crises. The exercises offer opportunities to analyse advanced technical cybersecurity incidents but also to deal with complex business continuity and crisis management situations.",
+      "expanded": "Cyber Europe",
+      "value": "cyber-europe"
+    },
+    {
+      "description": "Cyber Storm, the Department of Homeland Security’s (DHS) biennial exercise series, provides the framework for the most extensive government-sponsored cybersecurity exercise of its kind. Congress mandated the Cyber Storm exercise series to strengthen cyber preparedness in the public and private sectors. Securing cyber space is the DHS Office of Cybersecurity and Communications' top priority.",
+      "expanded": "Cyber Storm",
+      "value": "cyber-storm"
+    },
+    {
+      "description": "Locked Shields is the world’s largest and most advanced international technical live-fire cyber defence exercise. This annual scenario-based, real-time network defence exercise, which has been organised by the NATO Cooperative Cyber Defence Centre of Excellence since 2010, focuses on training for security experts who protect national IT systems.",
+      "expanded": "Locked Shields",
+      "value": "locked-shields"
+    },
+    {
+      "description": "LÜKEX ist ein Kurzwort für Länderübergreifende Krisenmanagementübung (EXercise) und die Bezeichnung für regelmäßig stattfindende Übungen in der Bundesrepublik Deutschland. Ziel von Lükex ist es, das gemeinsame Management des Bundes und der Länder in nationalen Krisen aufgrund von außergewöhnlichen Gefahren- und Schadenslagen auf strategischer Ebene zu verbessern.",
+      "expanded": "LÜKEX",
+      "value": "lukex"
+    },
+    {
+      "description": "Cyber Coalition tests and trains cyber defenders from across the Alliance in their ability to defend NATO and national networks. From defence against malware, through tackling hybrid challenges involving social media, to attacks on mobile devices, the exercise has a challenging, realistic scenario that helps prepare our cyber defenders for real-life cyber challenges. The training includes testing of operational and legal procedures, exchange of information and work with industry and partners.",
+      "expanded": "Cyber Coalition",
+      "value": "cyber-coalition"
+    },
+    {
+      "description": "NATO-EU Parallel and Coordinated Exercise. PACE focuses on four key areas, namely situational awareness, effectiveness of our instruments to counter cyber threats at EU level, speed of reaction and appropriate reactivity of our crisis response mechanisms, as well as our capacity to communicate fast and in a coordinated way.",
+      "expanded": "PACE",
+      "value": "pace"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "cyber-europe",
+      "entry": [
+        {
+          "value": "2018",
+          "expanded": "2018",
+          "description": "5th pan European cyber crisis exercise, Cyber Europe 2018 (CE2018)"
+        },
+        {
+          "value": "2016",
+          "expanded": "2016",
+          "description": "4th pan-European cyber exercise, Cyber Europe 2016"
+        }
+      ]
+    },
+    {
+      "predicate": "cyber-storm",
+      "entry": [
+        {
+          "value": "spring-2018",
+          "expanded": "Spring 2018",
+          "description": "The sixth iteration of the Cyber Storm exercise series, Cyber Storm VI, is scheduled for Spring 2018"
+        }
+      ]
+    },
+    {
+      "predicate": "locked-shields",
+      "entry": [
+        {
+          "value": "2017",
+          "expanded": "2017",
+          "description": "Locked Shields 2017"
+        },
+        {
+          "value": "2018",
+          "expanded": "2018",
+          "description": "Locked Shields 2018"
+        }
+      ]
+    },
+    {
+      "predicate": "lukex",
+      "entry": [
+        {
+          "value": "2020",
+          "expanded": "2020",
+          "description": "Cyber-Angriff auf die deutsche Stromversorgung"
+        }
+      ]
+    },
+    {
+      "predicate": "cyber-coalition",
+      "entry": [
+        {
+          "value": "2017",
+          "expanded": "2017",
+          "description": "NATO Cyber Coalition 2017"
+        },
+        {
+          "value": "2018",
+          "expanded": "2018",
+          "description": "NATO Cyber Coalition 2018"
+        }
+      ]
+    },
+    {
+      "predicate": "pace",
+      "entry": [
+        {
+          "value": "2017",
+          "expanded": "2017",
+          "description": "PACE17 will focus on four key areas, namely situational awareness, effectiveness of our instruments to counter cyber threats at EU level, speed of reaction and appropriate reactivity of our crisis response mechanisms, as well as our capacity to communicate fast and in a coordinated way. The exercise will be followed by an evaluation phase, to identify lessons learned and improve our toolbox."
+        },
+        {
+          "value": "2018",
+          "expanded": "2018"
+        }
+      ]
+    }
+  ],
+  "version": 3,
+  "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
+  "expanded": "Exercise",
+  "namespace": "exercise"
+}

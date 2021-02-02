@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.0RC1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Net_GeoIP</name>
+ <channel>pear.php.net</channel>
+ <summary>Library to perform geo-location lookups of IP addresses.</summary>
+ <description>A library that uses Maxmind&apos;s GeoIP databases to accurately determine geographic location of an IP address.</description>
+ <lead>
+  <name>Hans Lellelid</name>
+  <user>hlellelid</user>
+  <email>hans@xmpl.org</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Olivier Hill</name>
+  <user>ohill</user>
+  <email>ohill@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-05-11</date>
+ <time>20:49:09</time>
+ <version>
+  <release>1.0.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license>LGPL 2.1</license>
+ <notes>
+Push as stable
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="c8c0766be81dfd409846a7ac3f1cefcd" name="data/GeoIP.dat" role="data" />
+   <file baseinstalldir="/" md5sum="dd4d51e884a11b63cc6787c26599bb58" name="Net/GeoIP.php" role="php" />
+   <file baseinstalldir="/" md5sum="00617c743217c3e195b25b1f9e1bc8fe" name="Net/GeoIP/DMA.php" role="php" />
+   <file baseinstalldir="/" md5sum="c29ab16656b5819c077290c3cd084166" name="Net/GeoIP/Location.php" role="php" />
+   <file baseinstalldir="/" md5sum="0486b67a2e03cf678ac324cc0c11bf4c" name="tests/AllTests.php" role="test" />
+   <file baseinstalldir="/" md5sum="f5f721f61586619fc2e1d0eff08b9f68" name="tests/Net_GeoIPTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="d14138f659bb979de6b1bc971aad4394" name="tests/Net_GeoIP_DMATest.php" role="test" />
+   <file baseinstalldir="/" md5sum="a51a8bc99f7c05e1d2bdb37e70c8e8d6" name="tests/Net_GeoIP_LocationTest.php" role="test" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-05-11</date>
+   <license>LGPL 2.1</license>
+   <notes>
+Push as stable
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0RC3</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2010-03-25</date>
+   <license>LGPL 2.1</license>
+   <notes>
+QA release
+Bug #17262 - Location setter is invalid
+Unit test coverage (minimal)
+Restructure packet
+Added sample data
+   </notes>
+  </release>
+ </changelog>
+</package>

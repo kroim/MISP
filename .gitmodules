@@ -1,0 +1,39 @@
+[submodule "app/Lib/cakephp"]
+	path = app/Lib/cakephp
+	url = https://github.com/cakephp/cakephp.git
+	branch = 2.x
+[submodule "PyMISP"]
+	path = PyMISP
+	url = https://github.com/MISP/PyMISP.git
+	branch = master
+[submodule "app/files/taxonomies"]
+	path = app/files/taxonomies
+	url = https://github.com/MISP/misp-taxonomies.git
+	branch = master
+[submodule "app/files/warninglists"]
+	path = app/files/warninglists
+	url = https://github.com/MISP/misp-warninglists.git
+	branch = master
+[submodule "app/Lib/random_compat"]
+	path = app/Lib/random_compat
+	url = https://github.com/paragonie/random_compat
+	branch = master
+[submodule "app/files/misp-galaxy"]
+	path = app/files/misp-galaxy
+	url = https://github.com/MISP/misp-galaxy
+[submodule "app/files/misp-objects"]
+	path = app/files/misp-objects
+	url = https://github.com/MISP/misp-objects
+[submodule "misp-vagrant"]
+	path = misp-vagrant
+	url = https://github.com/MISP/misp-vagrant.git
+[submodule "cti-python-stix2"]
+	path = cti-python-stix2
+	url = https://github.com/MISP/cti-python-stix2
+[submodule "app/files/noticelists"]
+	path = app/files/noticelists
+	url = https://github.com/MISP/misp-noticelist
+[submodule "Plugin/DebugKit"]
+	path = Plugin/DebugKit
+	url = https://github.com/cakephp/debug_kit.git
+	branch = 2.2

@@ -1,0 +1,326 @@
+{
+  "version": 1,
+  "description": "Threat taxonomy in the scope of securing smart airports by ENISA. https://www.enisa.europa.eu/publications/securing-smart-airports",
+  "namespace": "smart-airports-threats",
+  "predicates": [
+    {
+      "expanded": "Human errors",
+      "value": "human-errors"
+    },
+    {
+      "expanded": "System failures",
+      "value": "system-failures"
+    },
+    {
+      "expanded": "Natural and social phenomena",
+      "value": "natural-and-social-phenomena"
+    },
+    {
+      "expanded": "Third party failures",
+      "value": "third-party-failures"
+    },
+    {
+      "expanded": "Malicious actions",
+      "value": "malicious-actions"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "human-errors",
+      "entry": [
+        {
+          "value": "configuration-errors",
+          "expanded": "Configuration errors"
+        },
+        {
+          "value": "operator-or-user-error",
+          "expanded": "Operator/user error"
+        },
+        {
+          "value": "loss-of-hardware",
+          "expanded": "Loss of hardware"
+        },
+        {
+          "value": "non-compliance-with-policies-or-procedure",
+          "expanded": "Non compliance with policies or procedure"
+        }
+      ]
+    },
+    {
+      "predicate": "system-failures",
+      "entry": [
+        {
+          "value": "failures-of-devices-or-systems",
+          "expanded": "Failures of devices or systems"
+        },
+        {
+          "value": "failures-or-disruptions-of-communication-links",
+          "expanded": "Failures or disruptions of communication links (communication networks"
+        },
+        {
+          "value": "failures-of-parts-of-devices",
+          "expanded": "Failures of parts of devices"
+        },
+        {
+          "value": "failures-or-disruptions-of-main-supply",
+          "expanded": "Failures or disruptions of main supply"
+        },
+        {
+          "value": "failures-or-disruptions-of-the-power-supply",
+          "expanded": "Failures or disruptions of the power supply"
+        },
+        {
+          "value": "malfunctions-of-parts-of-devices",
+          "expanded": "Malfunctions of parts of devices"
+        },
+        {
+          "value": "malfunctions-of-devices-or-systems",
+          "expanded": "Malfunctions of devices or systems"
+        },
+        {
+          "value": "failures-of-hardware",
+          "expanded": "Failures of hardware"
+        },
+        {
+          "value": "software-bugs",
+          "expanded": "Software bugs"
+        }
+      ]
+    },
+    {
+      "predicate": "natural-and-social-phenomena",
+      "entry": [
+        {
+          "value": "earthquakes",
+          "expanded": "Earthquakes"
+        },
+        {
+          "value": "fires",
+          "expanded": "Fires"
+        },
+        {
+          "value": "extreme-weather",
+          "expanded": "Extreme weather (e.g. flood, heavy snow, blizzard, high temperatures, fog, sandtorm)"
+        },
+        {
+          "value": "solar-flare",
+          "expanded": "Solar flare"
+        },
+        {
+          "value": "volcano-explosion",
+          "expanded": "Volcano explosion"
+        },
+        {
+          "value": "nuclear-incident",
+          "expanded": "Nuclear incident"
+        },
+        {
+          "value": "dangerous-chemical-incidents",
+          "expanded": "Dangerous chemical incidents"
+        },
+        {
+          "value": "pandemic",
+          "expanded": "Pandemic (e.g. Ebola)"
+        },
+        {
+          "value": "social-disruptions",
+          "expanded": "Social disruptions (e.g. industrial actions, civil unrest, strikes, military actions, terrorist attacks, political instability)"
+        },
+        {
+          "value": "shortage-of-fuel",
+          "expanded": "Shortage of fuel"
+        },
+        {
+          "value": "space-debris-and-meteorites",
+          "expanded": "Space debirs and meteorites"
+        }
+      ]
+    },
+    {
+      "predicate": "third-party-failures",
+      "entry": [
+        {
+          "value": "internet-service-provider",
+          "expanded": "Internet service provider"
+        },
+        {
+          "value": "cloud-service-provider",
+          "expanded": "Cloud service provider (SaaS / PaaS / IaaS / SecaaS)"
+        },
+        {
+          "value": "utilities-power-or-gas-or-water",
+          "expanded": "Utilities (power / gas /water)"
+        },
+        {
+          "value": "remote-maintenance-provider",
+          "expanded": "Remote maintenance provider"
+        },
+        {
+          "value": "security-testing-companies",
+          "expanded": "Security testing companies (i.e. penetration testing/vulnerability assessment)"
+        }
+      ]
+    },
+    {
+      "predicate": "malicious-actions",
+      "entry": [
+        {
+          "value": "denial-of-service-attacks-via-amplification-reflection",
+          "expanded": "Denial of Service attacks via amplifcation/reflection"
+        },
+        {
+          "value": "denial-of-service-attacks-via-flooding",
+          "expanded": "Denial of Service via flooding"
+        },
+        {
+          "value": "denial-of-service-attacks-via-jamming",
+          "expanded": "Denial of Service via jamming"
+        },
+        {
+          "value": "malicious-software-on-it-assets-malware",
+          "expanded": "Malicious software on IT assets (including passenger and staff devices) which can be Worm, Trojan, Virus, Rootkit, Exploitkit... "
+        },
+        {
+          "value": "malicious-software-on-it-assets-remote-arbitrary-code-execution",
+          "expanded": "Malicious software on IT assets such as remote arbitrary code execution (device under attacker control)"
+        },
+        {
+          "value": "exploitation-of-software-vulnerabilities-implementation-flaws",
+          "expanded": "exploitation of known or unknown software vulnerabilities such as implementation flaws (flaw in code)"
+        },
+        {
+          "value": "exploitation-of-software-vulnerabilities-design-flaws",
+          "expanded": "exploitation of known or unknown software vulnerabilities such as design flaws in IT assets (flaw in logic)"
+        },
+        {
+          "value": "exploitation-of-software-vulnerabilities-apt",
+          "expanded": "exploitation of known or unknown software vulnerabilities such as Advanced Persistent Threats (APT)"
+        },
+        {
+          "value": "misuse-of-authority-or-authorisation-unauthorized-use-of-software",
+          "expanded": "misuse of authority or authorisation - unauthorized use of software"
+        },
+        {
+          "value": "misuse-of-authority-or-authorisation-unauthorized-installation-of-software",
+          "expanded": "misuse of authority or authorisation - unauthorized installation of software"
+        },
+        {
+          "value": "misuse-of-authority-or-authorisation-repudiation-of-actions",
+          "expanded": "misuse of authority or authorisation - repudiation of actions"
+        },
+        {
+          "value": "misuse-of-authority-or-authorisation-abuse-of-personal-data",
+          "expanded": "misuse of authority or authorisation - abuse of personal data or identity fraud"
+        },
+        {
+          "value": "misuse-of-authority-or-authorisation-using-information-from-an-unreliable-source",
+          "expanded": "misuse of authority or authorisation - using information from an unreliable source"
+        },
+        {
+          "value": "misuse-of-authority-or-authorisation-unintentional-change-of-data-in-an-information-system",
+          "expanded": "misuse of authority or authorisation - unintional change of data in an information system"
+        },
+        {
+          "value": "misuse-of-authority-or-authorisation-inadequate-design-and-planning-or-lack-of-adoption",
+          "expanded": "misuse of authority or authorisation inadequate design and planning or lack of adoption"
+        },
+        {
+          "value": "misuse-of-authority-or-authorisation-data-leakage-or-sharing",
+          "expanded": "misuse of authority data leakage or sharing (exfiltration, discarded, stolen media"
+        },
+        {
+          "value": "network-or-interception-attacks-manipulation-of-routing-information",
+          "expanded": "network or interception attacks - manipulation of routing information (including redirection to malicious sites)"
+        },
+        {
+          "value": "network-or-interception-attacks-spoofing",
+          "expanded": "network or interception attacks - spoofing"
+        },
+        {
+          "value": "network-or-interception-attacks-unauthorized-access",
+          "expanded": "network or interception attacks - unauthorized access to network/services"
+        },
+        {
+          "value": "network-or-interception-attacks-authentication-attacks",
+          "expanded": "network or interception attacks - authentication attacks (against insecure protocols or PKI)"
+        },
+        {
+          "value": "network-or-interception-attacks-replay-attacks",
+          "expanded": "network or interception attacks - replay attacks"
+        },
+        {
+          "value": "network-or-interception-attacks-repudiation-of-actions",
+          "expanded": "network or interception attacks - repudiation of actions"
+        },
+        {
+          "value": "network-or-interception-attacks-wiretaps",
+          "expanded": "network or interception attacks - wiretaps (wired)"
+        },
+        {
+          "value": "network-or-interception-attacks-wireless-comms",
+          "expanded": "network or interception attacks - wireless comms (eavesdropping, interception, jamming, electromagnetic interference)"
+        },
+        {
+          "value": "network-or-interception-attacks-network-reconnaissance-information-gathering",
+          "expanded": "network or interception attacks - network reconnaissance/information gathering"
+        },
+        {
+          "value": "social-attacks-phishing-spearphishing",
+          "expanded": "social attacks phishing or spearphishing"
+        },
+        {
+          "value": "social-attacks-pretexting",
+          "expanded": "social attacks pretexting"
+        },
+        {
+          "value": "social-attacks-untrusted-links",
+          "expanded": "social attacks untrusted links (fake websites/CSRF/XSS)"
+        },
+        {
+          "value": "social-attacks-baiting",
+          "expanded": "social attacks baiting"
+        },
+        {
+          "value": "social-attacks-reverse-social-engineering",
+          "expanded": "social attacks reverse social engineering"
+        },
+        {
+          "value": "social-attacks-impersonation",
+          "expanded": "social attacks impersonation"
+        },
+        {
+          "value": "tampering-with-devices-unauthorised-modification-of-data",
+          "expanded": "tampering with devices unauthorised modification of data (including compromising smart sensor data or threat image projection"
+        },
+        {
+          "value": "tampering-with-devices-unauthorised-modification-of-hardware-or-software",
+          "expanded": "tampering with devices unauthorised modification of hardware or software (including tampering with kiosk devices, inserting keyloggers, or malware)"
+        },
+        {
+          "value": "breach-of-physical-access-controls-bypass-authentication",
+          "expanded": "breach of physical access controls / administrative controls - bypass authentication"
+        },
+        {
+          "value": "breach-of-physical-access-controls-privilege-escalation",
+          "expanded": "breach of physical access controls / administrative controls - privilege escalation"
+        },
+        {
+          "value": "physical-attacks-on-airport-assets-vandalism",
+          "expanded": "Physical attacks on airport assets - vandalism"
+        },
+        {
+          "value": "physical-attacks-on-airport-assets-sabotage",
+          "expanded": "Physical attacks on airport assets - sabotage"
+        },
+        {
+          "value": "physical-attacks-on-airport-assets-explosive-or-bomb-threats",
+          "expanded": "Physical attacks on airport assets - explosive or bomb threats"
+        },
+        {
+          "value": "physical-attacks-on-airport-assets-malicious-tampering",
+          "expanded": "Physical attacks on airport assets - malicious tampering or control of assets resulting in damage"
+        }
+      ]
+    }
+  ]
+}

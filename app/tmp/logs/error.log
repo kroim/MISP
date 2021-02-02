@@ -1,0 +1,1663 @@
+2019-01-03 11:49:37 Warning: Warning (2): copy(/var/www/MISP/app/Config/config.php.bk): failed to open stream: Permission denied in [/var/www/MISP/app/Model/Server.php, line 3164]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+copy - [internal], line ??
+Server::serverSettingsSaveValue() - APP/Model/Server.php, line 3164
+AppController::beforeFilter() - APP/Controller/AppController.php, line 140
+CakeEventManager::dispatch() - APP/Lib/cakephp/lib/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 677
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 92
+
+2019-01-03 11:49:37 Warning: Warning (2): copy(/var/www/MISP/app/Config/config.php.bk) [<a href='http://php.net/function.copy'>function.copy</a>]: failed to open stream: Permission denied in [/var/www/MISP/app/Model/Server.php, line 3164]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+copy - [internal], line ??
+Server::serverSettingsSaveValue() - APP/Model/Server.php, line 3164
+AppModel::__forceSettings() - APP/Model/AppModel.php, line 1656
+AppModel::updateMISP() - APP/Model/AppModel.php, line 165
+AppModel::runUpdates() - APP/Model/AppModel.php, line 1303
+AppController::beforeFilter() - APP/Controller/AppController.php, line 294
+CakeEventManager::dispatch() - APP/Lib/cakephp/lib/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 677
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 92
+
+2019-01-03 11:49:37 Warning: Warning (2): copy(/var/www/MISP/app/Config/config.php.bk) [<a href='http://php.net/function.copy'>function.copy</a>]: failed to open stream: Permission denied in [/var/www/MISP/app/Model/Server.php, line 3164]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+copy - [internal], line ??
+Server::serverSettingsSaveValue() - APP/Model/Server.php, line 3164
+AppModel::__forceSettings() - APP/Model/AppModel.php, line 1656
+AppModel::updateMISP() - APP/Model/AppModel.php, line 165
+AppModel::runUpdates() - APP/Model/AppModel.php, line 1303
+AppController::beforeFilter() - APP/Controller/AppController.php, line 294
+CakeEventManager::dispatch() - APP/Lib/cakephp/lib/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 677
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 92
+
+2019-01-03 12:11:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/orgs/eCrimeLabs%20.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 12:11:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/orgs/eCrimeLabs%20-.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 12:11:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/orgs/eCrimeLabs%20-%20.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 12:11:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/orgs/eCrimeLabs%20-%20D.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 12:11:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/orgs/eCrimeLabs%20-%20DE.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 12:11:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/orgs/eCrimeLabs%20-%20DEV.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 12:11:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/orgs/eCrimeLabs%20-%20DEV.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 12:14:04 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:04 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:04 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:04 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:04 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:04 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:04 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:04 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:04 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:04 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:14:06 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 12:16:55 Warning: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+2019-01-03 17:21:55 Error: [MissingControllerException] Controller class Wordpress2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress2Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:21:57 Error: [MissingControllerException] Controller class Wordpress2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress2Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:21:59 Error: [MissingControllerException] Controller class Test2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test2Controller',
+  'plugin' => NULL,
+)
+Request URL: /test2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:01 Error: [MissingControllerException] Controller class Test2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test2Controller',
+  'plugin' => NULL,
+)
+Request URL: /test2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:02 Error: [MissingControllerException] Controller class WordpressController could not be found.
+Exception Attributes: array (
+  'class' => 'WordpressController',
+  'plugin' => NULL,
+)
+Request URL: /wordpress/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:04 Error: [MissingControllerException] Controller class WordpressController could not be found.
+Exception Attributes: array (
+  'class' => 'WordpressController',
+  'plugin' => NULL,
+)
+Request URL: /wordpress/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:06 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /blog/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:08 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /blog/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:10 Error: [MissingControllerException] Controller class Test3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test3Controller',
+  'plugin' => NULL,
+)
+Request URL: /test3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:12 Error: [MissingControllerException] Controller class Test3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test3Controller',
+  'plugin' => NULL,
+)
+Request URL: /test3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:14 Error: [MissingControllerException] Controller class Wp3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp3Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:15 Error: [MissingControllerException] Controller class Wp3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp3Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:17 Error: [MissingControllerException] Controller class Wp2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp2Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:19 Error: [MissingControllerException] Controller class Wp2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp2Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:21 Error: [MissingControllerException] Controller class Blog1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog1Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:23 Error: [MissingControllerException] Controller class Blog1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog1Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:24 Error: [MissingControllerException] Controller class Wordpress3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress3Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:26 Error: [MissingControllerException] Controller class Wordpress3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress3Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:28 Error: [MissingControllerException] Controller class Wp-login.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Wp-login.phpController',
+  'plugin' => NULL,
+)
+Request URL: /wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:30 Error: [MissingControllerException] Controller class Wp-login.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Wp-login.phpController',
+  'plugin' => NULL,
+)
+Request URL: /wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:32 Error: [MissingControllerException] Controller class Blog3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog3Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:33 Error: [MissingControllerException] Controller class Blog3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog3Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:35 Error: [MissingControllerException] Controller class WpController could not be found.
+Exception Attributes: array (
+  'class' => 'WpController',
+  'plugin' => NULL,
+)
+Request URL: /wp/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:37 Error: [MissingControllerException] Controller class WpController could not be found.
+Exception Attributes: array (
+  'class' => 'WpController',
+  'plugin' => NULL,
+)
+Request URL: /wp/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:39 Error: [MissingControllerException] Controller class Wp1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp1Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:41 Error: [MissingControllerException] Controller class Wp1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp1Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:43 Error: [MissingControllerException] Controller class Test1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test1Controller',
+  'plugin' => NULL,
+)
+Request URL: /test1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:44 Error: [MissingControllerException] Controller class Test1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test1Controller',
+  'plugin' => NULL,
+)
+Request URL: /test1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:46 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /test/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:48 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /test/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:50 Error: [MissingControllerException] Controller class Blog2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog2Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:52 Error: [MissingControllerException] Controller class Blog2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog2Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:53 Error: [MissingControllerException] Controller class Wordpress1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress1Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 17:22:55 Error: [MissingControllerException] Controller class Wordpress1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress1Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 19:07:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/chosen-sprite.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 19:11:54 Error: [MethodNotAllowedException] You do not have permission to use this functionality.
+Request URL: /servers/serverSettings/Plugin
+Stack Trace:
+#0 /var/www/MISP/app/Controller/Component/ACLComponent.php(548): ACLComponent->__error(403, 'You do not have...', false)
+#1 /var/www/MISP/app/Controller/AppController.php(454): ACLComponent->checkAccess(Array, 'servers', 'serversettings')
+#2 /var/www/MISP/app/Controller/ServersController.php(33): AppController->beforeFilter()
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ServersController->beforeFilter(Object(CakeEvent))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ServersController), Object(CakeRequest))
+#7 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-01-03 19:13:00 Error: [MethodNotAllowedException] You do not have permission to use this functionality.
+Request URL: /servers/serverSettings/Plugin
+Stack Trace:
+#0 /var/www/MISP/app/Controller/Component/ACLComponent.php(548): ACLComponent->__error(403, 'You do not have...', false)
+#1 /var/www/MISP/app/Controller/AppController.php(454): ACLComponent->checkAccess(Array, 'servers', 'serversettings')
+#2 /var/www/MISP/app/Controller/ServersController.php(33): AppController->beforeFilter()
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ServersController->beforeFilter(Object(CakeEvent))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ServersController), Object(CakeRequest))
+#7 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-01-03 19:13:32 Error: [MethodNotAllowedException] You do not have permission to use this functionality.
+Request URL: /servers/serverSettings/Plugin
+Stack Trace:
+#0 /var/www/MISP/app/Controller/Component/ACLComponent.php(548): ACLComponent->__error(403, 'You do not have...', false)
+#1 /var/www/MISP/app/Controller/AppController.php(454): ACLComponent->checkAccess(Array, 'servers', 'serversettings')
+#2 /var/www/MISP/app/Controller/ServersController.php(33): AppController->beforeFilter()
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ServersController->beforeFilter(Object(CakeEvent))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ServersController), Object(CakeRequest))
+#7 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-01-03 19:13:37 Error: [MethodNotAllowedException] You do not have permission to use this functionality.
+Request URL: /servers/serverSettings/Plugin
+Stack Trace:
+#0 /var/www/MISP/app/Controller/Component/ACLComponent.php(548): ACLComponent->__error(403, 'You do not have...', false)
+#1 /var/www/MISP/app/Controller/AppController.php(454): ACLComponent->checkAccess(Array, 'servers', 'serversettings')
+#2 /var/www/MISP/app/Controller/ServersController.php(33): AppController->beforeFilter()
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ServersController->beforeFilter(Object(CakeEvent))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ServersController), Object(CakeRequest))
+#7 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-01-03 22:51:45 Error: [MissingControllerException] Controller class Blog1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog1Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:51:47 Error: [MissingControllerException] Controller class Blog1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog1Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:51:47 Error: [MissingControllerException] Controller class Wordpress1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress1Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:51:50 Error: [MissingControllerException] Controller class Wordpress1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress1Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:51:52 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /test/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:51:52 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /test/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:51:53 Error: [MissingControllerException] Controller class Blog3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog3Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:51:54 Error: [MissingControllerException] Controller class Blog3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog3Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:51:55 Error: [MissingControllerException] Controller class Test3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test3Controller',
+  'plugin' => NULL,
+)
+Request URL: /test3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:51:57 Error: [MissingControllerException] Controller class Test3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test3Controller',
+  'plugin' => NULL,
+)
+Request URL: /test3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:00 Error: [MissingControllerException] Controller class Test2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test2Controller',
+  'plugin' => NULL,
+)
+Request URL: /test2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:01 Error: [MissingControllerException] Controller class Test2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test2Controller',
+  'plugin' => NULL,
+)
+Request URL: /test2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:01 Error: [MissingControllerException] Controller class Wp1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp1Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:02 Error: [MissingControllerException] Controller class Wp1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp1Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:08 Error: [MissingControllerException] Controller class WpController could not be found.
+Exception Attributes: array (
+  'class' => 'WpController',
+  'plugin' => NULL,
+)
+Request URL: /wp/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:09 Error: [MissingControllerException] Controller class WordpressController could not be found.
+Exception Attributes: array (
+  'class' => 'WordpressController',
+  'plugin' => NULL,
+)
+Request URL: /wordpress/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:11 Error: [MissingControllerException] Controller class WordpressController could not be found.
+Exception Attributes: array (
+  'class' => 'WordpressController',
+  'plugin' => NULL,
+)
+Request URL: /wordpress/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:12 Error: [MissingControllerException] Controller class Wp-login.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Wp-login.phpController',
+  'plugin' => NULL,
+)
+Request URL: /wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:13 Error: [MissingControllerException] Controller class Wp-login.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Wp-login.phpController',
+  'plugin' => NULL,
+)
+Request URL: /wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:15 Error: [MissingControllerException] Controller class Test1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test1Controller',
+  'plugin' => NULL,
+)
+Request URL: /test1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:15 Error: [MissingControllerException] Controller class Test1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test1Controller',
+  'plugin' => NULL,
+)
+Request URL: /test1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:16 Error: [MissingControllerException] Controller class Wordpress2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress2Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:16 Error: [MissingControllerException] Controller class Wordpress2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress2Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:22 Error: [MissingControllerException] Controller class Blog2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog2Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:22 Error: [MissingControllerException] Controller class Blog2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog2Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:24 Error: [MissingControllerException] Controller class Wordpress3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress3Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:24 Error: [MissingControllerException] Controller class Wordpress3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress3Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:25 Error: [MissingControllerException] Controller class Wp3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp3Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:26 Error: [MissingControllerException] Controller class Wp3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp3Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:27 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /blog/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:29 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /blog/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:29 Error: [MissingControllerException] Controller class Wp2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp2Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-03 22:52:30 Error: [MissingControllerException] Controller class Wp2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp2Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-04 16:56:30 Error: [MissingControllerException] Controller class SitemapController could not be found.
+Exception Attributes: array (
+  'class' => 'SitemapController',
+  'plugin' => NULL,
+)
+Request URL: /sitemap.xml
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-04 16:56:30 Error: [MissingControllerException] Controller class .well-knownController could not be found.
+Exception Attributes: array (
+  'class' => '.well-knownController',
+  'plugin' => NULL,
+)
+Request URL: /.well-known/security.txt
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:01 Error: [MissingControllerException] Controller class Blog3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog3Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:03 Error: [MissingControllerException] Controller class Blog3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog3Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:05 Error: [MissingControllerException] Controller class Wordpress1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress1Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:07 Error: [MissingControllerException] Controller class Wordpress1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress1Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:09 Error: [MissingControllerException] Controller class Wp3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp3Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:11 Error: [MissingControllerException] Controller class Wp3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp3Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:13 Error: [MissingControllerException] Controller class Blog1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog1Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:15 Error: [MissingControllerException] Controller class Blog1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog1Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:17 Error: [MissingControllerException] Controller class Wp2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp2Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:19 Error: [MissingControllerException] Controller class Wp2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp2Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:21 Error: [MissingControllerException] Controller class WordpressController could not be found.
+Exception Attributes: array (
+  'class' => 'WordpressController',
+  'plugin' => NULL,
+)
+Request URL: /wordpress/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:23 Error: [MissingControllerException] Controller class WordpressController could not be found.
+Exception Attributes: array (
+  'class' => 'WordpressController',
+  'plugin' => NULL,
+)
+Request URL: /wordpress/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:25 Error: [MissingControllerException] Controller class Test3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test3Controller',
+  'plugin' => NULL,
+)
+Request URL: /test3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:27 Error: [MissingControllerException] Controller class Test3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test3Controller',
+  'plugin' => NULL,
+)
+Request URL: /test3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:28 Error: [MissingControllerException] Controller class Blog2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog2Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:30 Error: [MissingControllerException] Controller class Blog2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Blog2Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:32 Error: [MissingControllerException] Controller class Wp-login.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Wp-login.phpController',
+  'plugin' => NULL,
+)
+Request URL: /wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:34 Error: [MissingControllerException] Controller class Wp-login.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Wp-login.phpController',
+  'plugin' => NULL,
+)
+Request URL: /wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:36 Error: [MissingControllerException] Controller class Test2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test2Controller',
+  'plugin' => NULL,
+)
+Request URL: /test2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:37 Error: [MissingControllerException] Controller class Test2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test2Controller',
+  'plugin' => NULL,
+)
+Request URL: /test2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:40 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /blog/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:41 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /blog/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:43 Error: [MissingControllerException] Controller class Wordpress2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress2Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:45 Error: [MissingControllerException] Controller class Wordpress2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress2Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress2/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:47 Error: [MissingControllerException] Controller class Wp1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp1Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:49 Error: [MissingControllerException] Controller class Wp1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wp1Controller',
+  'plugin' => NULL,
+)
+Request URL: /wp1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:50 Error: [MissingControllerException] Controller class WpController could not be found.
+Exception Attributes: array (
+  'class' => 'WpController',
+  'plugin' => NULL,
+)
+Request URL: /wp/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:52 Error: [MissingControllerException] Controller class WpController could not be found.
+Exception Attributes: array (
+  'class' => 'WpController',
+  'plugin' => NULL,
+)
+Request URL: /wp/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:54 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /test/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:56 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /test/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:11:58 Error: [MissingControllerException] Controller class Test1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test1Controller',
+  'plugin' => NULL,
+)
+Request URL: /test1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:12:00 Error: [MissingControllerException] Controller class Test1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test1Controller',
+  'plugin' => NULL,
+)
+Request URL: /test1/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:12:02 Error: [MissingControllerException] Controller class Wordpress3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress3Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-05 15:12:03 Error: [MissingControllerException] Controller class Wordpress3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Wordpress3Controller',
+  'plugin' => NULL,
+)
+Request URL: /wordpress3/wp-login.php
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-07 11:41:40 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-07 16:31:11 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /api/v1/pods
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-08 09:26:05 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-10 09:29:51 Error: [BadRequestException] The request has been black-holed
+Request URL: /sightings/add/1
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(831): AppController->blackhole('secure')
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(351): SecurityComponent->_callback(Object(SightingsController), 'blackHole', Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(255): SecurityComponent->blackHole(Object(SightingsController), 'secure', Object(SecurityException))
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Utility/ObjectCollection.php(128): SecurityComponent->startup(Object(SightingsController))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ObjectCollection->trigger('startup')
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#7 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SightingsController), Object(CakeRequest))
+#8 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-01-10 09:29:54 Error: [BadRequestException] The request has been black-holed
+Request URL: /sightings/add/1
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(831): AppController->blackhole('secure')
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(351): SecurityComponent->_callback(Object(SightingsController), 'blackHole', Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(255): SecurityComponent->blackHole(Object(SightingsController), 'secure', Object(SecurityException))
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Utility/ObjectCollection.php(128): SecurityComponent->startup(Object(SightingsController))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ObjectCollection->trigger('startup')
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#7 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SightingsController), Object(CakeRequest))
+#8 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-01-10 09:30:33 Error: [BadRequestException] The request has been black-holed
+Request URL: /sightings/add/1
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(831): AppController->blackhole('auth')
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(351): SecurityComponent->_callback(Object(SightingsController), 'blackHole', Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(255): SecurityComponent->blackHole(Object(SightingsController), 'auth', Object(AuthSecurityException))
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Utility/ObjectCollection.php(128): SecurityComponent->startup(Object(SightingsController))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ObjectCollection->trigger('startup')
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#7 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SightingsController), Object(CakeRequest))
+#8 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-01-10 11:47:12 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-10 13:09:41 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-10 14:29:18 Error: [BadRequestException] The request has been black-holed
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(831): AppController->blackhole('secure')
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(351): SecurityComponent->_callback(Object(UsersController), 'blackHole', Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(255): SecurityComponent->blackHole(Object(UsersController), 'secure', Object(SecurityException))
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Utility/ObjectCollection.php(128): SecurityComponent->startup(Object(UsersController))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ObjectCollection->trigger('startup')
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#7 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-01-10 14:29:26 Error: [BadRequestException] The request has been black-holed
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(831): AppController->blackhole('secure')
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(351): SecurityComponent->_callback(Object(UsersController), 'blackHole', Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(255): SecurityComponent->blackHole(Object(UsersController), 'secure', Object(SecurityException))
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Utility/ObjectCollection.php(128): SecurityComponent->startup(Object(UsersController))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ObjectCollection->trigger('startup')
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#7 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-01-10 21:55:13 Error: [BadRequestException] The request has been black-holed
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(831): AppController->blackhole('secure')
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(351): SecurityComponent->_callback(Object(UsersController), 'blackHole', Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(255): SecurityComponent->blackHole(Object(UsersController), 'secure', Object(SecurityException))
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Utility/ObjectCollection.php(128): SecurityComponent->startup(Object(UsersController))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ObjectCollection->trigger('startup')
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#7 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-01-10 21:55:28 Error: [BadRequestException] The request has been black-holed
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(831): AppController->blackhole('secure')
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(351): SecurityComponent->_callback(Object(UsersController), 'blackHole', Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(255): SecurityComponent->blackHole(Object(UsersController), 'secure', Object(SecurityException))
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Utility/ObjectCollection.php(128): SecurityComponent->startup(Object(UsersController))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ObjectCollection->trigger('startup')
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#7 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-01-11 02:17:56 Error: [BadRequestException] The request has been black-holed
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(831): AppController->blackhole('secure')
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(351): SecurityComponent->_callback(Object(UsersController), 'blackHole', Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(255): SecurityComponent->blackHole(Object(UsersController), 'secure', Object(SecurityException))
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Utility/ObjectCollection.php(128): SecurityComponent->startup(Object(UsersController))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ObjectCollection->trigger('startup')
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#7 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-01-11 02:30:56 Error: [BadRequestException] The request has been black-holed
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(831): AppController->blackhole('secure')
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(351): SecurityComponent->_callback(Object(UsersController), 'blackHole', Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(255): SecurityComponent->blackHole(Object(UsersController), 'secure', Object(SecurityException))
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Utility/ObjectCollection.php(128): SecurityComponent->startup(Object(UsersController))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ObjectCollection->trigger('startup')
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#7 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-01-11 02:31:06 Error: [BadRequestException] The request has been black-holed
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(831): AppController->blackhole('secure')
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(351): SecurityComponent->_callback(Object(UsersController), 'blackHole', Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(255): SecurityComponent->blackHole(Object(UsersController), 'secure', Object(SecurityException))
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Utility/ObjectCollection.php(128): SecurityComponent->startup(Object(UsersController))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ObjectCollection->trigger('startup')
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#7 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-01-11 02:35:23 Error: [BadRequestException] The request has been black-holed
+Request URL: /users/change_pw
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(831): AppController->blackhole('secure')
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(351): SecurityComponent->_callback(Object(UsersController), 'blackHole', Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(255): SecurityComponent->blackHole(Object(UsersController), 'secure', Object(SecurityException))
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Utility/ObjectCollection.php(128): SecurityComponent->startup(Object(UsersController))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ObjectCollection->trigger('startup')
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#7 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-01-11 03:42:35 Error: [MissingControllerException] Controller class SitemapController could not be found.
+Exception Attributes: array (
+  'class' => 'SitemapController',
+  'plugin' => NULL,
+)
+Request URL: /sitemap.xml
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-11 03:42:35 Error: [MissingControllerException] Controller class .well-knownController could not be found.
+Exception Attributes: array (
+  'class' => '.well-knownController',
+  'plugin' => NULL,
+)
+Request URL: /.well-known/security.txt
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-11 08:05:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/chosen-sprite.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-11 08:06:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/chosen-sprite.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-11 08:07:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/chosen-sprite.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-11 08:11:47 Error: [SocketException] stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+stream_socket_client(): Failed to enable crypto
+stream_socket_client(): unable to connect to ssl://dev.ecrimelabs.net:443 (Unknown error)
+Request URL: /servers/rest
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Network/CakeSocket.php(386): CakeSocket->connect()
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Network/Http/HttpSocket.php(377): CakeSocket->write('POST /servers/s...')
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Network/Http/HttpSocket.php(514): HttpSocket->request(Array)
+#3 /var/www/MISP/app/Controller/ServersController.php(1716): HttpSocket->post('https://dev.ecr...', '[]', Array)
+#4 /var/www/MISP/app/Controller/ServersController.php(1635): ServersController->__doRestQuery(Array, 'curl \\\n -d '[]'...', 'misp_url = 'htt...')
+#5 [internal function]: ServersController->rest()
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ServersController), Array)
+#7 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ServersController), Object(CakeRequest))
+#9 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-01-11 08:11:47 Error: Fatal Error (256): [CakeException] Unknown status code
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ExceptionRenderer.php(228): CakeResponse->statusCode(2)
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ExceptionRenderer.php(190): ExceptionRenderer->error400(Object(SocketException))
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php(127): ExceptionRenderer->render()
+#3 [internal function]: ErrorHandler::handleException(Object(SocketException))
+#4 {main} in [/var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 138]
+2019-01-11 08:11:47 Error: Fatal Error (1): Uncaught InternalErrorException: Internal Server Error in /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php:261
+Stack trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(256, '[CakeException]...', '/var/www/MISP/a...', 138)
+#1 [internal function]: ErrorHandler::handleError(256, '[CakeException]...', '/var/www/MISP/a...', 138, Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php(138): trigger_error('[CakeException]...', 256)
+#3 [internal function]: ErrorHandler::handleException(Object(SocketException))
+#4 {main}
+  thrown in [/var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 261]
+2019-01-11 08:11:47 Error: [InternalErrorException] Internal Server Error
+Request URL: /servers/rest
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Intern...', '/var/www/MISP/a...', 261)
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Intern...', '/var/www/MISP/a...', 261, Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-01-11 08:11:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/chosen-sprite.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-11 08:28:28 Error: [SocketException] stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+stream_socket_client(): Failed to enable crypto
+stream_socket_client(): unable to connect to ssl://dev.ecrimelabs.net:443 (Unknown error)
+Request URL: /servers/rest
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Network/CakeSocket.php(386): CakeSocket->connect()
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Network/Http/HttpSocket.php(377): CakeSocket->write('GET /servers/se...')
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Network/Http/HttpSocket.php(466): HttpSocket->request(Array)
+#3 /var/www/MISP/app/Controller/ServersController.php(1704): HttpSocket->get('https://dev.ecr...', false, Array)
+#4 /var/www/MISP/app/Controller/ServersController.php(1635): ServersController->__doRestQuery(Array, 'curl \\\n -H "Aut...', 'misp_url = 'htt...')
+#5 [internal function]: ServersController->rest()
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ServersController), Array)
+#7 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ServersController), Object(CakeRequest))
+#9 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-01-11 08:28:28 Error: Fatal Error (256): [CakeException] Unknown status code
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ExceptionRenderer.php(228): CakeResponse->statusCode(2)
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ExceptionRenderer.php(190): ExceptionRenderer->error400(Object(SocketException))
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php(127): ExceptionRenderer->render()
+#3 [internal function]: ErrorHandler::handleException(Object(SocketException))
+#4 {main} in [/var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 138]
+2019-01-11 08:28:28 Error: Fatal Error (1): Uncaught InternalErrorException: Internal Server Error in /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php:261
+Stack trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(256, '[CakeException]...', '/var/www/MISP/a...', 138)
+#1 [internal function]: ErrorHandler::handleError(256, '[CakeException]...', '/var/www/MISP/a...', 138, Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php(138): trigger_error('[CakeException]...', 256)
+#3 [internal function]: ErrorHandler::handleException(Object(SocketException))
+#4 {main}
+  thrown in [/var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 261]
+2019-01-11 08:28:28 Error: [InternalErrorException] Internal Server Error
+Request URL: /servers/rest
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Intern...', '/var/www/MISP/a...', 261)
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Intern...', '/var/www/MISP/a...', 261, Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-01-11 08:28:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/chosen-sprite.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-11 08:28:35 Error: [SocketException] stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+stream_socket_client(): Failed to enable crypto
+stream_socket_client(): unable to connect to ssl://dev.ecrimelabs.net:443 (Unknown error)
+Request URL: /servers/rest
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Network/CakeSocket.php(386): CakeSocket->connect()
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Network/Http/HttpSocket.php(377): CakeSocket->write('POST /servers/s...')
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Network/Http/HttpSocket.php(514): HttpSocket->request(Array)
+#3 /var/www/MISP/app/Controller/ServersController.php(1716): HttpSocket->post('https://dev.ecr...', '[]', Array)
+#4 /var/www/MISP/app/Controller/ServersController.php(1635): ServersController->__doRestQuery(Array, 'curl \\\n -d '[]'...', 'misp_url = 'htt...')
+#5 [internal function]: ServersController->rest()
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ServersController), Array)
+#7 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ServersController), Object(CakeRequest))
+#9 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-01-11 08:28:35 Error: Fatal Error (256): [CakeException] Unknown status code
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ExceptionRenderer.php(228): CakeResponse->statusCode(2)
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ExceptionRenderer.php(190): ExceptionRenderer->error400(Object(SocketException))
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php(127): ExceptionRenderer->render()
+#3 [internal function]: ErrorHandler::handleException(Object(SocketException))
+#4 {main} in [/var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 138]
+2019-01-11 08:28:35 Error: Fatal Error (1): Uncaught InternalErrorException: Internal Server Error in /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php:261
+Stack trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(256, '[CakeException]...', '/var/www/MISP/a...', 138)
+#1 [internal function]: ErrorHandler::handleError(256, '[CakeException]...', '/var/www/MISP/a...', 138, Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php(138): trigger_error('[CakeException]...', 256)
+#3 [internal function]: ErrorHandler::handleException(Object(SocketException))
+#4 {main}
+  thrown in [/var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 261]
+2019-01-11 08:28:35 Error: [InternalErrorException] Internal Server Error
+Request URL: /servers/rest
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Intern...', '/var/www/MISP/a...', 261)
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Intern...', '/var/www/MISP/a...', 261, Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-01-11 08:28:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/chosen-sprite.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-11 08:28:43 Error: [MethodNotAllowedException] Invalid JSON input. Make sure that the JSON input is a correctly formatted JSON string. This request has been blocked to avoid an unfiltered request.
+Request URL: /servers/serverSettings
+Stack Trace:
+#0 /var/www/MISP/app/Controller/AppController.php(186): AppController->_isRest()
+#1 /var/www/MISP/app/Controller/ServersController.php(33): AppController->beforeFilter()
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ServersController->beforeFilter(Object(CakeEvent))
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ServersController), Object(CakeRequest))
+#6 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2019-01-11 08:28:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/chosen-sprite.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-11 08:28:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/chosen-sprite.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-11 08:29:47 Error: [MethodNotAllowedException] Invalid JSON input. Make sure that the JSON input is a correctly formatted JSON string. This request has been blocked to avoid an unfiltered request.
+Request URL: /servers/serverSettings
+Stack Trace:
+#0 /var/www/MISP/app/Controller/AppController.php(186): AppController->_isRest()
+#1 /var/www/MISP/app/Controller/ServersController.php(33): AppController->beforeFilter()
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ServersController->beforeFilter(Object(CakeEvent))
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ServersController), Object(CakeRequest))
+#6 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2019-01-11 08:29:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/chosen-sprite.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-11 08:30:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/chosen-sprite.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-11 08:30:35 Error: [MethodNotAllowedException] Invalid JSON input. Make sure that the JSON input is a correctly formatted JSON string. This request has been blocked to avoid an unfiltered request.
+Request URL: /servers/serverSettings
+Stack Trace:
+#0 /var/www/MISP/app/Controller/AppController.php(186): AppController->_isRest()
+#1 /var/www/MISP/app/Controller/ServersController.php(33): AppController->beforeFilter()
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ServersController->beforeFilter(Object(CakeEvent))
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ServersController), Object(CakeRequest))
+#6 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2019-01-11 08:30:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/chosen-sprite.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-11 08:30:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/chosen-sprite.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-11 08:31:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/chosen-sprite.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-11 08:47:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/chosen-sprite.png
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-11 09:05:30 Error: [BadRequestException] The request has been black-holed
+Request URL: /servers/rest
+Stack Trace:
+#0 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(831): AppController->blackhole('secure')
+#1 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(351): SecurityComponent->_callback(Object(ServersController), 'blackHole', Array)
+#2 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Component/SecurityComponent.php(255): SecurityComponent->blackHole(Object(ServersController), 'secure', Object(SecurityException))
+#3 /var/www/MISP/app/Lib/cakephp/lib/Cake/Utility/ObjectCollection.php(128): SecurityComponent->startup(Object(ServersController))
+#4 /var/www/MISP/app/Lib/cakephp/lib/Cake/Event/CakeEventManager.php(243): ObjectCollection->trigger('startup')
+#5 /var/www/MISP/app/Lib/cakephp/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#7 /var/www/MISP/app/Lib/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ServersController), Object(CakeRequest))
+#8 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-01-11 09:33:34 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /index.html
+Stack Trace:
+#0 /var/www/MISP/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

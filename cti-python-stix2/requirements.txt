@@ -1,0 +1,11 @@
+bumpversion
+ipython
+nbsphinx==0.3.2
+pre-commit
+pytest
+pytest-cov
+sphinx<1.6
+sphinx-prompt
+tox
+
+-e .

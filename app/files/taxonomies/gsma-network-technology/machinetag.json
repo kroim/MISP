@@ -1,0 +1,58 @@
+{
+  "namespace": "gsma-network-technology",
+  "description": "Taxonomy used by GSMA for their information sharing program with telco describing the types of infrastructure. WiP",
+  "version": 3,
+  "predicates": [
+    {
+      "value": "user",
+      "expanded": "User"
+    },
+    {
+      "value": "applications",
+      "expanded": "Applications"
+    },
+    {
+      "value": "end-devices-and-components",
+      "expanded": "End devices and components"
+    },
+    {
+      "value": "services",
+      "expanded": "Services"
+    },
+    {
+      "value": "radio-access-network",
+      "expanded": "Radio Access Network (RAN)"
+    },
+    {
+      "value": "support-and-provisioning-systems",
+      "expanded": "Support and provisioning systems"
+    },
+    {
+      "value": "interconnects",
+      "expanded": "Interconnects"
+    },
+    {
+      "value": "core",
+      "expanded": "Core"
+    },
+    {
+      "value": "sim-secure-element-modules",
+      "expanded": "SIM, Secure Element and Modules"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "end-devices-and-components",
+      "entry": [
+        {
+          "value": "ms",
+          "expanded": "Mobile Station"
+        },
+        {
+          "value": "mobile-equipment-radio",
+          "expanded": "Mobile Equipment Radio"
+        }
+      ]
+    }
+  ]
+}

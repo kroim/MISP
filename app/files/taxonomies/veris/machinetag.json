@@ -1,0 +1,8449 @@
+{
+  "namespace": "veris",
+  "description": "Vocabulary for Event Recording and Incident Sharing (VERIS)",
+  "version": 2,
+  "predicates": [
+    {
+      "value": "confidence"
+    },
+    {
+      "value": "cost_corrective_action"
+    },
+    {
+      "value": "discovery_method"
+    },
+    {
+      "value": "security_incident"
+    },
+    {
+      "value": "targeted"
+    },
+    {
+      "value": "asset:accessibility"
+    },
+    {
+      "value": "asset:cloud"
+    },
+    {
+      "value": "asset:country"
+    },
+    {
+      "value": "asset:governance"
+    },
+    {
+      "value": "asset:hosting"
+    },
+    {
+      "value": "asset:management"
+    },
+    {
+      "value": "asset:ownership"
+    },
+    {
+      "value": "impact:iso_currency_code"
+    },
+    {
+      "value": "impact:overall_rating"
+    },
+    {
+      "value": "victim:country"
+    },
+    {
+      "value": "victim:employee_count"
+    },
+    {
+      "value": "action:environmental:variety"
+    },
+    {
+      "value": "action:error:variety"
+    },
+    {
+      "value": "action:error:vector"
+    },
+    {
+      "value": "action:hacking:result"
+    },
+    {
+      "value": "action:hacking:variety"
+    },
+    {
+      "value": "action:hacking:vector"
+    },
+    {
+      "value": "action:malware:result"
+    },
+    {
+      "value": "action:malware:variety"
+    },
+    {
+      "value": "action:malware:vector"
+    },
+    {
+      "value": "action:misuse:result"
+    },
+    {
+      "value": "action:misuse:variety"
+    },
+    {
+      "value": "action:misuse:vector"
+    },
+    {
+      "value": "action:physical:result"
+    },
+    {
+      "value": "action:physical:variety"
+    },
+    {
+      "value": "action:physical:vector"
+    },
+    {
+      "value": "action:social:result"
+    },
+    {
+      "value": "action:social:target"
+    },
+    {
+      "value": "action:social:variety"
+    },
+    {
+      "value": "action:social:vector"
+    },
+    {
+      "value": "action:unknown:result"
+    },
+    {
+      "value": "actor:external:country"
+    },
+    {
+      "value": "actor:external:motive"
+    },
+    {
+      "value": "actor:external:variety"
+    },
+    {
+      "value": "actor:internal:job_change"
+    },
+    {
+      "value": "actor:internal:motive"
+    },
+    {
+      "value": "actor:internal:variety"
+    },
+    {
+      "value": "actor:partner:country"
+    },
+    {
+      "value": "actor:partner:motive"
+    },
+    {
+      "value": "asset:assets:variety"
+    },
+    {
+      "value": "attribute:availability:variety"
+    },
+    {
+      "value": "attribute:confidentiality:data_disclosure"
+    },
+    {
+      "value": "attribute:confidentiality:data_victim"
+    },
+    {
+      "value": "attribute:confidentiality:state"
+    },
+    {
+      "value": "attribute:integrity:variety"
+    },
+    {
+      "value": "impact:loss:rating"
+    },
+    {
+      "value": "impact:loss:variety"
+    },
+    {
+      "value": "timeline:compromise:unit"
+    },
+    {
+      "value": "timeline:containment:unit"
+    },
+    {
+      "value": "timeline:discovery:unit"
+    },
+    {
+      "value": "timeline:exfiltration:unit"
+    },
+    {
+      "value": "victim:revenue:iso_currency_code"
+    },
+    {
+      "value": "attribute:availability:duration:unit"
+    },
+    {
+      "value": "attribute:confidentiality:data:variety"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "confidence",
+      "entry": [
+        {
+          "value": "High",
+          "expanded": "High confidence"
+        },
+        {
+          "value": "Low",
+          "expanded": "Low confidence"
+        },
+        {
+          "value": "Medium",
+          "expanded": "Medium confidence"
+        },
+        {
+          "value": "None",
+          "expanded": "No confidence"
+        }
+      ]
+    },
+    {
+      "predicate": "cost_corrective_action",
+      "entry": [
+        {
+          "value": "Difficult and expensive",
+          "expanded": "Difficult and expensive"
+        },
+        {
+          "value": "Simple and cheap",
+          "expanded": "Simple and cheap"
+        },
+        {
+          "value": "Something in-between",
+          "expanded": "Something in-between"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "discovery_method",
+      "entry": [
+        {
+          "value": "Ext - actor disclosure",
+          "expanded": "External - disclosed by threat agent (e.g., public brag, private blackmail)"
+        },
+        {
+          "value": "Ext - audit",
+          "expanded": "External - security audit or scan"
+        },
+        {
+          "value": "Ext - customer",
+          "expanded": "External - reported by customer or partner affected by the incident"
+        },
+        {
+          "value": "Ext - emergency response team",
+          "expanded": "External - Emergency response team"
+        },
+        {
+          "value": "Ext - found documents",
+          "expanded": "External - Found documents"
+        },
+        {
+          "value": "Ext - fraud detection",
+          "expanded": "External - fraud detection (e.g., CPP)"
+        },
+        {
+          "value": "Ext - incident response",
+          "expanded": "External - Notified while investigating another incident"
+        },
+        {
+          "value": "Ext - law enforcement",
+          "expanded": "Internal - notified by law enforcement or government agency"
+        },
+        {
+          "value": "Ext - monitoring service",
+          "expanded": "External - managed security event monitoring service"
+        },
+        {
+          "value": "Ext - other",
+          "expanded": "Discovery method was external and known but not listed"
+        },
+        {
+          "value": "Ext - suspicious traffic",
+          "expanded": "External - Report of suspicious traffic"
+        },
+        {
+          "value": "Ext - unknown",
+          "expanded": "External - unknown"
+        },
+        {
+          "value": "Ext - unrelated 3rd party",
+          "expanded": "Discovered by person unaffiliated with victim or threat actor"
+        },
+        {
+          "value": "Int - HIDS",
+          "expanded": "Internal - host IDS or file integrity monitoring"
+        },
+        {
+          "value": "Int - IT review",
+          "expanded": "Any routine maintenance, testing or review of it assets. (Includes inspect of assets, vulnerability scans, etc.)"
+        },
+        {
+          "value": "Int - NIDS",
+          "expanded": "Internal - All network-based security tool detection (including IPS, IDS, firewalls and other network-based security tools)"
+        },
+        {
+          "value": "Int - antivirus",
+          "expanded": "Internal - antivirus alert"
+        },
+        {
+          "value": "Int - break in discovered",
+          "expanded": "Internal - employee discovered evidence of a break in"
+        },
+        {
+          "value": "Int - data loss prevention",
+          "expanded": "Internal - Data loss prevention software"
+        },
+        {
+          "value": "Int - financial audit",
+          "expanded": "Internal - financial audit and reconciliation process"
+        },
+        {
+          "value": "Int - fraud detection",
+          "expanded": "Internal - fraud detection mechanism"
+        },
+        {
+          "value": "Int - incident response",
+          "expanded": "Internal - discovered while responding to another (separate) incident"
+        },
+        {
+          "value": "Int - infrastructure monitoring",
+          "expanded": "Internal - Health and welfare monitoring of assets such as utilization, uptime, and SNMP alerts"
+        },
+        {
+          "value": "Int - log review",
+          "expanded": "Internal - log review process or SIEM"
+        },
+        {
+          "value": "Int - other",
+          "expanded": "Discovery method was internal and known but not listed"
+        },
+        {
+          "value": "Int - reported by employee",
+          "expanded": "Internal - reported by employee who saw something odd"
+        },
+        {
+          "value": "Int - security alarm",
+          "expanded": "Internal - physical security system alarm"
+        },
+        {
+          "value": "Int - unknown",
+          "expanded": "Internal - unknown"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Prt - antivirus",
+          "expanded": "Partner - Notified by antivirus company but not through AV product"
+        },
+        {
+          "value": "Prt - audit",
+          "expanded": "Partner - Audit performed by a partner organization"
+        },
+        {
+          "value": "Prt - incident response",
+          "expanded": "Partner - notified while investigating another incident"
+        },
+        {
+          "value": "Prt - monitoring service",
+          "expanded": "Partner - Reported by a monitoring service"
+        },
+        {
+          "value": "Prt - other",
+          "expanded": "Discovery method was partner and known but not listed"
+        },
+        {
+          "value": "Prt - unknown",
+          "expanded": "Partner - Unknown"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "security_incident",
+      "entry": [
+        {
+          "value": "Confirmed",
+          "expanded": "Yes - Confirmed"
+        },
+        {
+          "value": "False positive",
+          "expanded": "False positive (response triggered, but no incident)"
+        },
+        {
+          "value": "Near miss",
+          "expanded": "Near miss (actions did not compromise asset)"
+        },
+        {
+          "value": "Suspected",
+          "expanded": "Suspected"
+        }
+      ]
+    },
+    {
+      "predicate": "targeted",
+      "entry": [
+        {
+          "value": "NA",
+          "expanded": "Not applicable"
+        },
+        {
+          "value": "Opportunistic",
+          "expanded": "Opportunistic: victim attacked because they exhibited a weakness the actor knew how to exploit"
+        },
+        {
+          "value": "Targeted",
+          "expanded": "Targeted: victim chosen as target then actor determined what weaknesses could be exploited"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "asset:accessibility",
+      "entry": [
+        {
+          "value": "External",
+          "expanded": "Publicly accessible"
+        },
+        {
+          "value": "Internal",
+          "expanded": "Internally accessible"
+        },
+        {
+          "value": "Isolated",
+          "expanded": "Internally isolated or restricted environment"
+        },
+        {
+          "value": "NA",
+          "expanded": "Not applicable"
+        },
+        {
+          "value": "Other",
+          "expanded": "Accessibility known but not listed"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "asset:cloud",
+      "entry": [
+        {
+          "value": "Customer attack",
+          "expanded": "Penetration of another web site on shared device"
+        },
+        {
+          "value": "Hosting error",
+          "expanded": "Misconfiguration or error by hosting provider"
+        },
+        {
+          "value": "Hosting governance",
+          "expanded": "Lack of security process or procedure by hosting provider"
+        },
+        {
+          "value": "Hypervisor",
+          "expanded": "Hypervisor break-out attack"
+        },
+        {
+          "value": "NA",
+          "expanded": "It is known no cloud assets were involved"
+        },
+        {
+          "value": "No",
+          "expanded": "It is known that a cloud asset was involved and it being a cloud asset did not affect the outcome"
+        },
+        {
+          "value": "Other",
+          "expanded": "Cloud hosting known but not listed"
+        },
+        {
+          "value": "Partner application",
+          "expanded": "Application vulnerability in partner-developed application"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "The involvement of cloud assets was not measured"
+        },
+        {
+          "value": "User breakout",
+          "expanded": "Elevation of privilege by another customer in shared environment"
+        }
+      ]
+    },
+    {
+      "predicate": "asset:country",
+      "entry": [
+        {
+          "value": "AD",
+          "expanded": "Andorra"
+        },
+        {
+          "value": "AE",
+          "expanded": "United Arab Emirates"
+        },
+        {
+          "value": "AF",
+          "expanded": "Afghanistan"
+        },
+        {
+          "value": "AG",
+          "expanded": "Antigua and Barbuda"
+        },
+        {
+          "value": "AI",
+          "expanded": "Anguilla"
+        },
+        {
+          "value": "AL",
+          "expanded": "Albania"
+        },
+        {
+          "value": "AM",
+          "expanded": "Armenia"
+        },
+        {
+          "value": "AO",
+          "expanded": "Angola"
+        },
+        {
+          "value": "AQ",
+          "expanded": "Antarctica"
+        },
+        {
+          "value": "AR",
+          "expanded": "Argentina"
+        },
+        {
+          "value": "AS",
+          "expanded": "American Samoa"
+        },
+        {
+          "value": "AT",
+          "expanded": "Austria"
+        },
+        {
+          "value": "AU",
+          "expanded": "Australia"
+        },
+        {
+          "value": "AW",
+          "expanded": "Aruba"
+        },
+        {
+          "value": "AX",
+          "expanded": "Aland Islands"
+        },
+        {
+          "value": "AZ",
+          "expanded": "Azerbaijan"
+        },
+        {
+          "value": "BA",
+          "expanded": "Bosnia and Herzegovina"
+        },
+        {
+          "value": "BB",
+          "expanded": "Barbados"
+        },
+        {
+          "value": "BD",
+          "expanded": "Bangladesh"
+        },
+        {
+          "value": "BE",
+          "expanded": "Belgium"
+        },
+        {
+          "value": "BF",
+          "expanded": "Burkina Faso"
+        },
+        {
+          "value": "BG",
+          "expanded": "Bulgaria"
+        },
+        {
+          "value": "BH",
+          "expanded": "Bahrain"
+        },
+        {
+          "value": "BI",
+          "expanded": "Burundi"
+        },
+        {
+          "value": "BJ",
+          "expanded": "Benin"
+        },
+        {
+          "value": "BL",
+          "expanded": "Saint-Barthelemy"
+        },
+        {
+          "value": "BM",
+          "expanded": "Bermuda"
+        },
+        {
+          "value": "BN",
+          "expanded": "Brunei Darussalam"
+        },
+        {
+          "value": "BO",
+          "expanded": "Bolivia"
+        },
+        {
+          "value": "BQ",
+          "expanded": "Bonaire,  Saint Eustatius and Saba"
+        },
+        {
+          "value": "BR",
+          "expanded": "Brazil"
+        },
+        {
+          "value": "BS",
+          "expanded": "Bahamas"
+        },
+        {
+          "value": "BT",
+          "expanded": "Bhutan"
+        },
+        {
+          "value": "BV",
+          "expanded": "Bouvet Island"
+        },
+        {
+          "value": "BW",
+          "expanded": "Botswana"
+        },
+        {
+          "value": "BY",
+          "expanded": "Belarus"
+        },
+        {
+          "value": "BZ",
+          "expanded": "Belize"
+        },
+        {
+          "value": "CA",
+          "expanded": "Canada"
+        },
+        {
+          "value": "CC",
+          "expanded": "Cocos (Keeling) Islands"
+        },
+        {
+          "value": "CD",
+          "expanded": "Congo, Democratic Republic of the"
+        },
+        {
+          "value": "CF",
+          "expanded": "Central African Republic"
+        },
+        {
+          "value": "CG",
+          "expanded": "Congo"
+        },
+        {
+          "value": "CH",
+          "expanded": "Switzerland"
+        },
+        {
+          "value": "CI",
+          "expanded": "Cote d'Ivoire"
+        },
+        {
+          "value": "CK",
+          "expanded": "Cook Islands"
+        },
+        {
+          "value": "CL",
+          "expanded": "Chile"
+        },
+        {
+          "value": "CM",
+          "expanded": "Cameroon"
+        },
+        {
+          "value": "CN",
+          "expanded": "China"
+        },
+        {
+          "value": "CO",
+          "expanded": "Colombia"
+        },
+        {
+          "value": "CR",
+          "expanded": "Costa Rica"
+        },
+        {
+          "value": "CU",
+          "expanded": "Cuba"
+        },
+        {
+          "value": "CV",
+          "expanded": "Cape Verde"
+        },
+        {
+          "value": "CW",
+          "expanded": "Curacao"
+        },
+        {
+          "value": "CX",
+          "expanded": "Christmas Island"
+        },
+        {
+          "value": "CY",
+          "expanded": "Cyprus"
+        },
+        {
+          "value": "CZ",
+          "expanded": "Czech Republic"
+        },
+        {
+          "value": "DE",
+          "expanded": "Germany"
+        },
+        {
+          "value": "DJ",
+          "expanded": "Djibouti"
+        },
+        {
+          "value": "DK",
+          "expanded": "Denmark"
+        },
+        {
+          "value": "DM",
+          "expanded": "Dominica"
+        },
+        {
+          "value": "DO",
+          "expanded": "Dominican Republic"
+        },
+        {
+          "value": "DZ",
+          "expanded": "Algeria"
+        },
+        {
+          "value": "EC",
+          "expanded": "Ecuador"
+        },
+        {
+          "value": "EE",
+          "expanded": "Estonia"
+        },
+        {
+          "value": "EG",
+          "expanded": "Egypt"
+        },
+        {
+          "value": "EH",
+          "expanded": "Western Sahara"
+        },
+        {
+          "value": "ER",
+          "expanded": "Eritrea"
+        },
+        {
+          "value": "ES",
+          "expanded": "Spain"
+        },
+        {
+          "value": "ET",
+          "expanded": "Ethiopia"
+        },
+        {
+          "value": "FI",
+          "expanded": "Finland"
+        },
+        {
+          "value": "FJ",
+          "expanded": "Fiji"
+        },
+        {
+          "value": "FK",
+          "expanded": "Faeroe Islands"
+        },
+        {
+          "value": "FM",
+          "expanded": "Micronesia (Federated States of)"
+        },
+        {
+          "value": "FO",
+          "expanded": "Falkland Islands (Malvinas)"
+        },
+        {
+          "value": "FR",
+          "expanded": "France"
+        },
+        {
+          "value": "GA",
+          "expanded": "Gabon"
+        },
+        {
+          "value": "GB",
+          "expanded": "United Kingdom"
+        },
+        {
+          "value": "GD",
+          "expanded": "Grenada"
+        },
+        {
+          "value": "GE",
+          "expanded": "Georgia"
+        },
+        {
+          "value": "GF",
+          "expanded": "French Guiana"
+        },
+        {
+          "value": "GG",
+          "expanded": "Guernsey"
+        },
+        {
+          "value": "GH",
+          "expanded": "Ghana"
+        },
+        {
+          "value": "GI",
+          "expanded": "Gibraltar"
+        },
+        {
+          "value": "GL",
+          "expanded": "Greenland"
+        },
+        {
+          "value": "GM",
+          "expanded": "Gambia"
+        },
+        {
+          "value": "GN",
+          "expanded": "Guinea"
+        },
+        {
+          "value": "GP",
+          "expanded": "Guadeloupe"
+        },
+        {
+          "value": "GQ",
+          "expanded": "Equatorial Guinea"
+        },
+        {
+          "value": "GR",
+          "expanded": "Greece"
+        },
+        {
+          "value": "GS",
+          "expanded": "South Georgia and the South Sandwich Islands"
+        },
+        {
+          "value": "GT",
+          "expanded": "Guatemala"
+        },
+        {
+          "value": "GU",
+          "expanded": "Guam"
+        },
+        {
+          "value": "GW",
+          "expanded": "Guinea-Bissau"
+        },
+        {
+          "value": "GY",
+          "expanded": "Guyana"
+        },
+        {
+          "value": "HK",
+          "expanded": "Hong Kong"
+        },
+        {
+          "value": "HM",
+          "expanded": "Heard Island and McDonal Islands"
+        },
+        {
+          "value": "HN",
+          "expanded": "Honduras"
+        },
+        {
+          "value": "HR",
+          "expanded": "Croatia"
+        },
+        {
+          "value": "HT",
+          "expanded": "Haiti"
+        },
+        {
+          "value": "HU",
+          "expanded": "Hungary"
+        },
+        {
+          "value": "ID",
+          "expanded": "Indonesia"
+        },
+        {
+          "value": "IE",
+          "expanded": "Ireland"
+        },
+        {
+          "value": "IL",
+          "expanded": "Israel"
+        },
+        {
+          "value": "IM",
+          "expanded": "Isle of Man"
+        },
+        {
+          "value": "IN",
+          "expanded": "India"
+        },
+        {
+          "value": "IO",
+          "expanded": "British Virgin Islands"
+        },
+        {
+          "value": "IQ",
+          "expanded": "Iraq"
+        },
+        {
+          "value": "IR",
+          "expanded": "Iran (Islamic Republic of)"
+        },
+        {
+          "value": "IS",
+          "expanded": "Iceland"
+        },
+        {
+          "value": "IT",
+          "expanded": "Italy"
+        },
+        {
+          "value": "JE",
+          "expanded": "Jersey"
+        },
+        {
+          "value": "JM",
+          "expanded": "Jamaica"
+        },
+        {
+          "value": "JO",
+          "expanded": "Jordan"
+        },
+        {
+          "value": "JP",
+          "expanded": "Japan"
+        },
+        {
+          "value": "KE",
+          "expanded": "Kenya"
+        },
+        {
+          "value": "KG",
+          "expanded": "Kyrgyzstan"
+        },
+        {
+          "value": "KH",
+          "expanded": "Cambodia"
+        },
+        {
+          "value": "KI",
+          "expanded": "Kiribati"
+        },
+        {
+          "value": "KM",
+          "expanded": "Comoros"
+        },
+        {
+          "value": "KN",
+          "expanded": "Saint Kitts and Nevis"
+        },
+        {
+          "value": "KP",
+          "expanded": "Korea, Democratic People's Republic of"
+        },
+        {
+          "value": "KR",
+          "expanded": "Korea, Republic of"
+        },
+        {
+          "value": "KW",
+          "expanded": "Kuwait"
+        },
+        {
+          "value": "KY",
+          "expanded": "Cayman Islands"
+        },
+        {
+          "value": "KZ",
+          "expanded": "Kazakhstan"
+        },
+        {
+          "value": "LA",
+          "expanded": "Lao People's Democratic Republic"
+        },
+        {
+          "value": "LB",
+          "expanded": "Lebanon"
+        },
+        {
+          "value": "LC",
+          "expanded": "Saint Lucia"
+        },
+        {
+          "value": "LI",
+          "expanded": "Liechtenstein"
+        },
+        {
+          "value": "LK",
+          "expanded": "Sri Lanka"
+        },
+        {
+          "value": "LR",
+          "expanded": "Liberia"
+        },
+        {
+          "value": "LS",
+          "expanded": "Lesotho"
+        },
+        {
+          "value": "LT",
+          "expanded": "Lithuania"
+        },
+        {
+          "value": "LU",
+          "expanded": "Luxembourg"
+        },
+        {
+          "value": "LV",
+          "expanded": "Latvia"
+        },
+        {
+          "value": "LY",
+          "expanded": "Libya"
+        },
+        {
+          "value": "MA",
+          "expanded": "Morocco"
+        },
+        {
+          "value": "MC",
+          "expanded": "Monaco"
+        },
+        {
+          "value": "MD",
+          "expanded": "Moldova, Republic of"
+        },
+        {
+          "value": "ME",
+          "expanded": "Montenegro"
+        },
+        {
+          "value": "MF",
+          "expanded": "Saint Martin (French part)"
+        },
+        {
+          "value": "MG",
+          "expanded": "Madagascar"
+        },
+        {
+          "value": "MH",
+          "expanded": "Marshall Islands"
+        },
+        {
+          "value": "MK",
+          "expanded": "Macedonia, The former Yugoslav Republic of"
+        },
+        {
+          "value": "ML",
+          "expanded": "Mali"
+        },
+        {
+          "value": "MM",
+          "expanded": "Myanmar"
+        },
+        {
+          "value": "MN",
+          "expanded": "Mongolia"
+        },
+        {
+          "value": "MO",
+          "expanded": "Macao"
+        },
+        {
+          "value": "MP",
+          "expanded": "Northern Mariana Islands"
+        },
+        {
+          "value": "MQ",
+          "expanded": "Martinique"
+        },
+        {
+          "value": "MR",
+          "expanded": "Mauritania"
+        },
+        {
+          "value": "MS",
+          "expanded": "Montserrat"
+        },
+        {
+          "value": "MT",
+          "expanded": "Malta"
+        },
+        {
+          "value": "MU",
+          "expanded": "Mauritius"
+        },
+        {
+          "value": "MV",
+          "expanded": "Maldives"
+        },
+        {
+          "value": "MW",
+          "expanded": "Malawi"
+        },
+        {
+          "value": "MX",
+          "expanded": "Mexico"
+        },
+        {
+          "value": "MY",
+          "expanded": "Malaysia"
+        },
+        {
+          "value": "MZ",
+          "expanded": "Mozambique"
+        },
+        {
+          "value": "NA",
+          "expanded": "Namibia"
+        },
+        {
+          "value": "NC",
+          "expanded": "New Caledonia"
+        },
+        {
+          "value": "NE",
+          "expanded": "Niger"
+        },
+        {
+          "value": "NF",
+          "expanded": "Norfolk Island"
+        },
+        {
+          "value": "NG",
+          "expanded": "Nigeria"
+        },
+        {
+          "value": "NI",
+          "expanded": "Nicaragua"
+        },
+        {
+          "value": "NL",
+          "expanded": "Netherlands"
+        },
+        {
+          "value": "NO",
+          "expanded": "Norway"
+        },
+        {
+          "value": "NP",
+          "expanded": "Nepal"
+        },
+        {
+          "value": "NR",
+          "expanded": "Nauru"
+        },
+        {
+          "value": "NU",
+          "expanded": "Niue"
+        },
+        {
+          "value": "NZ",
+          "expanded": "New Zealand"
+        },
+        {
+          "value": "OM",
+          "expanded": "Oman"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "PA",
+          "expanded": "Panama"
+        },
+        {
+          "value": "PE",
+          "expanded": "Peru"
+        },
+        {
+          "value": "PF",
+          "expanded": "French Polynesia"
+        },
+        {
+          "value": "PG",
+          "expanded": "Papua New Guinea"
+        },
+        {
+          "value": "PH",
+          "expanded": "Philippines"
+        },
+        {
+          "value": "PK",
+          "expanded": "Pakistan"
+        },
+        {
+          "value": "PL",
+          "expanded": "Poland"
+        },
+        {
+          "value": "PM",
+          "expanded": "Saint Pierre and Miquelon"
+        },
+        {
+          "value": "PN",
+          "expanded": "Pitcairn"
+        },
+        {
+          "value": "PR",
+          "expanded": "Puerto Rico"
+        },
+        {
+          "value": "PS",
+          "expanded": "Palestinian Territory, Occupied"
+        },
+        {
+          "value": "PT",
+          "expanded": "Portugal"
+        },
+        {
+          "value": "PW",
+          "expanded": "Palau"
+        },
+        {
+          "value": "PY",
+          "expanded": "Paraguay"
+        },
+        {
+          "value": "QA",
+          "expanded": "Qatar"
+        },
+        {
+          "value": "RE",
+          "expanded": "Reunion"
+        },
+        {
+          "value": "RO",
+          "expanded": "Romania"
+        },
+        {
+          "value": "RS",
+          "expanded": "Serbia"
+        },
+        {
+          "value": "RU",
+          "expanded": "Russian Federation"
+        },
+        {
+          "value": "RW",
+          "expanded": "Rwanda"
+        },
+        {
+          "value": "SA",
+          "expanded": "Saudi Arabia"
+        },
+        {
+          "value": "SB",
+          "expanded": "Solomon Islands"
+        },
+        {
+          "value": "SC",
+          "expanded": "Seychelles"
+        },
+        {
+          "value": "SD",
+          "expanded": "Sudan"
+        },
+        {
+          "value": "SE",
+          "expanded": "Sweden"
+        },
+        {
+          "value": "SG",
+          "expanded": "Singapore"
+        },
+        {
+          "value": "SH",
+          "expanded": "Saint Helena"
+        },
+        {
+          "value": "SI",
+          "expanded": "Slovenia"
+        },
+        {
+          "value": "SJ",
+          "expanded": "Svalbard and Jan Mayen Islands"
+        },
+        {
+          "value": "SK",
+          "expanded": "Slovakia"
+        },
+        {
+          "value": "SL",
+          "expanded": "Sierra Leone"
+        },
+        {
+          "value": "SM",
+          "expanded": "San Marino"
+        },
+        {
+          "value": "SN",
+          "expanded": "Senegal"
+        },
+        {
+          "value": "SO",
+          "expanded": "Somalia"
+        },
+        {
+          "value": "SR",
+          "expanded": "Suriname"
+        },
+        {
+          "value": "SS",
+          "expanded": "South Sudan"
+        },
+        {
+          "value": "ST",
+          "expanded": "Sao Tome and Principe"
+        },
+        {
+          "value": "SV",
+          "expanded": "El Salvador"
+        },
+        {
+          "value": "SX",
+          "expanded": "Sint Maarten (Dutch part)"
+        },
+        {
+          "value": "SY",
+          "expanded": "Syrian Arab Republic"
+        },
+        {
+          "value": "SZ",
+          "expanded": "Swaziland"
+        },
+        {
+          "value": "TC",
+          "expanded": "Turks and Caicos Islands"
+        },
+        {
+          "value": "TD",
+          "expanded": "Chad"
+        },
+        {
+          "value": "TF",
+          "expanded": "French Southern Territories"
+        },
+        {
+          "value": "TG",
+          "expanded": "Togo"
+        },
+        {
+          "value": "TH",
+          "expanded": "Thailand"
+        },
+        {
+          "value": "TJ",
+          "expanded": "Tajikistan"
+        },
+        {
+          "value": "TK",
+          "expanded": "Tokelau"
+        },
+        {
+          "value": "TL",
+          "expanded": "Timor-Leste"
+        },
+        {
+          "value": "TM",
+          "expanded": "Turkmenistan"
+        },
+        {
+          "value": "TN",
+          "expanded": "Tunisia"
+        },
+        {
+          "value": "TO",
+          "expanded": "Tonga"
+        },
+        {
+          "value": "TR",
+          "expanded": "Turkey"
+        },
+        {
+          "value": "TT",
+          "expanded": "Trinidad and Tobago"
+        },
+        {
+          "value": "TV",
+          "expanded": "Tuvalu"
+        },
+        {
+          "value": "TW",
+          "expanded": "Taiwan, Province of China"
+        },
+        {
+          "value": "TZ",
+          "expanded": "Tanzania, United Republic of"
+        },
+        {
+          "value": "UA",
+          "expanded": "Ukraine"
+        },
+        {
+          "value": "UG",
+          "expanded": "Uganda"
+        },
+        {
+          "value": "UM",
+          "expanded": "United States Minor Outlying Islands"
+        },
+        {
+          "value": "US",
+          "expanded": "United States of America"
+        },
+        {
+          "value": "UY",
+          "expanded": "Uruguay"
+        },
+        {
+          "value": "UZ",
+          "expanded": "Uzbekistan"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "VA",
+          "expanded": "Holy See"
+        },
+        {
+          "value": "VC",
+          "expanded": "Saint Vincent and the Grenadines"
+        },
+        {
+          "value": "VE",
+          "expanded": "Venezuela (Bolivarian Republic of)"
+        },
+        {
+          "value": "VG",
+          "expanded": "British Virgin Islands"
+        },
+        {
+          "value": "VI",
+          "expanded": "United States Virgin Islands"
+        },
+        {
+          "value": "VN",
+          "expanded": "Viet Nam"
+        },
+        {
+          "value": "VU",
+          "expanded": "Vanuatu"
+        },
+        {
+          "value": "WF",
+          "expanded": "Wallis and Futuna Islands"
+        },
+        {
+          "value": "WS",
+          "expanded": "Samoa"
+        },
+        {
+          "value": "YE",
+          "expanded": "Yemen"
+        },
+        {
+          "value": "YT",
+          "expanded": "Mayotte"
+        },
+        {
+          "value": "ZA",
+          "expanded": "South Africa"
+        },
+        {
+          "value": "ZM",
+          "expanded": "Zambia"
+        },
+        {
+          "value": "ZW",
+          "expanded": "Zimbabwe"
+        }
+      ]
+    },
+    {
+      "predicate": "asset:governance",
+      "entry": [
+        {
+          "value": "3rd party hosted",
+          "expanded": "Hosted by 3rd party"
+        },
+        {
+          "value": "3rd party managed",
+          "expanded": "Managed by 3rd party"
+        },
+        {
+          "value": "3rd party owned",
+          "expanded": "Owned by 3rd party"
+        },
+        {
+          "value": "Internally isolated",
+          "expanded": "Isolated internal asset"
+        },
+        {
+          "value": "Other",
+          "expanded": "Governance known but not listed"
+        },
+        {
+          "value": "Personally owned",
+          "expanded": "Personally owned asset"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "Victim governed",
+          "expanded": "The victim owns and controls the asset"
+        }
+      ]
+    },
+    {
+      "predicate": "asset:hosting",
+      "entry": [
+        {
+          "value": "External",
+          "expanded": "Externally hosted (unsure if dedicated or shared)"
+        },
+        {
+          "value": "External dedicated",
+          "expanded": "Externally hosted in a dedicated environment"
+        },
+        {
+          "value": "External shared",
+          "expanded": "Externally hosted in a shared environment"
+        },
+        {
+          "value": "Internal",
+          "expanded": "Internally hosted"
+        },
+        {
+          "value": "NA",
+          "expanded": "Not applicable"
+        },
+        {
+          "value": "Other",
+          "expanded": "Hosting known but not listed"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "asset:management",
+      "entry": [
+        {
+          "value": "External",
+          "expanded": "Externally managed"
+        },
+        {
+          "value": "Internal",
+          "expanded": "Internally managed"
+        },
+        {
+          "value": "NA",
+          "expanded": "Not applicable"
+        },
+        {
+          "value": "Other",
+          "expanded": "Ownership known but not listed"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "asset:ownership",
+      "entry": [
+        {
+          "value": "Customer",
+          "expanded": "Customer owned"
+        },
+        {
+          "value": "Employee",
+          "expanded": "Employee owned"
+        },
+        {
+          "value": "NA",
+          "expanded": "Not applicable"
+        },
+        {
+          "value": "Other",
+          "expanded": "Owner known but not listed"
+        },
+        {
+          "value": "Partner",
+          "expanded": "Partner owned"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "Victim",
+          "expanded": "Victim owned"
+        }
+      ]
+    },
+    {
+      "predicate": "impact:iso_currency_code",
+      "entry": [
+        {
+          "value": "AED",
+          "expanded": "AED - UAE Dirham"
+        },
+        {
+          "value": "AFN",
+          "expanded": "AFN - Afghani"
+        },
+        {
+          "value": "ALL",
+          "expanded": "ALL - Lek"
+        },
+        {
+          "value": "AMD",
+          "expanded": "AMD - Armenian Dram"
+        },
+        {
+          "value": "ANG",
+          "expanded": "ANG - Netherlands Antillean Guilder"
+        },
+        {
+          "value": "AOA",
+          "expanded": "AOA - Kwanza"
+        },
+        {
+          "value": "ARS",
+          "expanded": "ARS - Argentine Peso"
+        },
+        {
+          "value": "AUD",
+          "expanded": "AUD - Australian Dollar"
+        },
+        {
+          "value": "AWG",
+          "expanded": "AWG - Aruban Florin"
+        },
+        {
+          "value": "AZN",
+          "expanded": "AZN - Azerbaijanian Manat"
+        },
+        {
+          "value": "BAM",
+          "expanded": "BAM - Convertible Mark"
+        },
+        {
+          "value": "BBD",
+          "expanded": "BBD - Barbados Dollar"
+        },
+        {
+          "value": "BDT",
+          "expanded": "BDT - Taka"
+        },
+        {
+          "value": "BGN",
+          "expanded": "BGN - Bulgarian Lev"
+        },
+        {
+          "value": "BHD",
+          "expanded": "BHD - Bahraini Dinar"
+        },
+        {
+          "value": "BIF",
+          "expanded": "BIF - Burundi Franc"
+        },
+        {
+          "value": "BMD",
+          "expanded": "BMD - Bermudian Dollar"
+        },
+        {
+          "value": "BND",
+          "expanded": "BND - Brunei Dollar"
+        },
+        {
+          "value": "BOB",
+          "expanded": "BOB - Boliviano"
+        },
+        {
+          "value": "BRL",
+          "expanded": "BRL - Brazilian Real"
+        },
+        {
+          "value": "BSD",
+          "expanded": "BSD - Bahamian Dollar"
+        },
+        {
+          "value": "BTN",
+          "expanded": "BTN - Ngultrum"
+        },
+        {
+          "value": "BWP",
+          "expanded": "BWP - Pula"
+        },
+        {
+          "value": "BYR",
+          "expanded": "BYR - Belarussian Ruble"
+        },
+        {
+          "value": "BZD",
+          "expanded": "BZD - Belize Dollar"
+        },
+        {
+          "value": "CAD",
+          "expanded": "CAD - Canadian Dollar"
+        },
+        {
+          "value": "CDF",
+          "expanded": "CDF - Congolese Franc"
+        },
+        {
+          "value": "CHF",
+          "expanded": "CHF - Swiss Franc"
+        },
+        {
+          "value": "CLP",
+          "expanded": "CLP - Chilean Peso"
+        },
+        {
+          "value": "CNY",
+          "expanded": "CNY - Yuan Renminbi"
+        },
+        {
+          "value": "COP",
+          "expanded": "COP - Colombian Peso"
+        },
+        {
+          "value": "CRC",
+          "expanded": "CRC - Costa Rican Colon"
+        },
+        {
+          "value": "CUC",
+          "expanded": "CUC - Peso Convertible"
+        },
+        {
+          "value": "CUP",
+          "expanded": "CUP - Cuban Peso"
+        },
+        {
+          "value": "CVE",
+          "expanded": "CVE - Cape Verde Escudo"
+        },
+        {
+          "value": "CZK",
+          "expanded": "CZK - Czech Koruna"
+        },
+        {
+          "value": "DJF",
+          "expanded": "DJF - Djibouti Franc"
+        },
+        {
+          "value": "DKK",
+          "expanded": "DKK - Danish Krone"
+        },
+        {
+          "value": "DOP",
+          "expanded": "DOP - Dominican Peso"
+        },
+        {
+          "value": "DZD",
+          "expanded": "DZD - Algerian Dinar"
+        },
+        {
+          "value": "EGP",
+          "expanded": "EGP - Egyptian Pound"
+        },
+        {
+          "value": "ERN",
+          "expanded": "ERN - Nakfa"
+        },
+        {
+          "value": "ETB",
+          "expanded": "ETB - Ethiopian Birr"
+        },
+        {
+          "value": "EUR",
+          "expanded": "EUR - Euro"
+        },
+        {
+          "value": "FJD",
+          "expanded": "FJD - Fiji Dollar"
+        },
+        {
+          "value": "FKP",
+          "expanded": "FKP - Falkland Islands Pound"
+        },
+        {
+          "value": "GBP",
+          "expanded": "GBP - Pound Sterling"
+        },
+        {
+          "value": "GEL",
+          "expanded": "GEL - Lari"
+        },
+        {
+          "value": "GGP",
+          "expanded": "GGP - Guernsey pound"
+        },
+        {
+          "value": "GHS",
+          "expanded": "GHS - Ghana Cedi"
+        },
+        {
+          "value": "GIP",
+          "expanded": "GIP - Gibraltar Pound"
+        },
+        {
+          "value": "GMD",
+          "expanded": "GMD - Dalasi"
+        },
+        {
+          "value": "GNF",
+          "expanded": "GNF - Guinea Franc"
+        },
+        {
+          "value": "GTQ",
+          "expanded": "GTQ - Quetzal"
+        },
+        {
+          "value": "GYD",
+          "expanded": "GYD - Guyana Dollar"
+        },
+        {
+          "value": "HKD",
+          "expanded": "HKD - Hong Kong Dollar"
+        },
+        {
+          "value": "HNL",
+          "expanded": "HNL - Lempira"
+        },
+        {
+          "value": "HRK",
+          "expanded": "HRK - Croatian Kuna"
+        },
+        {
+          "value": "HTG",
+          "expanded": "HTG - Gourde"
+        },
+        {
+          "value": "HUF",
+          "expanded": "HUF - Forint"
+        },
+        {
+          "value": "IDR",
+          "expanded": "IDR - Rupiah"
+        },
+        {
+          "value": "ILS",
+          "expanded": "ILS - New Israeli Sheqel"
+        },
+        {
+          "value": "IMP",
+          "expanded": "IMP - Isle of Man Pound"
+        },
+        {
+          "value": "INR",
+          "expanded": "INR - Indian Rupee"
+        },
+        {
+          "value": "IQD",
+          "expanded": "IQD - Iraqi Dinar"
+        },
+        {
+          "value": "IRR",
+          "expanded": "IRR - Iranian Rial"
+        },
+        {
+          "value": "ISK",
+          "expanded": "ISK - Iceland Krona"
+        },
+        {
+          "value": "JEP",
+          "expanded": "JEP - Jersey pound"
+        },
+        {
+          "value": "JMD",
+          "expanded": "JMD - Jamaican Dollar"
+        },
+        {
+          "value": "JOD",
+          "expanded": "JOD - Jordanian Dinar"
+        },
+        {
+          "value": "JPY",
+          "expanded": "JPY - Yen"
+        },
+        {
+          "value": "KES",
+          "expanded": "KES - Kenyan Shilling"
+        },
+        {
+          "value": "KGS",
+          "expanded": "KGS - Som"
+        },
+        {
+          "value": "KHR",
+          "expanded": "KHR - Riel"
+        },
+        {
+          "value": "KMF",
+          "expanded": "KMF - Comoro Franc"
+        },
+        {
+          "value": "KPW",
+          "expanded": "KPW - North Korean Won"
+        },
+        {
+          "value": "KRW",
+          "expanded": "KRW - South Korean Won"
+        },
+        {
+          "value": "KWD",
+          "expanded": "KWD - Kuwaiti Dinar"
+        },
+        {
+          "value": "KYD",
+          "expanded": "KYD - Cayman Islands Dollar"
+        },
+        {
+          "value": "KZT",
+          "expanded": "KZT - Tenge"
+        },
+        {
+          "value": "LAK",
+          "expanded": "LAK - Kip"
+        },
+        {
+          "value": "LBP",
+          "expanded": "LBP - Lebanese Pound"
+        },
+        {
+          "value": "LKR",
+          "expanded": "LKR - Sri Lanka Rupee"
+        },
+        {
+          "value": "LRD",
+          "expanded": "LRD - Liberian Dollar"
+        },
+        {
+          "value": "LSL",
+          "expanded": "LSL - Loti"
+        },
+        {
+          "value": "LTL",
+          "expanded": "LTL - Lithuanian Litas"
+        },
+        {
+          "value": "LVL",
+          "expanded": "LVL - Latvian Lats"
+        },
+        {
+          "value": "LYD",
+          "expanded": "LYD - Libyan Dinar"
+        },
+        {
+          "value": "MAD",
+          "expanded": "MAD - Moroccan Dirham"
+        },
+        {
+          "value": "MDL",
+          "expanded": "MDL - Moldovan Leu"
+        },
+        {
+          "value": "MGA",
+          "expanded": "MGA - Malagasy Ariary"
+        },
+        {
+          "value": "MKD",
+          "expanded": "MKD - Denar"
+        },
+        {
+          "value": "MMK",
+          "expanded": "MMK - Kyat"
+        },
+        {
+          "value": "MNT",
+          "expanded": "MNT - Tugrik"
+        },
+        {
+          "value": "MOP",
+          "expanded": "MOP - Pataca"
+        },
+        {
+          "value": "MRO",
+          "expanded": "MRO - Ouguiya"
+        },
+        {
+          "value": "MUR",
+          "expanded": "MUR - Mauritius Rupee"
+        },
+        {
+          "value": "MVR",
+          "expanded": "MVR - Rufiyaa"
+        },
+        {
+          "value": "MWK",
+          "expanded": "MWK - Kwacha"
+        },
+        {
+          "value": "MXN",
+          "expanded": "MXN - Mexican Peso"
+        },
+        {
+          "value": "MYR",
+          "expanded": "MYR - Malaysian Ringgit"
+        },
+        {
+          "value": "MZN",
+          "expanded": "MZN - Mozambique Metical"
+        },
+        {
+          "value": "NAD",
+          "expanded": "NAD - Namibia Dollar"
+        },
+        {
+          "value": "NGN",
+          "expanded": "NGN - Naira"
+        },
+        {
+          "value": "NIO",
+          "expanded": "NIO - Cordoba Oro"
+        },
+        {
+          "value": "NOK",
+          "expanded": "NOK - Norwegian Krone"
+        },
+        {
+          "value": "NPR",
+          "expanded": "NPR - Nepalese Rupee"
+        },
+        {
+          "value": "NZD",
+          "expanded": "NZD - New Zealand Dollar"
+        },
+        {
+          "value": "OMR",
+          "expanded": "OMR - Rial Omani"
+        },
+        {
+          "value": "PAB",
+          "expanded": "PAB - Balboa"
+        },
+        {
+          "value": "PEN",
+          "expanded": "PEN - Nuevo Sol"
+        },
+        {
+          "value": "PGK",
+          "expanded": "PGK - Kina"
+        },
+        {
+          "value": "PHP",
+          "expanded": "PHP - Philippine Peso"
+        },
+        {
+          "value": "PKR",
+          "expanded": "PKR - Pakistan Rupee"
+        },
+        {
+          "value": "PLN",
+          "expanded": "PLN - Zloty"
+        },
+        {
+          "value": "PYG",
+          "expanded": "PYG - Guarani"
+        },
+        {
+          "value": "QAR",
+          "expanded": "QAR - Qatari Rial"
+        },
+        {
+          "value": "RON",
+          "expanded": "RON - New Romanian Leu"
+        },
+        {
+          "value": "RSD",
+          "expanded": "RSD - Serbian Dinar"
+        },
+        {
+          "value": "RUB",
+          "expanded": "RUB - Russian Ruble"
+        },
+        {
+          "value": "RWF",
+          "expanded": "RWF - Rwanda Franc"
+        },
+        {
+          "value": "SAR",
+          "expanded": "SAR - Saudi Riyal"
+        },
+        {
+          "value": "SBD",
+          "expanded": "SBD - Solomon Islands Dollar"
+        },
+        {
+          "value": "SCR",
+          "expanded": "SCR - Seychelles Rupee"
+        },
+        {
+          "value": "SDG",
+          "expanded": "SDG - Sudanese Pound"
+        },
+        {
+          "value": "SEK",
+          "expanded": "SEK - Swedish Krona"
+        },
+        {
+          "value": "SGD",
+          "expanded": "SGD - Singapore Dollar"
+        },
+        {
+          "value": "SHP",
+          "expanded": "SHP - Saint Helena Pound"
+        },
+        {
+          "value": "SLL",
+          "expanded": "SLL - Leone"
+        },
+        {
+          "value": "SOS",
+          "expanded": "SOS - Somali Shilling"
+        },
+        {
+          "value": "SPL",
+          "expanded": "SPL - Seborga Luigino"
+        },
+        {
+          "value": "SRD",
+          "expanded": "SRD - Surinam Dollar"
+        },
+        {
+          "value": "STD",
+          "expanded": "STD - Dobra"
+        },
+        {
+          "value": "SVC",
+          "expanded": "SVC - El Salvador Colon"
+        },
+        {
+          "value": "SYP",
+          "expanded": "SYP - Syrian Pound"
+        },
+        {
+          "value": "SZL",
+          "expanded": "SZL - Lilangeni"
+        },
+        {
+          "value": "THB",
+          "expanded": "THB - Baht"
+        },
+        {
+          "value": "TJS",
+          "expanded": "TJS - Somoni"
+        },
+        {
+          "value": "TMT",
+          "expanded": "TMT - Turkmenistan New Manat"
+        },
+        {
+          "value": "TND",
+          "expanded": "TND - Tunisian Dinar"
+        },
+        {
+          "value": "TOP",
+          "expanded": "TOP - Pa'anga"
+        },
+        {
+          "value": "TRY",
+          "expanded": "TRY - Turkish Lira"
+        },
+        {
+          "value": "TTD",
+          "expanded": "TTD - Trinidad and Tobago Dollar"
+        },
+        {
+          "value": "TVD",
+          "expanded": "TVD - Tuvalu Dollar"
+        },
+        {
+          "value": "TWD",
+          "expanded": "TWD - New Taiwan Dollar"
+        },
+        {
+          "value": "TZS",
+          "expanded": "TZS - Tanzanian Shilling"
+        },
+        {
+          "value": "UAH",
+          "expanded": "UAH - Hryvnia"
+        },
+        {
+          "value": "UGX",
+          "expanded": "UGX - Uganda Shilling"
+        },
+        {
+          "value": "USD",
+          "expanded": "USD - US Dollar"
+        },
+        {
+          "value": "UYU",
+          "expanded": "UYU - Peso Uruguayo"
+        },
+        {
+          "value": "UZS",
+          "expanded": "UZS - Uzbekistan Sum"
+        },
+        {
+          "value": "VEF",
+          "expanded": "VEF - Bolivar "
+        },
+        {
+          "value": "VND",
+          "expanded": "VND - Dong"
+        },
+        {
+          "value": "VUV",
+          "expanded": "VUV - Vatu"
+        },
+        {
+          "value": "WST",
+          "expanded": "WST - Tala"
+        },
+        {
+          "value": "XAF",
+          "expanded": "XAF - CFA Franc BEAC"
+        },
+        {
+          "value": "XCD",
+          "expanded": "XCD - East Caribbean Dollar"
+        },
+        {
+          "value": "XDR",
+          "expanded": "XDR - SDR (Special Drawing Right)"
+        },
+        {
+          "value": "XOF",
+          "expanded": "XOF - CFA Franc BCEAO"
+        },
+        {
+          "value": "XPF",
+          "expanded": "XPF - CFP Franc"
+        },
+        {
+          "value": "YER",
+          "expanded": "YER - Yemeni Rial"
+        },
+        {
+          "value": "ZAR",
+          "expanded": "ZAR - South African Rand"
+        },
+        {
+          "value": "ZMK",
+          "expanded": "ZMK - Zambian Kwacha"
+        },
+        {
+          "value": "ZWD",
+          "expanded": "ZWD - Zimbabwean Dollar A/06"
+        }
+      ]
+    },
+    {
+      "predicate": "impact:overall_rating",
+      "entry": [
+        {
+          "value": "Catastrophic",
+          "expanded": "Catastrophic: A business-ending event (don't choose this if the victim will continue operations)"
+        },
+        {
+          "value": "Damaging",
+          "expanded": "Damaging: Real and serious effect on the \"bottom line\" and/or long-term ability to generate revenue"
+        },
+        {
+          "value": "Distracting",
+          "expanded": "Distracting: Limited \"hard costs\", but impact felt through having to deal with the incident rather than conducting normal duties"
+        },
+        {
+          "value": "Insignificant",
+          "expanded": "Insignificant: Impact absorbed by normal activities"
+        },
+        {
+          "value": "Painful",
+          "expanded": "Painful: Moderate \"hard costs\", and impact felt through having to deal with the incident rather than conducting normal duties has quantifiable indirect costs"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "victim:country",
+      "entry": [
+        {
+          "value": "AD",
+          "expanded": "Andorra"
+        },
+        {
+          "value": "AE",
+          "expanded": "United Arab Emirates"
+        },
+        {
+          "value": "AF",
+          "expanded": "Afghanistan"
+        },
+        {
+          "value": "AG",
+          "expanded": "Antigua and Barbuda"
+        },
+        {
+          "value": "AI",
+          "expanded": "Anguilla"
+        },
+        {
+          "value": "AL",
+          "expanded": "Albania"
+        },
+        {
+          "value": "AM",
+          "expanded": "Armenia"
+        },
+        {
+          "value": "AO",
+          "expanded": "Angola"
+        },
+        {
+          "value": "AQ",
+          "expanded": "Antarctica"
+        },
+        {
+          "value": "AR",
+          "expanded": "Argentina"
+        },
+        {
+          "value": "AS",
+          "expanded": "American Samoa"
+        },
+        {
+          "value": "AT",
+          "expanded": "Austria"
+        },
+        {
+          "value": "AU",
+          "expanded": "Australia"
+        },
+        {
+          "value": "AW",
+          "expanded": "Aruba"
+        },
+        {
+          "value": "AX",
+          "expanded": "Aland Islands"
+        },
+        {
+          "value": "AZ",
+          "expanded": "Azerbaijan"
+        },
+        {
+          "value": "BA",
+          "expanded": "Bosnia and Herzegovina"
+        },
+        {
+          "value": "BB",
+          "expanded": "Barbados"
+        },
+        {
+          "value": "BD",
+          "expanded": "Bangladesh"
+        },
+        {
+          "value": "BE",
+          "expanded": "Belgium"
+        },
+        {
+          "value": "BF",
+          "expanded": "Burkina Faso"
+        },
+        {
+          "value": "BG",
+          "expanded": "Bulgaria"
+        },
+        {
+          "value": "BH",
+          "expanded": "Bahrain"
+        },
+        {
+          "value": "BI",
+          "expanded": "Burundi"
+        },
+        {
+          "value": "BJ",
+          "expanded": "Benin"
+        },
+        {
+          "value": "BL",
+          "expanded": "Saint-Barthelemy"
+        },
+        {
+          "value": "BM",
+          "expanded": "Bermuda"
+        },
+        {
+          "value": "BN",
+          "expanded": "Brunei Darussalam"
+        },
+        {
+          "value": "BO",
+          "expanded": "Bolivia"
+        },
+        {
+          "value": "BQ",
+          "expanded": "Bonaire,  Saint Eustatius and Saba"
+        },
+        {
+          "value": "BR",
+          "expanded": "Brazil"
+        },
+        {
+          "value": "BS",
+          "expanded": "Bahamas"
+        },
+        {
+          "value": "BT",
+          "expanded": "Bhutan"
+        },
+        {
+          "value": "BV",
+          "expanded": "Bouvet Island"
+        },
+        {
+          "value": "BW",
+          "expanded": "Botswana"
+        },
+        {
+          "value": "BY",
+          "expanded": "Belarus"
+        },
+        {
+          "value": "BZ",
+          "expanded": "Belize"
+        },
+        {
+          "value": "CA",
+          "expanded": "Canada"
+        },
+        {
+          "value": "CC",
+          "expanded": "Cocos (Keeling) Islands"
+        },
+        {
+          "value": "CD",
+          "expanded": "Congo, Democratic Republic of the"
+        },
+        {
+          "value": "CF",
+          "expanded": "Central African Republic"
+        },
+        {
+          "value": "CG",
+          "expanded": "Congo"
+        },
+        {
+          "value": "CH",
+          "expanded": "Switzerland"
+        },
+        {
+          "value": "CI",
+          "expanded": "Cote d'Ivoire"
+        },
+        {
+          "value": "CK",
+          "expanded": "Cook Islands"
+        },
+        {
+          "value": "CL",
+          "expanded": "Chile"
+        },
+        {
+          "value": "CM",
+          "expanded": "Cameroon"
+        },
+        {
+          "value": "CN",
+          "expanded": "China"
+        },
+        {
+          "value": "CO",
+          "expanded": "Colombia"
+        },
+        {
+          "value": "CR",
+          "expanded": "Costa Rica"
+        },
+        {
+          "value": "CU",
+          "expanded": "Cuba"
+        },
+        {
+          "value": "CV",
+          "expanded": "Cape Verde"
+        },
+        {
+          "value": "CW",
+          "expanded": "Curacao"
+        },
+        {
+          "value": "CX",
+          "expanded": "Christmas Island"
+        },
+        {
+          "value": "CY",
+          "expanded": "Cyprus"
+        },
+        {
+          "value": "CZ",
+          "expanded": "Czech Republic"
+        },
+        {
+          "value": "DE",
+          "expanded": "Germany"
+        },
+        {
+          "value": "DJ",
+          "expanded": "Djibouti"
+        },
+        {
+          "value": "DK",
+          "expanded": "Denmark"
+        },
+        {
+          "value": "DM",
+          "expanded": "Dominica"
+        },
+        {
+          "value": "DO",
+          "expanded": "Dominican Republic"
+        },
+        {
+          "value": "DZ",
+          "expanded": "Algeria"
+        },
+        {
+          "value": "EC",
+          "expanded": "Ecuador"
+        },
+        {
+          "value": "EE",
+          "expanded": "Estonia"
+        },
+        {
+          "value": "EG",
+          "expanded": "Egypt"
+        },
+        {
+          "value": "EH",
+          "expanded": "Western Sahara"
+        },
+        {
+          "value": "ER",
+          "expanded": "Eritrea"
+        },
+        {
+          "value": "ES",
+          "expanded": "Spain"
+        },
+        {
+          "value": "ET",
+          "expanded": "Ethiopia"
+        },
+        {
+          "value": "FI",
+          "expanded": "Finland"
+        },
+        {
+          "value": "FJ",
+          "expanded": "Fiji"
+        },
+        {
+          "value": "FK",
+          "expanded": "Faeroe Islands"
+        },
+        {
+          "value": "FM",
+          "expanded": "Micronesia (Federated States of)"
+        },
+        {
+          "value": "FO",
+          "expanded": "Falkland Islands (Malvinas)"
+        },
+        {
+          "value": "FR",
+          "expanded": "France"
+        },
+        {
+          "value": "GA",
+          "expanded": "Gabon"
+        },
+        {
+          "value": "GB",
+          "expanded": "United Kingdom"
+        },
+        {
+          "value": "GD",
+          "expanded": "Grenada"
+        },
+        {
+          "value": "GE",
+          "expanded": "Georgia"
+        },
+        {
+          "value": "GF",
+          "expanded": "French Guiana"
+        },
+        {
+          "value": "GG",
+          "expanded": "Guernsey"
+        },
+        {
+          "value": "GH",
+          "expanded": "Ghana"
+        },
+        {
+          "value": "GI",
+          "expanded": "Gibraltar"
+        },
+        {
+          "value": "GL",
+          "expanded": "Greenland"
+        },
+        {
+          "value": "GM",
+          "expanded": "Gambia"
+        },
+        {
+          "value": "GN",
+          "expanded": "Guinea"
+        },
+        {
+          "value": "GP",
+          "expanded": "Guadeloupe"
+        },
+        {
+          "value": "GQ",
+          "expanded": "Equatorial Guinea"
+        },
+        {
+          "value": "GR",
+          "expanded": "Greece"
+        },
+        {
+          "value": "GS",
+          "expanded": "South Georgia and the South Sandwich Islands"
+        },
+        {
+          "value": "GT",
+          "expanded": "Guatemala"
+        },
+        {
+          "value": "GU",
+          "expanded": "Guam"
+        },
+        {
+          "value": "GW",
+          "expanded": "Guinea-Bissau"
+        },
+        {
+          "value": "GY",
+          "expanded": "Guyana"
+        },
+        {
+          "value": "HK",
+          "expanded": "Hong Kong"
+        },
+        {
+          "value": "HM",
+          "expanded": "Heard Island and McDonal Islands"
+        },
+        {
+          "value": "HN",
+          "expanded": "Honduras"
+        },
+        {
+          "value": "HR",
+          "expanded": "Croatia"
+        },
+        {
+          "value": "HT",
+          "expanded": "Haiti"
+        },
+        {
+          "value": "HU",
+          "expanded": "Hungary"
+        },
+        {
+          "value": "ID",
+          "expanded": "Indonesia"
+        },
+        {
+          "value": "IE",
+          "expanded": "Ireland"
+        },
+        {
+          "value": "IL",
+          "expanded": "Israel"
+        },
+        {
+          "value": "IM",
+          "expanded": "Isle of Man"
+        },
+        {
+          "value": "IN",
+          "expanded": "India"
+        },
+        {
+          "value": "IO",
+          "expanded": "British Virgin Islands"
+        },
+        {
+          "value": "IQ",
+          "expanded": "Iraq"
+        },
+        {
+          "value": "IR",
+          "expanded": "Iran (Islamic Republic of)"
+        },
+        {
+          "value": "IS",
+          "expanded": "Iceland"
+        },
+        {
+          "value": "IT",
+          "expanded": "Italy"
+        },
+        {
+          "value": "JE",
+          "expanded": "Jersey"
+        },
+        {
+          "value": "JM",
+          "expanded": "Jamaica"
+        },
+        {
+          "value": "JO",
+          "expanded": "Jordan"
+        },
+        {
+          "value": "JP",
+          "expanded": "Japan"
+        },
+        {
+          "value": "KE",
+          "expanded": "Kenya"
+        },
+        {
+          "value": "KG",
+          "expanded": "Kyrgyzstan"
+        },
+        {
+          "value": "KH",
+          "expanded": "Cambodia"
+        },
+        {
+          "value": "KI",
+          "expanded": "Kiribati"
+        },
+        {
+          "value": "KM",
+          "expanded": "Comoros"
+        },
+        {
+          "value": "KN",
+          "expanded": "Saint Kitts and Nevis"
+        },
+        {
+          "value": "KP",
+          "expanded": "Korea, Democratic People's Republic of"
+        },
+        {
+          "value": "KR",
+          "expanded": "Korea, Republic of"
+        },
+        {
+          "value": "KW",
+          "expanded": "Kuwait"
+        },
+        {
+          "value": "KY",
+          "expanded": "Cayman Islands"
+        },
+        {
+          "value": "KZ",
+          "expanded": "Kazakhstan"
+        },
+        {
+          "value": "LA",
+          "expanded": "Lao People's Democratic Republic"
+        },
+        {
+          "value": "LB",
+          "expanded": "Lebanon"
+        },
+        {
+          "value": "LC",
+          "expanded": "Saint Lucia"
+        },
+        {
+          "value": "LI",
+          "expanded": "Liechtenstein"
+        },
+        {
+          "value": "LK",
+          "expanded": "Sri Lanka"
+        },
+        {
+          "value": "LR",
+          "expanded": "Liberia"
+        },
+        {
+          "value": "LS",
+          "expanded": "Lesotho"
+        },
+        {
+          "value": "LT",
+          "expanded": "Lithuania"
+        },
+        {
+          "value": "LU",
+          "expanded": "Luxembourg"
+        },
+        {
+          "value": "LV",
+          "expanded": "Latvia"
+        },
+        {
+          "value": "LY",
+          "expanded": "Libya"
+        },
+        {
+          "value": "MA",
+          "expanded": "Morocco"
+        },
+        {
+          "value": "MC",
+          "expanded": "Monaco"
+        },
+        {
+          "value": "MD",
+          "expanded": "Moldova, Republic of"
+        },
+        {
+          "value": "ME",
+          "expanded": "Montenegro"
+        },
+        {
+          "value": "MF",
+          "expanded": "Saint Martin (French part)"
+        },
+        {
+          "value": "MG",
+          "expanded": "Madagascar"
+        },
+        {
+          "value": "MH",
+          "expanded": "Marshall Islands"
+        },
+        {
+          "value": "MK",
+          "expanded": "Macedonia, The former Yugoslav Republic of"
+        },
+        {
+          "value": "ML",
+          "expanded": "Mali"
+        },
+        {
+          "value": "MM",
+          "expanded": "Myanmar"
+        },
+        {
+          "value": "MN",
+          "expanded": "Mongolia"
+        },
+        {
+          "value": "MO",
+          "expanded": "Macao"
+        },
+        {
+          "value": "MP",
+          "expanded": "Northern Mariana Islands"
+        },
+        {
+          "value": "MQ",
+          "expanded": "Martinique"
+        },
+        {
+          "value": "MR",
+          "expanded": "Mauritania"
+        },
+        {
+          "value": "MS",
+          "expanded": "Montserrat"
+        },
+        {
+          "value": "MT",
+          "expanded": "Malta"
+        },
+        {
+          "value": "MU",
+          "expanded": "Mauritius"
+        },
+        {
+          "value": "MV",
+          "expanded": "Maldives"
+        },
+        {
+          "value": "MW",
+          "expanded": "Malawi"
+        },
+        {
+          "value": "MX",
+          "expanded": "Mexico"
+        },
+        {
+          "value": "MY",
+          "expanded": "Malaysia"
+        },
+        {
+          "value": "MZ",
+          "expanded": "Mozambique"
+        },
+        {
+          "value": "NA",
+          "expanded": "Namibia"
+        },
+        {
+          "value": "NC",
+          "expanded": "New Caledonia"
+        },
+        {
+          "value": "NE",
+          "expanded": "Niger"
+        },
+        {
+          "value": "NF",
+          "expanded": "Norfolk Island"
+        },
+        {
+          "value": "NG",
+          "expanded": "Nigeria"
+        },
+        {
+          "value": "NI",
+          "expanded": "Nicaragua"
+        },
+        {
+          "value": "NL",
+          "expanded": "Netherlands"
+        },
+        {
+          "value": "NO",
+          "expanded": "Norway"
+        },
+        {
+          "value": "NP",
+          "expanded": "Nepal"
+        },
+        {
+          "value": "NR",
+          "expanded": "Nauru"
+        },
+        {
+          "value": "NU",
+          "expanded": "Niue"
+        },
+        {
+          "value": "NZ",
+          "expanded": "New Zealand"
+        },
+        {
+          "value": "OM",
+          "expanded": "Oman"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "PA",
+          "expanded": "Panama"
+        },
+        {
+          "value": "PE",
+          "expanded": "Peru"
+        },
+        {
+          "value": "PF",
+          "expanded": "French Polynesia"
+        },
+        {
+          "value": "PG",
+          "expanded": "Papua New Guinea"
+        },
+        {
+          "value": "PH",
+          "expanded": "Philippines"
+        },
+        {
+          "value": "PK",
+          "expanded": "Pakistan"
+        },
+        {
+          "value": "PL",
+          "expanded": "Poland"
+        },
+        {
+          "value": "PM",
+          "expanded": "Saint Pierre and Miquelon"
+        },
+        {
+          "value": "PN",
+          "expanded": "Pitcairn"
+        },
+        {
+          "value": "PR",
+          "expanded": "Puerto Rico"
+        },
+        {
+          "value": "PS",
+          "expanded": "Palestinian Territory, Occupied"
+        },
+        {
+          "value": "PT",
+          "expanded": "Portugal"
+        },
+        {
+          "value": "PW",
+          "expanded": "Palau"
+        },
+        {
+          "value": "PY",
+          "expanded": "Paraguay"
+        },
+        {
+          "value": "QA",
+          "expanded": "Qatar"
+        },
+        {
+          "value": "RE",
+          "expanded": "Reunion"
+        },
+        {
+          "value": "RO",
+          "expanded": "Romania"
+        },
+        {
+          "value": "RS",
+          "expanded": "Serbia"
+        },
+        {
+          "value": "RU",
+          "expanded": "Russian Federation"
+        },
+        {
+          "value": "RW",
+          "expanded": "Rwanda"
+        },
+        {
+          "value": "SA",
+          "expanded": "Saudi Arabia"
+        },
+        {
+          "value": "SB",
+          "expanded": "Solomon Islands"
+        },
+        {
+          "value": "SC",
+          "expanded": "Seychelles"
+        },
+        {
+          "value": "SD",
+          "expanded": "Sudan"
+        },
+        {
+          "value": "SE",
+          "expanded": "Sweden"
+        },
+        {
+          "value": "SG",
+          "expanded": "Singapore"
+        },
+        {
+          "value": "SH",
+          "expanded": "Saint Helena"
+        },
+        {
+          "value": "SI",
+          "expanded": "Slovenia"
+        },
+        {
+          "value": "SJ",
+          "expanded": "Svalbard and Jan Mayen Islands"
+        },
+        {
+          "value": "SK",
+          "expanded": "Slovakia"
+        },
+        {
+          "value": "SL",
+          "expanded": "Sierra Leone"
+        },
+        {
+          "value": "SM",
+          "expanded": "San Marino"
+        },
+        {
+          "value": "SN",
+          "expanded": "Senegal"
+        },
+        {
+          "value": "SO",
+          "expanded": "Somalia"
+        },
+        {
+          "value": "SR",
+          "expanded": "Suriname"
+        },
+        {
+          "value": "SS",
+          "expanded": "South Sudan"
+        },
+        {
+          "value": "ST",
+          "expanded": "Sao Tome and Principe"
+        },
+        {
+          "value": "SV",
+          "expanded": "El Salvador"
+        },
+        {
+          "value": "SX",
+          "expanded": "Sint Maarten (Dutch part)"
+        },
+        {
+          "value": "SY",
+          "expanded": "Syrian Arab Republic"
+        },
+        {
+          "value": "SZ",
+          "expanded": "Swaziland"
+        },
+        {
+          "value": "TC",
+          "expanded": "Turks and Caicos Islands"
+        },
+        {
+          "value": "TD",
+          "expanded": "Chad"
+        },
+        {
+          "value": "TF",
+          "expanded": "French Southern Territories"
+        },
+        {
+          "value": "TG",
+          "expanded": "Togo"
+        },
+        {
+          "value": "TH",
+          "expanded": "Thailand"
+        },
+        {
+          "value": "TJ",
+          "expanded": "Tajikistan"
+        },
+        {
+          "value": "TK",
+          "expanded": "Tokelau"
+        },
+        {
+          "value": "TL",
+          "expanded": "Timor-Leste"
+        },
+        {
+          "value": "TM",
+          "expanded": "Turkmenistan"
+        },
+        {
+          "value": "TN",
+          "expanded": "Tunisia"
+        },
+        {
+          "value": "TO",
+          "expanded": "Tonga"
+        },
+        {
+          "value": "TR",
+          "expanded": "Turkey"
+        },
+        {
+          "value": "TT",
+          "expanded": "Trinidad and Tobago"
+        },
+        {
+          "value": "TV",
+          "expanded": "Tuvalu"
+        },
+        {
+          "value": "TW",
+          "expanded": "Taiwan, Province of China"
+        },
+        {
+          "value": "TZ",
+          "expanded": "Tanzania, United Republic of"
+        },
+        {
+          "value": "UA",
+          "expanded": "Ukraine"
+        },
+        {
+          "value": "UG",
+          "expanded": "Uganda"
+        },
+        {
+          "value": "UM",
+          "expanded": "United States Minor Outlying Islands"
+        },
+        {
+          "value": "US",
+          "expanded": "United States of America"
+        },
+        {
+          "value": "UY",
+          "expanded": "Uruguay"
+        },
+        {
+          "value": "UZ",
+          "expanded": "Uzbekistan"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "VA",
+          "expanded": "Holy See"
+        },
+        {
+          "value": "VC",
+          "expanded": "Saint Vincent and the Grenadines"
+        },
+        {
+          "value": "VE",
+          "expanded": "Venezuela (Bolivarian Republic of)"
+        },
+        {
+          "value": "VG",
+          "expanded": "British Virgin Islands"
+        },
+        {
+          "value": "VI",
+          "expanded": "United States Virgin Islands"
+        },
+        {
+          "value": "VN",
+          "expanded": "Viet Nam"
+        },
+        {
+          "value": "VU",
+          "expanded": "Vanuatu"
+        },
+        {
+          "value": "WF",
+          "expanded": "Wallis and Futuna Islands"
+        },
+        {
+          "value": "WS",
+          "expanded": "Samoa"
+        },
+        {
+          "value": "YE",
+          "expanded": "Yemen"
+        },
+        {
+          "value": "YT",
+          "expanded": "Mayotte"
+        },
+        {
+          "value": "ZA",
+          "expanded": "South Africa"
+        },
+        {
+          "value": "ZM",
+          "expanded": "Zambia"
+        },
+        {
+          "value": "ZW",
+          "expanded": "Zimbabwe"
+        }
+      ]
+    },
+    {
+      "predicate": "victim:employee_count",
+      "entry": [
+        {
+          "value": "1 to 10",
+          "expanded": "1 to 10 employees"
+        },
+        {
+          "value": "10001 to 25000",
+          "expanded": "10,001 to 25,000 employees"
+        },
+        {
+          "value": "1001 to 10000",
+          "expanded": "1,001 to 10,000 employees"
+        },
+        {
+          "value": "101 to 1000",
+          "expanded": "101 to 1,000 employees"
+        },
+        {
+          "value": "11 to 100",
+          "expanded": "11 to 100 employees"
+        },
+        {
+          "value": "25001 to 50000",
+          "expanded": "25,001 to 50,000 employees"
+        },
+        {
+          "value": "50001 to 100000",
+          "expanded": "50,001 to 100,000 employees"
+        },
+        {
+          "value": "Large",
+          "expanded": "Large organizations (over 1,000 employees)"
+        },
+        {
+          "value": "Over 100000",
+          "expanded": "Over 100,0001 employees"
+        },
+        {
+          "value": "Small",
+          "expanded": "Small organizations (1,000 employees or less)"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown number of employees"
+        }
+      ]
+    },
+    {
+      "predicate": "action:environmental:variety",
+      "entry": [
+        {
+          "value": "Deterioration",
+          "expanded": "Deterioration and degradation"
+        },
+        {
+          "value": "EMI",
+          "expanded": "Electromagnetic interference (EMI)"
+        },
+        {
+          "value": "ESD",
+          "expanded": "Electrostatic discharge (ESD)"
+        },
+        {
+          "value": "Earthquake",
+          "expanded": "Earthquake"
+        },
+        {
+          "value": "Fire",
+          "expanded": "Fire"
+        },
+        {
+          "value": "Flood",
+          "expanded": "Flood"
+        },
+        {
+          "value": "Hazmat",
+          "expanded": "Hazardous material"
+        },
+        {
+          "value": "Humidity",
+          "expanded": "Humidity"
+        },
+        {
+          "value": "Hurricane",
+          "expanded": "Hurricane"
+        },
+        {
+          "value": "Ice",
+          "expanded": "Ice and snow"
+        },
+        {
+          "value": "Landslide",
+          "expanded": "Landslide"
+        },
+        {
+          "value": "Leak",
+          "expanded": "Water leak"
+        },
+        {
+          "value": "Lightning",
+          "expanded": "Lightning"
+        },
+        {
+          "value": "Meteorite",
+          "expanded": "Meteorite"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Particulates",
+          "expanded": "Particulate matter (e.g., dust, smoke)"
+        },
+        {
+          "value": "Pathogen",
+          "expanded": "Pathogen"
+        },
+        {
+          "value": "Power failure",
+          "expanded": "Power failure or fluctuation"
+        },
+        {
+          "value": "Temperature",
+          "expanded": "Extreme temperature"
+        },
+        {
+          "value": "Tornado",
+          "expanded": "Tornado"
+        },
+        {
+          "value": "Tsunami",
+          "expanded": "Tsunami"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "Vermin",
+          "expanded": "Vermin"
+        },
+        {
+          "value": "Volcano",
+          "expanded": "Volcanic eruption"
+        },
+        {
+          "value": "Wind",
+          "expanded": "Wind"
+        }
+      ]
+    },
+    {
+      "predicate": "action:error:variety",
+      "entry": [
+        {
+          "value": "Capacity shortage",
+          "expanded": "Poor capacity planning"
+        },
+        {
+          "value": "Classification error",
+          "expanded": "Classification or labeling error"
+        },
+        {
+          "value": "Data entry error",
+          "expanded": "Data entry error"
+        },
+        {
+          "value": "Disposal error",
+          "expanded": "Disposal error"
+        },
+        {
+          "value": "Gaffe",
+          "expanded": "Gaffe (social or verbal slip)"
+        },
+        {
+          "value": "Loss",
+          "expanded": "Loss or misplacement"
+        },
+        {
+          "value": "Maintenance error",
+          "expanded": "Maintenance error"
+        },
+        {
+          "value": "Malfunction",
+          "expanded": "Technical malfunction or glitch"
+        },
+        {
+          "value": "Misconfiguration",
+          "expanded": "Misconfiguration"
+        },
+        {
+          "value": "Misdelivery",
+          "expanded": "Misdelivery (send wrong info or to wrong recipient)"
+        },
+        {
+          "value": "Misinformation",
+          "expanded": "Misinformation (unintentionally giving false info)"
+        },
+        {
+          "value": "Omission",
+          "expanded": "Omission (something intended, but not done)"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Physical accidents",
+          "expanded": "Physical accidents (e.g., drops, bumps, spills)"
+        },
+        {
+          "value": "Programming error",
+          "expanded": "Programming error (flaws or bugs in custom code)"
+        },
+        {
+          "value": "Publishing error",
+          "expanded": "Publishing error (private info to public doc or site)"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "action:error:vector",
+      "entry": [
+        {
+          "value": "Carelessness",
+          "expanded": "Carelessness"
+        },
+        {
+          "value": "Inadequate personnel",
+          "expanded": "Inadequate or insufficient personnel"
+        },
+        {
+          "value": "Inadequate processes",
+          "expanded": "Inadequate or insufficient processes"
+        },
+        {
+          "value": "Inadequate technology",
+          "expanded": "Inadequate or insufficient technology resources"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Random error",
+          "expanded": "Random error (no reason, no fault)"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "action:hacking:result",
+      "entry": [
+        {
+          "value": "Elevate",
+          "expanded": "The hacking action resulted in additional permissions"
+        },
+        {
+          "value": "Exfiltrate",
+          "expanded": "The hacking action exfiltrated data from the victim"
+        },
+        {
+          "value": "Infiltrate",
+          "expanded": "The hacking action infiltrated the victim"
+        }
+      ]
+    },
+    {
+      "predicate": "action:hacking:variety",
+      "entry": [
+        {
+          "value": "Abuse of functionality",
+          "expanded": "Abuse of functionality"
+        },
+        {
+          "value": "Brute force",
+          "expanded": "Brute force or password guessing attacks"
+        },
+        {
+          "value": "Buffer overflow",
+          "expanded": "Buffer overflow"
+        },
+        {
+          "value": "CSRF",
+          "expanded": "Cross-site request forgery"
+        },
+        {
+          "value": "Cache poisoning",
+          "expanded": "Cache poisoning"
+        },
+        {
+          "value": "Cryptanalysis",
+          "expanded": "Cryptanalysis"
+        },
+        {
+          "value": "DoS",
+          "expanded": "Denial of service"
+        },
+        {
+          "value": "Footprinting",
+          "expanded": "Footprinting and fingerprinting"
+        },
+        {
+          "value": "Forced browsing",
+          "expanded": "Forced browsing or predictable resource location"
+        },
+        {
+          "value": "Format string attack",
+          "expanded": "Format string attack"
+        },
+        {
+          "value": "Fuzz testing",
+          "expanded": "Fuzz testing"
+        },
+        {
+          "value": "HTTP Response Splitting",
+          "expanded": "HTTP Response Splitting"
+        },
+        {
+          "value": "HTTP request smuggling",
+          "expanded": "HTTP request smuggling"
+        },
+        {
+          "value": "HTTP request splitting",
+          "expanded": "HTTP request splitting"
+        },
+        {
+          "value": "HTTP response smuggling",
+          "expanded": "HTTP response smuggling"
+        },
+        {
+          "value": "Integer overflows",
+          "expanded": "Integer overflows"
+        },
+        {
+          "value": "LDAP injection",
+          "expanded": "LDAP injection"
+        },
+        {
+          "value": "Mail command injection",
+          "expanded": "Mail command injection"
+        },
+        {
+          "value": "MitM",
+          "expanded": "Man-in-the-middle attack"
+        },
+        {
+          "value": "Null byte injection",
+          "expanded": "Null byte injection"
+        },
+        {
+          "value": "OS commanding",
+          "expanded": "OS commanding"
+        },
+        {
+          "value": "Offline cracking",
+          "expanded": "Offline password or key cracking (e.g., rainbow tables, Hashcat, JtR)"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Pass-the-hash",
+          "expanded": "Pass-the-hash"
+        },
+        {
+          "value": "Path traversal",
+          "expanded": "Path traversal"
+        },
+        {
+          "value": "RFI",
+          "expanded": "Remote file inclusion"
+        },
+        {
+          "value": "Reverse engineering",
+          "expanded": "Reverse engineering"
+        },
+        {
+          "value": "Routing detour",
+          "expanded": "Routing detour"
+        },
+        {
+          "value": "SQLi",
+          "expanded": "SQL injection"
+        },
+        {
+          "value": "SSI injection",
+          "expanded": "SSI injection"
+        },
+        {
+          "value": "Session fixation",
+          "expanded": "Session fixation"
+        },
+        {
+          "value": "Session prediction",
+          "expanded": "Credential or session prediction"
+        },
+        {
+          "value": "Session replay",
+          "expanded": "Session replay"
+        },
+        {
+          "value": "Soap array abuse",
+          "expanded": "Soap array abuse"
+        },
+        {
+          "value": "Special element injection",
+          "expanded": "Special element injection"
+        },
+        {
+          "value": "URL redirector abuse",
+          "expanded": "URL redirector abuse"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "Use of backdoor or C2",
+          "expanded": "Use of Backdoor or C2 channel"
+        },
+        {
+          "value": "Use of stolen creds",
+          "expanded": "Use of stolen authentication credentials"
+        },
+        {
+          "value": "Virtual machine escape",
+          "expanded": "Virtual machine escape"
+        },
+        {
+          "value": "XML attribute blowup",
+          "expanded": "XML attribute blowup"
+        },
+        {
+          "value": "XML entity expansion",
+          "expanded": "XML entity expansion"
+        },
+        {
+          "value": "XML external entities",
+          "expanded": "XML external entities"
+        },
+        {
+          "value": "XML injection",
+          "expanded": "XML injection"
+        },
+        {
+          "value": "XPath injection",
+          "expanded": "XPath injection"
+        },
+        {
+          "value": "XQuery injection",
+          "expanded": "XQuery injection"
+        },
+        {
+          "value": "XSS",
+          "expanded": "Cross-site scripting"
+        }
+      ]
+    },
+    {
+      "predicate": "action:hacking:vector",
+      "entry": [
+        {
+          "value": "3rd party desktop",
+          "expanded": "3rd party online desktop sharing (LogMeIn, Go2Assist)"
+        },
+        {
+          "value": "Backdoor or C2",
+          "expanded": "Backdoor or command and control channel"
+        },
+        {
+          "value": "Command shell",
+          "expanded": "Remote shell"
+        },
+        {
+          "value": "Desktop sharing",
+          "expanded": "Graphical desktop sharing (RDP, VNC, PCAnywhere, Citrix)"
+        },
+        {
+          "value": "Desktop sharing software",
+          "expanded": "Superset of 'Desktop sharing' and '3rd party desktop'.  Please use in place of the other two"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Partner",
+          "expanded": "Partner connection or credential"
+        },
+        {
+          "value": "Physical access",
+          "expanded": "Physical access or connection (i.e., at keyboard or via cable) "
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "VPN",
+          "expanded": "VPN"
+        },
+        {
+          "value": "Web application",
+          "expanded": "Web application"
+        }
+      ]
+    },
+    {
+      "predicate": "action:malware:result",
+      "entry": [
+        {
+          "value": "Elevate",
+          "expanded": "The malware action resulted in additional permissions"
+        },
+        {
+          "value": "Exfiltrate",
+          "expanded": "The malware action exfiltrated data from the victim"
+        },
+        {
+          "value": "Infiltrate",
+          "expanded": "The malware action infiltrated the victim"
+        }
+      ]
+    },
+    {
+      "predicate": "action:malware:variety",
+      "entry": [
+        {
+          "value": "Adminware",
+          "expanded": "System or network utilities (e.g., PsTools, Netcat)"
+        },
+        {
+          "value": "Adware",
+          "expanded": "Adware"
+        },
+        {
+          "value": "Backdoor",
+          "expanded": "Backdoor (enable remote access)"
+        },
+        {
+          "value": "Brute force",
+          "expanded": "Brute force attack"
+        },
+        {
+          "value": "C2",
+          "expanded": "Command and control (C2)"
+        },
+        {
+          "value": "Capture app data",
+          "expanded": "Capture data from application or system process"
+        },
+        {
+          "value": "Capture stored data",
+          "expanded": "Capture data stored on system disk"
+        },
+        {
+          "value": "Click fraud",
+          "expanded": "Click fraud or Bitcoin mining"
+        },
+        {
+          "value": "Client-side attack",
+          "expanded": "Client-side or browser attack (e.g., redirection, XSS, MitB)"
+        },
+        {
+          "value": "Destroy data",
+          "expanded": "Destroy or corrupt stored data"
+        },
+        {
+          "value": "Disable controls",
+          "expanded": "Disable or interfere with security controls"
+        },
+        {
+          "value": "DoS",
+          "expanded": "DoS attack"
+        },
+        {
+          "value": "Downloader",
+          "expanded": "Downloader (pull updates or other malware) "
+        },
+        {
+          "value": "Exploit vuln",
+          "expanded": "Exploit vulnerability in code (vs misconfig or weakness)"
+        },
+        {
+          "value": "Export data",
+          "expanded": "Export data to another site or system"
+        },
+        {
+          "value": "Modify data",
+          "expanded": "Malware which compromises a legitimate file rather than creating new filess"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Packet sniffer",
+          "expanded": "Packet sniffer (capture data from network)"
+        },
+        {
+          "value": "Password dumper",
+          "expanded": "Password dumper (extract credential hashes)"
+        },
+        {
+          "value": "Ram scraper",
+          "expanded": "Ram scraper or memory parser (capture data from volatile memory)"
+        },
+        {
+          "value": "Ransomware",
+          "expanded": "Ransomware (encrypt or seize stored data)"
+        },
+        {
+          "value": "Rootkit",
+          "expanded": "Rootkit (maintain local privileges and stealth)"
+        },
+        {
+          "value": "SQL injection",
+          "expanded": "SQL injection attack"
+        },
+        {
+          "value": "Scan network",
+          "expanded": "Scan or footprint network"
+        },
+        {
+          "value": "Spam",
+          "expanded": "Send spam"
+        },
+        {
+          "value": "Spyware/Keylogger",
+          "expanded": "Spyware, keylogger or form-grabber (capture user input or activity)"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "Worm",
+          "expanded": "Worm (propagate to other systems or devices)"
+        }
+      ]
+    },
+    {
+      "predicate": "action:malware:vector",
+      "entry": [
+        {
+          "value": "Direct install",
+          "expanded": "Directly installed or inserted by threat agent (after system access)"
+        },
+        {
+          "value": "Download by malware",
+          "expanded": "Downloaded and installed by local malware"
+        },
+        {
+          "value": "Email attachment",
+          "expanded": "Email via user-executed attachment"
+        },
+        {
+          "value": "Email autoexecute",
+          "expanded": "Email via automatic execution"
+        },
+        {
+          "value": "Email link",
+          "expanded": "Email via embedded link"
+        },
+        {
+          "value": "Email unknown",
+          "expanded": "Email but sub-variety (attachment, autoexecute, link, etc) not known"
+        },
+        {
+          "value": "Instant messaging",
+          "expanded": "Instant Messaging"
+        },
+        {
+          "value": "Network propagation",
+          "expanded": "Network propagation"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Remote injection",
+          "expanded": "Remotely injected by agent (i.e. via SQLi)"
+        },
+        {
+          "value": "Removable media",
+          "expanded": "Removable storage media or devices"
+        },
+        {
+          "value": "Software update",
+          "expanded": "Included in automated software update"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "Web download",
+          "expanded": "Web via user-executed or downloaded content"
+        },
+        {
+          "value": "Web drive-by",
+          "expanded": "Web via auto-executed or \"drive-by\" infection"
+        }
+      ]
+    },
+    {
+      "predicate": "action:misuse:result",
+      "entry": [
+        {
+          "value": "Elevate",
+          "expanded": "The misuse action resulted in additional permissions"
+        },
+        {
+          "value": "Exfiltrate",
+          "expanded": "The misuse action exfiltrated data from the victim"
+        },
+        {
+          "value": "Infiltrate",
+          "expanded": "The misuse action infiltrated the victim"
+        }
+      ]
+    },
+    {
+      "predicate": "action:misuse:variety",
+      "entry": [
+        {
+          "value": "Data mishandling",
+          "expanded": "Handling of data in an unapproved manner"
+        },
+        {
+          "value": "Email misuse",
+          "expanded": "Inappropriate use of email or IM"
+        },
+        {
+          "value": "Illicit content",
+          "expanded": "Storage or distribution of illicit content"
+        },
+        {
+          "value": "Knowledge abuse",
+          "expanded": "Abuse of private or entrusted knowledge"
+        },
+        {
+          "value": "Net misuse",
+          "expanded": "Inappropriate use of network or Web access"
+        },
+        {
+          "value": "Other",
+          "expanded": " Other"
+        },
+        {
+          "value": "Possession abuse",
+          "expanded": "Abuse of physical access to asset"
+        },
+        {
+          "value": "Privilege abuse",
+          "expanded": "Abuse of system access privileges"
+        },
+        {
+          "value": "Unapproved hardware",
+          "expanded": "Use of unapproved hardware or devices"
+        },
+        {
+          "value": "Unapproved software",
+          "expanded": "Use of unapproved software or services"
+        },
+        {
+          "value": "Unapproved workaround",
+          "expanded": "Unapproved workaround or shortcut"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "action:misuse:vector",
+      "entry": [
+        {
+          "value": "LAN access",
+          "expanded": "Local network access within corporate facility"
+        },
+        {
+          "value": "Non-corporate",
+          "expanded": "Non-corporate facilities or networks"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Physical access",
+          "expanded": "Physical access within corporate facility"
+        },
+        {
+          "value": "Remote access",
+          "expanded": "Remote access connection to corporate network (i.e. VPN)"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "action:physical:result",
+      "entry": [
+        {
+          "value": "Elevate",
+          "expanded": "The physical action resulted in additional permissions"
+        },
+        {
+          "value": "Exfiltrate",
+          "expanded": "The physical action exfiltrated data from the victim"
+        },
+        {
+          "value": "Infiltrate",
+          "expanded": "The physical action infiltrated the victim"
+        }
+      ]
+    },
+    {
+      "predicate": "action:physical:variety",
+      "entry": [
+        {
+          "value": "Assault",
+          "expanded": "Assault (threats or acts of physical violence)"
+        },
+        {
+          "value": "Bypassed controls",
+          "expanded": "Bypassed physical barriers or controls"
+        },
+        {
+          "value": "Connection",
+          "expanded": "Connection"
+        },
+        {
+          "value": "Destruction",
+          "expanded": "Destruction (deliberate damaging or disabling)"
+        },
+        {
+          "value": "Disabled controls",
+          "expanded": "Disabled physical barriers or controls"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Skimmer",
+          "expanded": "Installing card skimming device"
+        },
+        {
+          "value": "Snooping",
+          "expanded": "Snooping (sneak about to gain info or access)"
+        },
+        {
+          "value": "Surveillance",
+          "expanded": "Surveillance (monitoring and observation)"
+        },
+        {
+          "value": "Tampering",
+          "expanded": "Tampering (alter physical form or function)"
+        },
+        {
+          "value": "Theft",
+          "expanded": "Theft (taking assets without permission)"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "Wiretapping",
+          "expanded": "Wiretapping (Physical tap to comms line)"
+        }
+      ]
+    },
+    {
+      "predicate": "action:physical:vector",
+      "entry": [
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Partner facility",
+          "expanded": "Partner facility or area"
+        },
+        {
+          "value": "Partner vehicle",
+          "expanded": "Partner vehicle (e.g., delivery truck)"
+        },
+        {
+          "value": "Personal residence",
+          "expanded": "Personal residence"
+        },
+        {
+          "value": "Personal vehicle",
+          "expanded": "Personal vehicle"
+        },
+        {
+          "value": "Privileged access",
+          "expanded": "Held privileged access to location"
+        },
+        {
+          "value": "Public facility",
+          "expanded": "Public facility or area"
+        },
+        {
+          "value": "Public vehicle",
+          "expanded": "Public vehicle (e.g., plane, taxi)"
+        },
+        {
+          "value": "Uncontrolled location",
+          "expanded": "The location was uncontrolled (public)"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "Victim grounds",
+          "expanded": "Victim outdoor grounds"
+        },
+        {
+          "value": "Victim public area",
+          "expanded": "Victim public or customer area (e.g., lobby, storefront)"
+        },
+        {
+          "value": "Victim secure area",
+          "expanded": "Victim high security area (e.g., server room, R&D labs)"
+        },
+        {
+          "value": "Victim work area",
+          "expanded": "Victim private or work area (e.g., office space)"
+        },
+        {
+          "value": "Visitor privileges",
+          "expanded": "Given temporary visitor access"
+        }
+      ]
+    },
+    {
+      "predicate": "action:social:result",
+      "entry": [
+        {
+          "value": "Elevate",
+          "expanded": "The social action resulted in additional permissions"
+        },
+        {
+          "value": "Exfiltrate",
+          "expanded": "The social action exfiltrated data from the victim"
+        },
+        {
+          "value": "Infiltrate",
+          "expanded": "The social action infiltrated the victim"
+        }
+      ]
+    },
+    {
+      "predicate": "action:social:target",
+      "entry": [
+        {
+          "value": "Auditor",
+          "expanded": "Auditor"
+        },
+        {
+          "value": "Call center",
+          "expanded": "Call center staff"
+        },
+        {
+          "value": "Cashier",
+          "expanded": "Cashier, teller or waiter"
+        },
+        {
+          "value": "Customer",
+          "expanded": "Customer (B2C)"
+        },
+        {
+          "value": "Developer",
+          "expanded": "Software developer"
+        },
+        {
+          "value": "End-user",
+          "expanded": "End-user or regular employee"
+        },
+        {
+          "value": "Executive",
+          "expanded": "Executive or upper management"
+        },
+        {
+          "value": "Finance",
+          "expanded": "Finance or accounting staff"
+        },
+        {
+          "value": "Former employee",
+          "expanded": "Former employee"
+        },
+        {
+          "value": "Guard",
+          "expanded": "Security guard"
+        },
+        {
+          "value": "Helpdesk",
+          "expanded": "Helpdesk staff"
+        },
+        {
+          "value": "Human resources",
+          "expanded": "Human resources staff"
+        },
+        {
+          "value": "Maintenance",
+          "expanded": "Maintenance or janitorial staff"
+        },
+        {
+          "value": "Manager",
+          "expanded": "Manager or supervisor"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Partner",
+          "expanded": "Partner (B2B)"
+        },
+        {
+          "value": "System admin",
+          "expanded": "System or network administrator"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "action:social:variety",
+      "entry": [
+        {
+          "value": "Baiting",
+          "expanded": "Baiting (planting infected media)"
+        },
+        {
+          "value": "Bribery",
+          "expanded": "Bribery or solicitation"
+        },
+        {
+          "value": "Elicitation",
+          "expanded": "Elicitation (subtle extraction of info through conversation)"
+        },
+        {
+          "value": "Extortion",
+          "expanded": "Extortion or blackmail"
+        },
+        {
+          "value": "Forgery",
+          "expanded": "Forgery or counterfeiting (fake hardware, software, documents, etc)"
+        },
+        {
+          "value": "Influence",
+          "expanded": "Influence tactics (Leveraging authority or obligation, framing, etc)"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Phishing",
+          "expanded": "Phishing (or any type of *ishing)"
+        },
+        {
+          "value": "Pretexting",
+          "expanded": "Pretexting (dialogue leveraging invented scenario)"
+        },
+        {
+          "value": "Propaganda",
+          "expanded": "Propaganda or disinformation"
+        },
+        {
+          "value": "Scam",
+          "expanded": "Online scam or hoax (e.g., scareware, 419 scam, auction fraud)"
+        },
+        {
+          "value": "Spam",
+          "expanded": "Spam (unsolicited or undesired email and advertisements)"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "action:social:vector",
+      "entry": [
+        {
+          "value": "Documents",
+          "expanded": "Documents"
+        },
+        {
+          "value": "Email",
+          "expanded": "Email"
+        },
+        {
+          "value": "IM",
+          "expanded": "Instant messaging"
+        },
+        {
+          "value": "In-person",
+          "expanded": "In-person"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Phone",
+          "expanded": "Phone"
+        },
+        {
+          "value": "Removable media",
+          "expanded": "Removable storage media"
+        },
+        {
+          "value": "SMS",
+          "expanded": "SMS or texting"
+        },
+        {
+          "value": "Social media",
+          "expanded": "Social media or networking"
+        },
+        {
+          "value": "Software",
+          "expanded": "Software"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "Website",
+          "expanded": "Website"
+        }
+      ]
+    },
+    {
+      "predicate": "action:unknown:result",
+      "entry": [
+        {
+          "value": "Elevate",
+          "expanded": "The hacking action resulted in additional permissions"
+        },
+        {
+          "value": "Exfiltrate",
+          "expanded": "The hacking action exfiltrated data from the victim"
+        },
+        {
+          "value": "Infiltrate",
+          "expanded": "The hacking action infiltrated the victim"
+        }
+      ]
+    },
+    {
+      "predicate": "actor:external:country",
+      "entry": [
+        {
+          "value": "AD",
+          "expanded": "Andorra"
+        },
+        {
+          "value": "AE",
+          "expanded": "United Arab Emirates"
+        },
+        {
+          "value": "AF",
+          "expanded": "Afghanistan"
+        },
+        {
+          "value": "AG",
+          "expanded": "Antigua and Barbuda"
+        },
+        {
+          "value": "AI",
+          "expanded": "Anguilla"
+        },
+        {
+          "value": "AL",
+          "expanded": "Albania"
+        },
+        {
+          "value": "AM",
+          "expanded": "Armenia"
+        },
+        {
+          "value": "AO",
+          "expanded": "Angola"
+        },
+        {
+          "value": "AQ",
+          "expanded": "Antarctica"
+        },
+        {
+          "value": "AR",
+          "expanded": "Argentina"
+        },
+        {
+          "value": "AS",
+          "expanded": "American Samoa"
+        },
+        {
+          "value": "AT",
+          "expanded": "Austria"
+        },
+        {
+          "value": "AU",
+          "expanded": "Australia"
+        },
+        {
+          "value": "AW",
+          "expanded": "Aruba"
+        },
+        {
+          "value": "AX",
+          "expanded": "Aland Islands"
+        },
+        {
+          "value": "AZ",
+          "expanded": "Azerbaijan"
+        },
+        {
+          "value": "BA",
+          "expanded": "Bosnia and Herzegovina"
+        },
+        {
+          "value": "BB",
+          "expanded": "Barbados"
+        },
+        {
+          "value": "BD",
+          "expanded": "Bangladesh"
+        },
+        {
+          "value": "BE",
+          "expanded": "Belgium"
+        },
+        {
+          "value": "BF",
+          "expanded": "Burkina Faso"
+        },
+        {
+          "value": "BG",
+          "expanded": "Bulgaria"
+        },
+        {
+          "value": "BH",
+          "expanded": "Bahrain"
+        },
+        {
+          "value": "BI",
+          "expanded": "Burundi"
+        },
+        {
+          "value": "BJ",
+          "expanded": "Benin"
+        },
+        {
+          "value": "BL",
+          "expanded": "Saint-Barthelemy"
+        },
+        {
+          "value": "BM",
+          "expanded": "Bermuda"
+        },
+        {
+          "value": "BN",
+          "expanded": "Brunei Darussalam"
+        },
+        {
+          "value": "BO",
+          "expanded": "Bolivia"
+        },
+        {
+          "value": "BQ",
+          "expanded": "Bonaire,  Saint Eustatius and Saba"
+        },
+        {
+          "value": "BR",
+          "expanded": "Brazil"
+        },
+        {
+          "value": "BS",
+          "expanded": "Bahamas"
+        },
+        {
+          "value": "BT",
+          "expanded": "Bhutan"
+        },
+        {
+          "value": "BV",
+          "expanded": "Bouvet Island"
+        },
+        {
+          "value": "BW",
+          "expanded": "Botswana"
+        },
+        {
+          "value": "BY",
+          "expanded": "Belarus"
+        },
+        {
+          "value": "BZ",
+          "expanded": "Belize"
+        },
+        {
+          "value": "CA",
+          "expanded": "Canada"
+        },
+        {
+          "value": "CC",
+          "expanded": "Cocos (Keeling) Islands"
+        },
+        {
+          "value": "CD",
+          "expanded": "Congo, Democratic Republic of the"
+        },
+        {
+          "value": "CF",
+          "expanded": "Central African Republic"
+        },
+        {
+          "value": "CG",
+          "expanded": "Congo"
+        },
+        {
+          "value": "CH",
+          "expanded": "Switzerland"
+        },
+        {
+          "value": "CI",
+          "expanded": "Cote d'Ivoire"
+        },
+        {
+          "value": "CK",
+          "expanded": "Cook Islands"
+        },
+        {
+          "value": "CL",
+          "expanded": "Chile"
+        },
+        {
+          "value": "CM",
+          "expanded": "Cameroon"
+        },
+        {
+          "value": "CN",
+          "expanded": "China"
+        },
+        {
+          "value": "CO",
+          "expanded": "Colombia"
+        },
+        {
+          "value": "CR",
+          "expanded": "Costa Rica"
+        },
+        {
+          "value": "CU",
+          "expanded": "Cuba"
+        },
+        {
+          "value": "CV",
+          "expanded": "Cape Verde"
+        },
+        {
+          "value": "CW",
+          "expanded": "Curacao"
+        },
+        {
+          "value": "CX",
+          "expanded": "Christmas Island"
+        },
+        {
+          "value": "CY",
+          "expanded": "Cyprus"
+        },
+        {
+          "value": "CZ",
+          "expanded": "Czech Republic"
+        },
+        {
+          "value": "DE",
+          "expanded": "Germany"
+        },
+        {
+          "value": "DJ",
+          "expanded": "Djibouti"
+        },
+        {
+          "value": "DK",
+          "expanded": "Denmark"
+        },
+        {
+          "value": "DM",
+          "expanded": "Dominica"
+        },
+        {
+          "value": "DO",
+          "expanded": "Dominican Republic"
+        },
+        {
+          "value": "DZ",
+          "expanded": "Algeria"
+        },
+        {
+          "value": "EC",
+          "expanded": "Ecuador"
+        },
+        {
+          "value": "EE",
+          "expanded": "Estonia"
+        },
+        {
+          "value": "EG",
+          "expanded": "Egypt"
+        },
+        {
+          "value": "EH",
+          "expanded": "Western Sahara"
+        },
+        {
+          "value": "ER",
+          "expanded": "Eritrea"
+        },
+        {
+          "value": "ES",
+          "expanded": "Spain"
+        },
+        {
+          "value": "ET",
+          "expanded": "Ethiopia"
+        },
+        {
+          "value": "FI",
+          "expanded": "Finland"
+        },
+        {
+          "value": "FJ",
+          "expanded": "Fiji"
+        },
+        {
+          "value": "FK",
+          "expanded": "Faeroe Islands"
+        },
+        {
+          "value": "FM",
+          "expanded": "Micronesia (Federated States of)"
+        },
+        {
+          "value": "FO",
+          "expanded": "Falkland Islands (Malvinas)"
+        },
+        {
+          "value": "FR",
+          "expanded": "France"
+        },
+        {
+          "value": "GA",
+          "expanded": "Gabon"
+        },
+        {
+          "value": "GB",
+          "expanded": "United Kingdom"
+        },
+        {
+          "value": "GD",
+          "expanded": "Grenada"
+        },
+        {
+          "value": "GE",
+          "expanded": "Georgia"
+        },
+        {
+          "value": "GF",
+          "expanded": "French Guiana"
+        },
+        {
+          "value": "GG",
+          "expanded": "Guernsey"
+        },
+        {
+          "value": "GH",
+          "expanded": "Ghana"
+        },
+        {
+          "value": "GI",
+          "expanded": "Gibraltar"
+        },
+        {
+          "value": "GL",
+          "expanded": "Greenland"
+        },
+        {
+          "value": "GM",
+          "expanded": "Gambia"
+        },
+        {
+          "value": "GN",
+          "expanded": "Guinea"
+        },
+        {
+          "value": "GP",
+          "expanded": "Guadeloupe"
+        },
+        {
+          "value": "GQ",
+          "expanded": "Equatorial Guinea"
+        },
+        {
+          "value": "GR",
+          "expanded": "Greece"
+        },
+        {
+          "value": "GS",
+          "expanded": "South Georgia and the South Sandwich Islands"
+        },
+        {
+          "value": "GT",
+          "expanded": "Guatemala"
+        },
+        {
+          "value": "GU",
+          "expanded": "Guam"
+        },
+        {
+          "value": "GW",
+          "expanded": "Guinea-Bissau"
+        },
+        {
+          "value": "GY",
+          "expanded": "Guyana"
+        },
+        {
+          "value": "HK",
+          "expanded": "Hong Kong"
+        },
+        {
+          "value": "HM",
+          "expanded": "Heard Island and McDonal Islands"
+        },
+        {
+          "value": "HN",
+          "expanded": "Honduras"
+        },
+        {
+          "value": "HR",
+          "expanded": "Croatia"
+        },
+        {
+          "value": "HT",
+          "expanded": "Haiti"
+        },
+        {
+          "value": "HU",
+          "expanded": "Hungary"
+        },
+        {
+          "value": "ID",
+          "expanded": "Indonesia"
+        },
+        {
+          "value": "IE",
+          "expanded": "Ireland"
+        },
+        {
+          "value": "IL",
+          "expanded": "Israel"
+        },
+        {
+          "value": "IM",
+          "expanded": "Isle of Man"
+        },
+        {
+          "value": "IN",
+          "expanded": "India"
+        },
+        {
+          "value": "IO",
+          "expanded": "British Virgin Islands"
+        },
+        {
+          "value": "IQ",
+          "expanded": "Iraq"
+        },
+        {
+          "value": "IR",
+          "expanded": "Iran (Islamic Republic of)"
+        },
+        {
+          "value": "IS",
+          "expanded": "Iceland"
+        },
+        {
+          "value": "IT",
+          "expanded": "Italy"
+        },
+        {
+          "value": "JE",
+          "expanded": "Jersey"
+        },
+        {
+          "value": "JM",
+          "expanded": "Jamaica"
+        },
+        {
+          "value": "JO",
+          "expanded": "Jordan"
+        },
+        {
+          "value": "JP",
+          "expanded": "Japan"
+        },
+        {
+          "value": "KE",
+          "expanded": "Kenya"
+        },
+        {
+          "value": "KG",
+          "expanded": "Kyrgyzstan"
+        },
+        {
+          "value": "KH",
+          "expanded": "Cambodia"
+        },
+        {
+          "value": "KI",
+          "expanded": "Kiribati"
+        },
+        {
+          "value": "KM",
+          "expanded": "Comoros"
+        },
+        {
+          "value": "KN",
+          "expanded": "Saint Kitts and Nevis"
+        },
+        {
+          "value": "KP",
+          "expanded": "Korea, Democratic People's Republic of"
+        },
+        {
+          "value": "KR",
+          "expanded": "Korea, Republic of"
+        },
+        {
+          "value": "KW",
+          "expanded": "Kuwait"
+        },
+        {
+          "value": "KY",
+          "expanded": "Cayman Islands"
+        },
+        {
+          "value": "KZ",
+          "expanded": "Kazakhstan"
+        },
+        {
+          "value": "LA",
+          "expanded": "Lao People's Democratic Republic"
+        },
+        {
+          "value": "LB",
+          "expanded": "Lebanon"
+        },
+        {
+          "value": "LC",
+          "expanded": "Saint Lucia"
+        },
+        {
+          "value": "LI",
+          "expanded": "Liechtenstein"
+        },
+        {
+          "value": "LK",
+          "expanded": "Sri Lanka"
+        },
+        {
+          "value": "LR",
+          "expanded": "Liberia"
+        },
+        {
+          "value": "LS",
+          "expanded": "Lesotho"
+        },
+        {
+          "value": "LT",
+          "expanded": "Lithuania"
+        },
+        {
+          "value": "LU",
+          "expanded": "Luxembourg"
+        },
+        {
+          "value": "LV",
+          "expanded": "Latvia"
+        },
+        {
+          "value": "LY",
+          "expanded": "Libya"
+        },
+        {
+          "value": "MA",
+          "expanded": "Morocco"
+        },
+        {
+          "value": "MC",
+          "expanded": "Monaco"
+        },
+        {
+          "value": "MD",
+          "expanded": "Moldova, Republic of"
+        },
+        {
+          "value": "ME",
+          "expanded": "Montenegro"
+        },
+        {
+          "value": "MF",
+          "expanded": "Saint Martin (French part)"
+        },
+        {
+          "value": "MG",
+          "expanded": "Madagascar"
+        },
+        {
+          "value": "MH",
+          "expanded": "Marshall Islands"
+        },
+        {
+          "value": "MK",
+          "expanded": "Macedonia, The former Yugoslav Republic of"
+        },
+        {
+          "value": "ML",
+          "expanded": "Mali"
+        },
+        {
+          "value": "MM",
+          "expanded": "Myanmar"
+        },
+        {
+          "value": "MN",
+          "expanded": "Mongolia"
+        },
+        {
+          "value": "MO",
+          "expanded": "Macao"
+        },
+        {
+          "value": "MP",
+          "expanded": "Northern Mariana Islands"
+        },
+        {
+          "value": "MQ",
+          "expanded": "Martinique"
+        },
+        {
+          "value": "MR",
+          "expanded": "Mauritania"
+        },
+        {
+          "value": "MS",
+          "expanded": "Montserrat"
+        },
+        {
+          "value": "MT",
+          "expanded": "Malta"
+        },
+        {
+          "value": "MU",
+          "expanded": "Mauritius"
+        },
+        {
+          "value": "MV",
+          "expanded": "Maldives"
+        },
+        {
+          "value": "MW",
+          "expanded": "Malawi"
+        },
+        {
+          "value": "MX",
+          "expanded": "Mexico"
+        },
+        {
+          "value": "MY",
+          "expanded": "Malaysia"
+        },
+        {
+          "value": "MZ",
+          "expanded": "Mozambique"
+        },
+        {
+          "value": "NA",
+          "expanded": "Namibia"
+        },
+        {
+          "value": "NC",
+          "expanded": "New Caledonia"
+        },
+        {
+          "value": "NE",
+          "expanded": "Niger"
+        },
+        {
+          "value": "NF",
+          "expanded": "Norfolk Island"
+        },
+        {
+          "value": "NG",
+          "expanded": "Nigeria"
+        },
+        {
+          "value": "NI",
+          "expanded": "Nicaragua"
+        },
+        {
+          "value": "NL",
+          "expanded": "Netherlands"
+        },
+        {
+          "value": "NO",
+          "expanded": "Norway"
+        },
+        {
+          "value": "NP",
+          "expanded": "Nepal"
+        },
+        {
+          "value": "NR",
+          "expanded": "Nauru"
+        },
+        {
+          "value": "NU",
+          "expanded": "Niue"
+        },
+        {
+          "value": "NZ",
+          "expanded": "New Zealand"
+        },
+        {
+          "value": "OM",
+          "expanded": "Oman"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "PA",
+          "expanded": "Panama"
+        },
+        {
+          "value": "PE",
+          "expanded": "Peru"
+        },
+        {
+          "value": "PF",
+          "expanded": "French Polynesia"
+        },
+        {
+          "value": "PG",
+          "expanded": "Papua New Guinea"
+        },
+        {
+          "value": "PH",
+          "expanded": "Philippines"
+        },
+        {
+          "value": "PK",
+          "expanded": "Pakistan"
+        },
+        {
+          "value": "PL",
+          "expanded": "Poland"
+        },
+        {
+          "value": "PM",
+          "expanded": "Saint Pierre and Miquelon"
+        },
+        {
+          "value": "PN",
+          "expanded": "Pitcairn"
+        },
+        {
+          "value": "PR",
+          "expanded": "Puerto Rico"
+        },
+        {
+          "value": "PS",
+          "expanded": "Palestinian Territory, Occupied"
+        },
+        {
+          "value": "PT",
+          "expanded": "Portugal"
+        },
+        {
+          "value": "PW",
+          "expanded": "Palau"
+        },
+        {
+          "value": "PY",
+          "expanded": "Paraguay"
+        },
+        {
+          "value": "QA",
+          "expanded": "Qatar"
+        },
+        {
+          "value": "RE",
+          "expanded": "Reunion"
+        },
+        {
+          "value": "RO",
+          "expanded": "Romania"
+        },
+        {
+          "value": "RS",
+          "expanded": "Serbia"
+        },
+        {
+          "value": "RU",
+          "expanded": "Russian Federation"
+        },
+        {
+          "value": "RW",
+          "expanded": "Rwanda"
+        },
+        {
+          "value": "SA",
+          "expanded": "Saudi Arabia"
+        },
+        {
+          "value": "SB",
+          "expanded": "Solomon Islands"
+        },
+        {
+          "value": "SC",
+          "expanded": "Seychelles"
+        },
+        {
+          "value": "SD",
+          "expanded": "Sudan"
+        },
+        {
+          "value": "SE",
+          "expanded": "Sweden"
+        },
+        {
+          "value": "SG",
+          "expanded": "Singapore"
+        },
+        {
+          "value": "SH",
+          "expanded": "Saint Helena"
+        },
+        {
+          "value": "SI",
+          "expanded": "Slovenia"
+        },
+        {
+          "value": "SJ",
+          "expanded": "Svalbard and Jan Mayen Islands"
+        },
+        {
+          "value": "SK",
+          "expanded": "Slovakia"
+        },
+        {
+          "value": "SL",
+          "expanded": "Sierra Leone"
+        },
+        {
+          "value": "SM",
+          "expanded": "San Marino"
+        },
+        {
+          "value": "SN",
+          "expanded": "Senegal"
+        },
+        {
+          "value": "SO",
+          "expanded": "Somalia"
+        },
+        {
+          "value": "SR",
+          "expanded": "Suriname"
+        },
+        {
+          "value": "SS",
+          "expanded": "South Sudan"
+        },
+        {
+          "value": "ST",
+          "expanded": "Sao Tome and Principe"
+        },
+        {
+          "value": "SV",
+          "expanded": "El Salvador"
+        },
+        {
+          "value": "SX",
+          "expanded": "Sint Maarten (Dutch part)"
+        },
+        {
+          "value": "SY",
+          "expanded": "Syrian Arab Republic"
+        },
+        {
+          "value": "SZ",
+          "expanded": "Swaziland"
+        },
+        {
+          "value": "TC",
+          "expanded": "Turks and Caicos Islands"
+        },
+        {
+          "value": "TD",
+          "expanded": "Chad"
+        },
+        {
+          "value": "TF",
+          "expanded": "French Southern Territories"
+        },
+        {
+          "value": "TG",
+          "expanded": "Togo"
+        },
+        {
+          "value": "TH",
+          "expanded": "Thailand"
+        },
+        {
+          "value": "TJ",
+          "expanded": "Tajikistan"
+        },
+        {
+          "value": "TK",
+          "expanded": "Tokelau"
+        },
+        {
+          "value": "TL",
+          "expanded": "Timor-Leste"
+        },
+        {
+          "value": "TM",
+          "expanded": "Turkmenistan"
+        },
+        {
+          "value": "TN",
+          "expanded": "Tunisia"
+        },
+        {
+          "value": "TO",
+          "expanded": "Tonga"
+        },
+        {
+          "value": "TR",
+          "expanded": "Turkey"
+        },
+        {
+          "value": "TT",
+          "expanded": "Trinidad and Tobago"
+        },
+        {
+          "value": "TV",
+          "expanded": "Tuvalu"
+        },
+        {
+          "value": "TW",
+          "expanded": "Taiwan, Province of China"
+        },
+        {
+          "value": "TZ",
+          "expanded": "Tanzania, United Republic of"
+        },
+        {
+          "value": "UA",
+          "expanded": "Ukraine"
+        },
+        {
+          "value": "UG",
+          "expanded": "Uganda"
+        },
+        {
+          "value": "UM",
+          "expanded": "United States Minor Outlying Islands"
+        },
+        {
+          "value": "US",
+          "expanded": "United States of America"
+        },
+        {
+          "value": "UY",
+          "expanded": "Uruguay"
+        },
+        {
+          "value": "UZ",
+          "expanded": "Uzbekistan"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "VA",
+          "expanded": "Holy See"
+        },
+        {
+          "value": "VC",
+          "expanded": "Saint Vincent and the Grenadines"
+        },
+        {
+          "value": "VE",
+          "expanded": "Venezuela (Bolivarian Republic of)"
+        },
+        {
+          "value": "VG",
+          "expanded": "British Virgin Islands"
+        },
+        {
+          "value": "VI",
+          "expanded": "United States Virgin Islands"
+        },
+        {
+          "value": "VN",
+          "expanded": "Viet Nam"
+        },
+        {
+          "value": "VU",
+          "expanded": "Vanuatu"
+        },
+        {
+          "value": "WF",
+          "expanded": "Wallis and Futuna Islands"
+        },
+        {
+          "value": "WS",
+          "expanded": "Samoa"
+        },
+        {
+          "value": "YE",
+          "expanded": "Yemen"
+        },
+        {
+          "value": "YT",
+          "expanded": "Mayotte"
+        },
+        {
+          "value": "ZA",
+          "expanded": "South Africa"
+        },
+        {
+          "value": "ZM",
+          "expanded": "Zambia"
+        },
+        {
+          "value": "ZW",
+          "expanded": "Zimbabwe"
+        }
+      ]
+    },
+    {
+      "predicate": "actor:external:motive",
+      "entry": [
+        {
+          "value": "Convenience",
+          "expanded": "Convenience of expediency"
+        },
+        {
+          "value": "Espionage",
+          "expanded": "Espionage or competitive advantage"
+        },
+        {
+          "value": "Fear",
+          "expanded": "Fear or duress"
+        },
+        {
+          "value": "Financial",
+          "expanded": "Financial or personal gain"
+        },
+        {
+          "value": "Fun",
+          "expanded": "Fun, curiosity, or pride"
+        },
+        {
+          "value": "Grudge",
+          "expanded": "Grudge or personal offense"
+        },
+        {
+          "value": "Ideology",
+          "expanded": "Ideology or protest"
+        },
+        {
+          "value": "NA",
+          "expanded": "Not Applicable (unintentional action)"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Secondary",
+          "expanded": "Aid in a different attack"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "actor:external:variety",
+      "entry": [
+        {
+          "value": "Acquaintance",
+          "expanded": "Relative or acquaintance of employee"
+        },
+        {
+          "value": "Activist",
+          "expanded": "Activist group"
+        },
+        {
+          "value": "Auditor",
+          "expanded": "Auditor"
+        },
+        {
+          "value": "Competitor",
+          "expanded": "Competitor"
+        },
+        {
+          "value": "Customer",
+          "expanded": "Customer (B2C)"
+        },
+        {
+          "value": "Force majeure",
+          "expanded": "Force majeure (nature and chance)"
+        },
+        {
+          "value": "Former employee",
+          "expanded": "Former employee (no longer had access)"
+        },
+        {
+          "value": "Nation-state",
+          "expanded": "Nation-state"
+        },
+        {
+          "value": "Organized crime",
+          "expanded": "Organized or professional criminal group"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "State-affiliated",
+          "expanded": "State-sponsored or affiliated group"
+        },
+        {
+          "value": "Terrorist",
+          "expanded": "Terrorist group"
+        },
+        {
+          "value": "Unaffiliated",
+          "expanded": "Unaffiliated person(s)"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "actor:internal:job_change",
+      "entry": [
+        {
+          "value": "Demoted",
+          "expanded": "Recently demoted or hours reduced"
+        },
+        {
+          "value": "Hired",
+          "expanded": "Recently hired"
+        },
+        {
+          "value": "Job eval",
+          "expanded": "Recent poor job evaluation"
+        },
+        {
+          "value": "Lateral move",
+          "expanded": "Lateral move"
+        },
+        {
+          "value": "Let go",
+          "expanded": "Fired, laid off, or let go"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Passed over",
+          "expanded": "Recently passed over for promotion"
+        },
+        {
+          "value": "Personal issues",
+          "expanded": "Personal issues"
+        },
+        {
+          "value": "Promoted",
+          "expanded": "Recently promoted"
+        },
+        {
+          "value": "Reprimanded",
+          "expanded": "Recently reprimanded"
+        },
+        {
+          "value": "Resigned",
+          "expanded": "Preparing to resign or recently resigned"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "actor:internal:motive",
+      "entry": [
+        {
+          "value": "Convenience",
+          "expanded": "Convenience of expediency"
+        },
+        {
+          "value": "Espionage",
+          "expanded": "Espionage or competitive advantage"
+        },
+        {
+          "value": "Fear",
+          "expanded": "Fear or duress"
+        },
+        {
+          "value": "Financial",
+          "expanded": "Financial or personal gain"
+        },
+        {
+          "value": "Fun",
+          "expanded": "Fun, curiosity, or pride"
+        },
+        {
+          "value": "Grudge",
+          "expanded": "Grudge or personal offense"
+        },
+        {
+          "value": "Ideology",
+          "expanded": "Ideology or protest"
+        },
+        {
+          "value": "NA",
+          "expanded": "Not Applicable (unintentional action)"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Secondary",
+          "expanded": "Aid in a different attack"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "actor:internal:variety",
+      "entry": [
+        {
+          "value": "Auditor",
+          "expanded": "Auditor"
+        },
+        {
+          "value": "Call center",
+          "expanded": "Call center staff"
+        },
+        {
+          "value": "Cashier",
+          "expanded": "Cashier, teller, or waiter"
+        },
+        {
+          "value": "Developer",
+          "expanded": "Software developer"
+        },
+        {
+          "value": "Doctor or nurse",
+          "expanded": "A doctor or a nurse"
+        },
+        {
+          "value": "End-user",
+          "expanded": "End-user or regular employee"
+        },
+        {
+          "value": "Executive",
+          "expanded": "Executive or upper management"
+        },
+        {
+          "value": "Finance",
+          "expanded": "Finance or accounting staff"
+        },
+        {
+          "value": "Guard",
+          "expanded": "Security guard"
+        },
+        {
+          "value": "Helpdesk",
+          "expanded": "Helpdesk staff"
+        },
+        {
+          "value": "Human resources",
+          "expanded": "Human resources staff"
+        },
+        {
+          "value": "Maintenance",
+          "expanded": "Maintenance or janitorial staff"
+        },
+        {
+          "value": "Manager",
+          "expanded": "Manager or supervisor"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "System admin",
+          "expanded": "System or network administrator"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "actor:partner:country",
+      "entry": [
+        {
+          "value": "AD",
+          "expanded": "Andorra"
+        },
+        {
+          "value": "AE",
+          "expanded": "United Arab Emirates"
+        },
+        {
+          "value": "AF",
+          "expanded": "Afghanistan"
+        },
+        {
+          "value": "AG",
+          "expanded": "Antigua and Barbuda"
+        },
+        {
+          "value": "AI",
+          "expanded": "Anguilla"
+        },
+        {
+          "value": "AL",
+          "expanded": "Albania"
+        },
+        {
+          "value": "AM",
+          "expanded": "Armenia"
+        },
+        {
+          "value": "AO",
+          "expanded": "Angola"
+        },
+        {
+          "value": "AQ",
+          "expanded": "Antarctica"
+        },
+        {
+          "value": "AR",
+          "expanded": "Argentina"
+        },
+        {
+          "value": "AS",
+          "expanded": "American Samoa"
+        },
+        {
+          "value": "AT",
+          "expanded": "Austria"
+        },
+        {
+          "value": "AU",
+          "expanded": "Australia"
+        },
+        {
+          "value": "AW",
+          "expanded": "Aruba"
+        },
+        {
+          "value": "AX",
+          "expanded": "Aland Islands"
+        },
+        {
+          "value": "AZ",
+          "expanded": "Azerbaijan"
+        },
+        {
+          "value": "BA",
+          "expanded": "Bosnia and Herzegovina"
+        },
+        {
+          "value": "BB",
+          "expanded": "Barbados"
+        },
+        {
+          "value": "BD",
+          "expanded": "Bangladesh"
+        },
+        {
+          "value": "BE",
+          "expanded": "Belgium"
+        },
+        {
+          "value": "BF",
+          "expanded": "Burkina Faso"
+        },
+        {
+          "value": "BG",
+          "expanded": "Bulgaria"
+        },
+        {
+          "value": "BH",
+          "expanded": "Bahrain"
+        },
+        {
+          "value": "BI",
+          "expanded": "Burundi"
+        },
+        {
+          "value": "BJ",
+          "expanded": "Benin"
+        },
+        {
+          "value": "BL",
+          "expanded": "Saint-Barthelemy"
+        },
+        {
+          "value": "BM",
+          "expanded": "Bermuda"
+        },
+        {
+          "value": "BN",
+          "expanded": "Brunei Darussalam"
+        },
+        {
+          "value": "BO",
+          "expanded": "Bolivia"
+        },
+        {
+          "value": "BQ",
+          "expanded": "Bonaire,  Saint Eustatius and Saba"
+        },
+        {
+          "value": "BR",
+          "expanded": "Brazil"
+        },
+        {
+          "value": "BS",
+          "expanded": "Bahamas"
+        },
+        {
+          "value": "BT",
+          "expanded": "Bhutan"
+        },
+        {
+          "value": "BV",
+          "expanded": "Bouvet Island"
+        },
+        {
+          "value": "BW",
+          "expanded": "Botswana"
+        },
+        {
+          "value": "BY",
+          "expanded": "Belarus"
+        },
+        {
+          "value": "BZ",
+          "expanded": "Belize"
+        },
+        {
+          "value": "CA",
+          "expanded": "Canada"
+        },
+        {
+          "value": "CC",
+          "expanded": "Cocos (Keeling) Islands"
+        },
+        {
+          "value": "CD",
+          "expanded": "Congo, Democratic Republic of the"
+        },
+        {
+          "value": "CF",
+          "expanded": "Central African Republic"
+        },
+        {
+          "value": "CG",
+          "expanded": "Congo"
+        },
+        {
+          "value": "CH",
+          "expanded": "Switzerland"
+        },
+        {
+          "value": "CI",
+          "expanded": "Cote d'Ivoire"
+        },
+        {
+          "value": "CK",
+          "expanded": "Cook Islands"
+        },
+        {
+          "value": "CL",
+          "expanded": "Chile"
+        },
+        {
+          "value": "CM",
+          "expanded": "Cameroon"
+        },
+        {
+          "value": "CN",
+          "expanded": "China"
+        },
+        {
+          "value": "CO",
+          "expanded": "Colombia"
+        },
+        {
+          "value": "CR",
+          "expanded": "Costa Rica"
+        },
+        {
+          "value": "CU",
+          "expanded": "Cuba"
+        },
+        {
+          "value": "CV",
+          "expanded": "Cape Verde"
+        },
+        {
+          "value": "CW",
+          "expanded": "Curacao"
+        },
+        {
+          "value": "CX",
+          "expanded": "Christmas Island"
+        },
+        {
+          "value": "CY",
+          "expanded": "Cyprus"
+        },
+        {
+          "value": "CZ",
+          "expanded": "Czech Republic"
+        },
+        {
+          "value": "DE",
+          "expanded": "Germany"
+        },
+        {
+          "value": "DJ",
+          "expanded": "Djibouti"
+        },
+        {
+          "value": "DK",
+          "expanded": "Denmark"
+        },
+        {
+          "value": "DM",
+          "expanded": "Dominica"
+        },
+        {
+          "value": "DO",
+          "expanded": "Dominican Republic"
+        },
+        {
+          "value": "DZ",
+          "expanded": "Algeria"
+        },
+        {
+          "value": "EC",
+          "expanded": "Ecuador"
+        },
+        {
+          "value": "EE",
+          "expanded": "Estonia"
+        },
+        {
+          "value": "EG",
+          "expanded": "Egypt"
+        },
+        {
+          "value": "EH",
+          "expanded": "Western Sahara"
+        },
+        {
+          "value": "ER",
+          "expanded": "Eritrea"
+        },
+        {
+          "value": "ES",
+          "expanded": "Spain"
+        },
+        {
+          "value": "ET",
+          "expanded": "Ethiopia"
+        },
+        {
+          "value": "FI",
+          "expanded": "Finland"
+        },
+        {
+          "value": "FJ",
+          "expanded": "Fiji"
+        },
+        {
+          "value": "FK",
+          "expanded": "Faeroe Islands"
+        },
+        {
+          "value": "FM",
+          "expanded": "Micronesia (Federated States of)"
+        },
+        {
+          "value": "FO",
+          "expanded": "Falkland Islands (Malvinas)"
+        },
+        {
+          "value": "FR",
+          "expanded": "France"
+        },
+        {
+          "value": "GA",
+          "expanded": "Gabon"
+        },
+        {
+          "value": "GB",
+          "expanded": "United Kingdom"
+        },
+        {
+          "value": "GD",
+          "expanded": "Grenada"
+        },
+        {
+          "value": "GE",
+          "expanded": "Georgia"
+        },
+        {
+          "value": "GF",
+          "expanded": "French Guiana"
+        },
+        {
+          "value": "GG",
+          "expanded": "Guernsey"
+        },
+        {
+          "value": "GH",
+          "expanded": "Ghana"
+        },
+        {
+          "value": "GI",
+          "expanded": "Gibraltar"
+        },
+        {
+          "value": "GL",
+          "expanded": "Greenland"
+        },
+        {
+          "value": "GM",
+          "expanded": "Gambia"
+        },
+        {
+          "value": "GN",
+          "expanded": "Guinea"
+        },
+        {
+          "value": "GP",
+          "expanded": "Guadeloupe"
+        },
+        {
+          "value": "GQ",
+          "expanded": "Equatorial Guinea"
+        },
+        {
+          "value": "GR",
+          "expanded": "Greece"
+        },
+        {
+          "value": "GS",
+          "expanded": "South Georgia and the South Sandwich Islands"
+        },
+        {
+          "value": "GT",
+          "expanded": "Guatemala"
+        },
+        {
+          "value": "GU",
+          "expanded": "Guam"
+        },
+        {
+          "value": "GW",
+          "expanded": "Guinea-Bissau"
+        },
+        {
+          "value": "GY",
+          "expanded": "Guyana"
+        },
+        {
+          "value": "HK",
+          "expanded": "Hong Kong"
+        },
+        {
+          "value": "HM",
+          "expanded": "Heard Island and McDonal Islands"
+        },
+        {
+          "value": "HN",
+          "expanded": "Honduras"
+        },
+        {
+          "value": "HR",
+          "expanded": "Croatia"
+        },
+        {
+          "value": "HT",
+          "expanded": "Haiti"
+        },
+        {
+          "value": "HU",
+          "expanded": "Hungary"
+        },
+        {
+          "value": "ID",
+          "expanded": "Indonesia"
+        },
+        {
+          "value": "IE",
+          "expanded": "Ireland"
+        },
+        {
+          "value": "IL",
+          "expanded": "Israel"
+        },
+        {
+          "value": "IM",
+          "expanded": "Isle of Man"
+        },
+        {
+          "value": "IN",
+          "expanded": "India"
+        },
+        {
+          "value": "IO",
+          "expanded": "British Virgin Islands"
+        },
+        {
+          "value": "IQ",
+          "expanded": "Iraq"
+        },
+        {
+          "value": "IR",
+          "expanded": "Iran (Islamic Republic of)"
+        },
+        {
+          "value": "IS",
+          "expanded": "Iceland"
+        },
+        {
+          "value": "IT",
+          "expanded": "Italy"
+        },
+        {
+          "value": "JE",
+          "expanded": "Jersey"
+        },
+        {
+          "value": "JM",
+          "expanded": "Jamaica"
+        },
+        {
+          "value": "JO",
+          "expanded": "Jordan"
+        },
+        {
+          "value": "JP",
+          "expanded": "Japan"
+        },
+        {
+          "value": "KE",
+          "expanded": "Kenya"
+        },
+        {
+          "value": "KG",
+          "expanded": "Kyrgyzstan"
+        },
+        {
+          "value": "KH",
+          "expanded": "Cambodia"
+        },
+        {
+          "value": "KI",
+          "expanded": "Kiribati"
+        },
+        {
+          "value": "KM",
+          "expanded": "Comoros"
+        },
+        {
+          "value": "KN",
+          "expanded": "Saint Kitts and Nevis"
+        },
+        {
+          "value": "KP",
+          "expanded": "Korea, Democratic People's Republic of"
+        },
+        {
+          "value": "KR",
+          "expanded": "Korea, Republic of"
+        },
+        {
+          "value": "KW",
+          "expanded": "Kuwait"
+        },
+        {
+          "value": "KY",
+          "expanded": "Cayman Islands"
+        },
+        {
+          "value": "KZ",
+          "expanded": "Kazakhstan"
+        },
+        {
+          "value": "LA",
+          "expanded": "Lao People's Democratic Republic"
+        },
+        {
+          "value": "LB",
+          "expanded": "Lebanon"
+        },
+        {
+          "value": "LC",
+          "expanded": "Saint Lucia"
+        },
+        {
+          "value": "LI",
+          "expanded": "Liechtenstein"
+        },
+        {
+          "value": "LK",
+          "expanded": "Sri Lanka"
+        },
+        {
+          "value": "LR",
+          "expanded": "Liberia"
+        },
+        {
+          "value": "LS",
+          "expanded": "Lesotho"
+        },
+        {
+          "value": "LT",
+          "expanded": "Lithuania"
+        },
+        {
+          "value": "LU",
+          "expanded": "Luxembourg"
+        },
+        {
+          "value": "LV",
+          "expanded": "Latvia"
+        },
+        {
+          "value": "LY",
+          "expanded": "Libya"
+        },
+        {
+          "value": "MA",
+          "expanded": "Morocco"
+        },
+        {
+          "value": "MC",
+          "expanded": "Monaco"
+        },
+        {
+          "value": "MD",
+          "expanded": "Moldova, Republic of"
+        },
+        {
+          "value": "ME",
+          "expanded": "Montenegro"
+        },
+        {
+          "value": "MF",
+          "expanded": "Saint Martin (French part)"
+        },
+        {
+          "value": "MG",
+          "expanded": "Madagascar"
+        },
+        {
+          "value": "MH",
+          "expanded": "Marshall Islands"
+        },
+        {
+          "value": "MK",
+          "expanded": "Macedonia, The former Yugoslav Republic of"
+        },
+        {
+          "value": "ML",
+          "expanded": "Mali"
+        },
+        {
+          "value": "MM",
+          "expanded": "Myanmar"
+        },
+        {
+          "value": "MN",
+          "expanded": "Mongolia"
+        },
+        {
+          "value": "MO",
+          "expanded": "Macao"
+        },
+        {
+          "value": "MP",
+          "expanded": "Northern Mariana Islands"
+        },
+        {
+          "value": "MQ",
+          "expanded": "Martinique"
+        },
+        {
+          "value": "MR",
+          "expanded": "Mauritania"
+        },
+        {
+          "value": "MS",
+          "expanded": "Montserrat"
+        },
+        {
+          "value": "MT",
+          "expanded": "Malta"
+        },
+        {
+          "value": "MU",
+          "expanded": "Mauritius"
+        },
+        {
+          "value": "MV",
+          "expanded": "Maldives"
+        },
+        {
+          "value": "MW",
+          "expanded": "Malawi"
+        },
+        {
+          "value": "MX",
+          "expanded": "Mexico"
+        },
+        {
+          "value": "MY",
+          "expanded": "Malaysia"
+        },
+        {
+          "value": "MZ",
+          "expanded": "Mozambique"
+        },
+        {
+          "value": "NA",
+          "expanded": "Namibia"
+        },
+        {
+          "value": "NC",
+          "expanded": "New Caledonia"
+        },
+        {
+          "value": "NE",
+          "expanded": "Niger"
+        },
+        {
+          "value": "NF",
+          "expanded": "Norfolk Island"
+        },
+        {
+          "value": "NG",
+          "expanded": "Nigeria"
+        },
+        {
+          "value": "NI",
+          "expanded": "Nicaragua"
+        },
+        {
+          "value": "NL",
+          "expanded": "Netherlands"
+        },
+        {
+          "value": "NO",
+          "expanded": "Norway"
+        },
+        {
+          "value": "NP",
+          "expanded": "Nepal"
+        },
+        {
+          "value": "NR",
+          "expanded": "Nauru"
+        },
+        {
+          "value": "NU",
+          "expanded": "Niue"
+        },
+        {
+          "value": "NZ",
+          "expanded": "New Zealand"
+        },
+        {
+          "value": "OM",
+          "expanded": "Oman"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "PA",
+          "expanded": "Panama"
+        },
+        {
+          "value": "PE",
+          "expanded": "Peru"
+        },
+        {
+          "value": "PF",
+          "expanded": "French Polynesia"
+        },
+        {
+          "value": "PG",
+          "expanded": "Papua New Guinea"
+        },
+        {
+          "value": "PH",
+          "expanded": "Philippines"
+        },
+        {
+          "value": "PK",
+          "expanded": "Pakistan"
+        },
+        {
+          "value": "PL",
+          "expanded": "Poland"
+        },
+        {
+          "value": "PM",
+          "expanded": "Saint Pierre and Miquelon"
+        },
+        {
+          "value": "PN",
+          "expanded": "Pitcairn"
+        },
+        {
+          "value": "PR",
+          "expanded": "Puerto Rico"
+        },
+        {
+          "value": "PS",
+          "expanded": "Palestinian Territory, Occupied"
+        },
+        {
+          "value": "PT",
+          "expanded": "Portugal"
+        },
+        {
+          "value": "PW",
+          "expanded": "Palau"
+        },
+        {
+          "value": "PY",
+          "expanded": "Paraguay"
+        },
+        {
+          "value": "QA",
+          "expanded": "Qatar"
+        },
+        {
+          "value": "RE",
+          "expanded": "Reunion"
+        },
+        {
+          "value": "RO",
+          "expanded": "Romania"
+        },
+        {
+          "value": "RS",
+          "expanded": "Serbia"
+        },
+        {
+          "value": "RU",
+          "expanded": "Russian Federation"
+        },
+        {
+          "value": "RW",
+          "expanded": "Rwanda"
+        },
+        {
+          "value": "SA",
+          "expanded": "Saudi Arabia"
+        },
+        {
+          "value": "SB",
+          "expanded": "Solomon Islands"
+        },
+        {
+          "value": "SC",
+          "expanded": "Seychelles"
+        },
+        {
+          "value": "SD",
+          "expanded": "Sudan"
+        },
+        {
+          "value": "SE",
+          "expanded": "Sweden"
+        },
+        {
+          "value": "SG",
+          "expanded": "Singapore"
+        },
+        {
+          "value": "SH",
+          "expanded": "Saint Helena"
+        },
+        {
+          "value": "SI",
+          "expanded": "Slovenia"
+        },
+        {
+          "value": "SJ",
+          "expanded": "Svalbard and Jan Mayen Islands"
+        },
+        {
+          "value": "SK",
+          "expanded": "Slovakia"
+        },
+        {
+          "value": "SL",
+          "expanded": "Sierra Leone"
+        },
+        {
+          "value": "SM",
+          "expanded": "San Marino"
+        },
+        {
+          "value": "SN",
+          "expanded": "Senegal"
+        },
+        {
+          "value": "SO",
+          "expanded": "Somalia"
+        },
+        {
+          "value": "SR",
+          "expanded": "Suriname"
+        },
+        {
+          "value": "SS",
+          "expanded": "South Sudan"
+        },
+        {
+          "value": "ST",
+          "expanded": "Sao Tome and Principe"
+        },
+        {
+          "value": "SV",
+          "expanded": "El Salvador"
+        },
+        {
+          "value": "SX",
+          "expanded": "Sint Maarten (Dutch part)"
+        },
+        {
+          "value": "SY",
+          "expanded": "Syrian Arab Republic"
+        },
+        {
+          "value": "SZ",
+          "expanded": "Swaziland"
+        },
+        {
+          "value": "TC",
+          "expanded": "Turks and Caicos Islands"
+        },
+        {
+          "value": "TD",
+          "expanded": "Chad"
+        },
+        {
+          "value": "TF",
+          "expanded": "French Southern Territories"
+        },
+        {
+          "value": "TG",
+          "expanded": "Togo"
+        },
+        {
+          "value": "TH",
+          "expanded": "Thailand"
+        },
+        {
+          "value": "TJ",
+          "expanded": "Tajikistan"
+        },
+        {
+          "value": "TK",
+          "expanded": "Tokelau"
+        },
+        {
+          "value": "TL",
+          "expanded": "Timor-Leste"
+        },
+        {
+          "value": "TM",
+          "expanded": "Turkmenistan"
+        },
+        {
+          "value": "TN",
+          "expanded": "Tunisia"
+        },
+        {
+          "value": "TO",
+          "expanded": "Tonga"
+        },
+        {
+          "value": "TR",
+          "expanded": "Turkey"
+        },
+        {
+          "value": "TT",
+          "expanded": "Trinidad and Tobago"
+        },
+        {
+          "value": "TV",
+          "expanded": "Tuvalu"
+        },
+        {
+          "value": "TW",
+          "expanded": "Taiwan, Province of China"
+        },
+        {
+          "value": "TZ",
+          "expanded": "Tanzania, United Republic of"
+        },
+        {
+          "value": "UA",
+          "expanded": "Ukraine"
+        },
+        {
+          "value": "UG",
+          "expanded": "Uganda"
+        },
+        {
+          "value": "UM",
+          "expanded": "United States Minor Outlying Islands"
+        },
+        {
+          "value": "US",
+          "expanded": "United States of America"
+        },
+        {
+          "value": "UY",
+          "expanded": "Uruguay"
+        },
+        {
+          "value": "UZ",
+          "expanded": "Uzbekistan"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "VA",
+          "expanded": "Holy See"
+        },
+        {
+          "value": "VC",
+          "expanded": "Saint Vincent and the Grenadines"
+        },
+        {
+          "value": "VE",
+          "expanded": "Venezuela (Bolivarian Republic of)"
+        },
+        {
+          "value": "VG",
+          "expanded": "British Virgin Islands"
+        },
+        {
+          "value": "VI",
+          "expanded": "United States Virgin Islands"
+        },
+        {
+          "value": "VN",
+          "expanded": "Viet Nam"
+        },
+        {
+          "value": "VU",
+          "expanded": "Vanuatu"
+        },
+        {
+          "value": "WF",
+          "expanded": "Wallis and Futuna Islands"
+        },
+        {
+          "value": "WS",
+          "expanded": "Samoa"
+        },
+        {
+          "value": "YE",
+          "expanded": "Yemen"
+        },
+        {
+          "value": "YT",
+          "expanded": "Mayotte"
+        },
+        {
+          "value": "ZA",
+          "expanded": "South Africa"
+        },
+        {
+          "value": "ZM",
+          "expanded": "Zambia"
+        },
+        {
+          "value": "ZW",
+          "expanded": "Zimbabwe"
+        }
+      ]
+    },
+    {
+      "predicate": "actor:partner:motive",
+      "entry": [
+        {
+          "value": "Convenience",
+          "expanded": "Convenience of expediency"
+        },
+        {
+          "value": "Espionage",
+          "expanded": "Espionage or competitive advantage"
+        },
+        {
+          "value": "Fear",
+          "expanded": "Fear or duress"
+        },
+        {
+          "value": "Financial",
+          "expanded": "Financial or personal gain"
+        },
+        {
+          "value": "Fun",
+          "expanded": "Fun, curiosity, or pride"
+        },
+        {
+          "value": "Grudge",
+          "expanded": "Grudge or personal offense"
+        },
+        {
+          "value": "Ideology",
+          "expanded": "Ideology or protest"
+        },
+        {
+          "value": "NA",
+          "expanded": "Not Applicable (unintentional action)"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Secondary",
+          "expanded": "Aid in a different attack"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "asset:assets:variety",
+      "entry": [
+        {
+          "value": "E - Other",
+          "expanded": "Embedded -  Variety known but not listed"
+        },
+        {
+          "value": "E - Telematics",
+          "expanded": "Embedded - A dedicated device that affects the real world"
+        },
+        {
+          "value": "E - Telemetry",
+          "expanded": "Embedded - A dedicated device that collects data about the physical world"
+        },
+        {
+          "value": "E - Unknown",
+          "expanded": "Embedded -  Variety not known"
+        },
+        {
+          "value": "M - Disk drive",
+          "expanded": "Media - Hard disk drive"
+        },
+        {
+          "value": "M - Disk media",
+          "expanded": "Media - Disk media (e.g., CDs, DVDs)"
+        },
+        {
+          "value": "M - Documents",
+          "expanded": "Media - Documents"
+        },
+        {
+          "value": "M - Fax",
+          "expanded": "Media - The output of a fax machine"
+        },
+        {
+          "value": "M - Flash drive",
+          "expanded": "Media - Flash drive or card"
+        },
+        {
+          "value": "M - Other",
+          "expanded": "Media - Variety known but not listed"
+        },
+        {
+          "value": "M - Payment card",
+          "expanded": "Media - Payment card (e.g., magstripe, EMV)"
+        },
+        {
+          "value": "M - Smart card",
+          "expanded": "Media - Identity smart card"
+        },
+        {
+          "value": "M - Tapes",
+          "expanded": "Media - Backup tapes"
+        },
+        {
+          "value": "M - Unknown",
+          "expanded": "Media - Variety not known"
+        },
+        {
+          "value": "N - Access reader",
+          "expanded": "Network - Access control reader (e.g., badge, biometric)"
+        },
+        {
+          "value": "N - Broadband",
+          "expanded": "Network - Mobile broadband network"
+        },
+        {
+          "value": "N - Camera",
+          "expanded": "Network - Camera or surveillance system"
+        },
+        {
+          "value": "N - Firewall",
+          "expanded": "Network - Firewall"
+        },
+        {
+          "value": "N - HSM",
+          "expanded": "Network - Hardware security module (HSM)"
+        },
+        {
+          "value": "N - IDS",
+          "expanded": "Network - IDS or IPs"
+        },
+        {
+          "value": "N - LAN",
+          "expanded": "Network - Wired LAN"
+        },
+        {
+          "value": "N - NAS",
+          "expanded": "Network - Network area storage (NAS)"
+        },
+        {
+          "value": "N - Other",
+          "expanded": "Network - Variety known but not listed"
+        },
+        {
+          "value": "N - PBX",
+          "expanded": "Network - Private branch exchange (PBX)"
+        },
+        {
+          "value": "N - PLC",
+          "expanded": "Network - Programmable logic controller (PLC)"
+        },
+        {
+          "value": "N - Private WAN",
+          "expanded": "Network - Private WAN"
+        },
+        {
+          "value": "N - Public WAN",
+          "expanded": "Network - Public WAN"
+        },
+        {
+          "value": "N - RTU",
+          "expanded": "Network - Remote terminal unit (RTU)"
+        },
+        {
+          "value": "N - Router or switch",
+          "expanded": "Network - Router or switch"
+        },
+        {
+          "value": "N - SAN",
+          "expanded": "Network - Storage area network (SAN)"
+        },
+        {
+          "value": "N - Telephone",
+          "expanded": "Network - Telephone"
+        },
+        {
+          "value": "N - Unknown",
+          "expanded": "Network - Variety not known"
+        },
+        {
+          "value": "N - VoIP adapter",
+          "expanded": "Network - VoIP adapter"
+        },
+        {
+          "value": "N - WLAN",
+          "expanded": "Network - Wireless LAN"
+        },
+        {
+          "value": "Other",
+          "expanded": "Asset type known but not User Device, Server, Public Terminal, Server, People, Network, or Media"
+        },
+        {
+          "value": "P - Auditor",
+          "expanded": "People - Auditor"
+        },
+        {
+          "value": "P - Call center",
+          "expanded": "People - Call center"
+        },
+        {
+          "value": "P - Cashier",
+          "expanded": "People - Cashier"
+        },
+        {
+          "value": "P - Customer",
+          "expanded": "People - Customer"
+        },
+        {
+          "value": "P - Developer",
+          "expanded": "People - Developer"
+        },
+        {
+          "value": "P - End-user",
+          "expanded": "People - End-user"
+        },
+        {
+          "value": "P - Executive",
+          "expanded": "People - Executive"
+        },
+        {
+          "value": "P - Finance",
+          "expanded": "People - Finance"
+        },
+        {
+          "value": "P - Former employee",
+          "expanded": "People - Former employee"
+        },
+        {
+          "value": "P - Guard",
+          "expanded": "People - Guard"
+        },
+        {
+          "value": "P - Helpdesk",
+          "expanded": "People - Helpdesk"
+        },
+        {
+          "value": "P - Human resources",
+          "expanded": "People - Human resources"
+        },
+        {
+          "value": "P - Maintenance",
+          "expanded": "People - Maintenance"
+        },
+        {
+          "value": "P - Manager",
+          "expanded": "People - Manager"
+        },
+        {
+          "value": "P - Other",
+          "expanded": "People - Variety known but not listed"
+        },
+        {
+          "value": "P - Partner",
+          "expanded": "People - Partner"
+        },
+        {
+          "value": "P - System admin",
+          "expanded": "People - Administrator"
+        },
+        {
+          "value": "P - Unknown",
+          "expanded": "People - Variety not known"
+        },
+        {
+          "value": "S - Authentication",
+          "expanded": "Server - Authentication"
+        },
+        {
+          "value": "S - Backup",
+          "expanded": "Server - Backup"
+        },
+        {
+          "value": "S - Code repository",
+          "expanded": "Server - Code repository"
+        },
+        {
+          "value": "S - Configuration or patch management",
+          "expanded": "Servers maintaining or deploying configurations or patches to other assets"
+        },
+        {
+          "value": "S - DCS",
+          "expanded": "Server - Distributed control system (DCS)"
+        },
+        {
+          "value": "S - DHCP",
+          "expanded": "Server - DHCP"
+        },
+        {
+          "value": "S - DNS",
+          "expanded": "Server - DNS"
+        },
+        {
+          "value": "S - Database",
+          "expanded": "Server - Database"
+        },
+        {
+          "value": "S - Directory",
+          "expanded": "Server - Directory (LDAP, AD)"
+        },
+        {
+          "value": "S - File",
+          "expanded": "Server - File"
+        },
+        {
+          "value": "S - ICS",
+          "expanded": "Server - Industrial Control System (ICS).  Includes Supervisory Control And Data Acquisition (SCADA) systems."
+        },
+        {
+          "value": "S - Log",
+          "expanded": "Server - Log or event management"
+        },
+        {
+          "value": "S - Mail",
+          "expanded": "Server - Mail"
+        },
+        {
+          "value": "S - Mainframe",
+          "expanded": "Server - Mainframe"
+        },
+        {
+          "value": "S - Other",
+          "expanded": "Server - Variety known but not listed"
+        },
+        {
+          "value": "S - POS controller",
+          "expanded": "Server - POS controller"
+        },
+        {
+          "value": "S - Payment switch",
+          "expanded": "Server - Payment switch or gateway"
+        },
+        {
+          "value": "S - Print",
+          "expanded": "Server - Print"
+        },
+        {
+          "value": "S - Proxy",
+          "expanded": "Server - Proxy"
+        },
+        {
+          "value": "S - Remote access",
+          "expanded": "Server - Remote access"
+        },
+        {
+          "value": "S - Unknown",
+          "expanded": "Server - Variety not known"
+        },
+        {
+          "value": "S - VM host",
+          "expanded": "Server - Virtual Host"
+        },
+        {
+          "value": "S - Web application",
+          "expanded": "Server - Web application"
+        },
+        {
+          "value": "T - ATM",
+          "expanded": "Public Terminal - Automated Teller Machine (ATM)"
+        },
+        {
+          "value": "T - Gas terminal",
+          "expanded": "Public Terminal - Gas \"pay-at-the-pump\" terminal"
+        },
+        {
+          "value": "T - Kiosk",
+          "expanded": "Public Terminal - Self-service kiosk"
+        },
+        {
+          "value": "T - Other",
+          "expanded": "Public Terminal - Variety known but not listed"
+        },
+        {
+          "value": "T - PED pad",
+          "expanded": "Public Terminal - Detached PIN pad or card reader"
+        },
+        {
+          "value": "T - Unknown",
+          "expanded": "Public Terminal - Variety not known"
+        },
+        {
+          "value": "U - Auth token",
+          "expanded": "User Device - Authentication token or device"
+        },
+        {
+          "value": "U - Desktop",
+          "expanded": "User Device - Desktop or workstation"
+        },
+        {
+          "value": "U - Laptop",
+          "expanded": "User Device - Laptop"
+        },
+        {
+          "value": "U - Media",
+          "expanded": "User Device - Media player or recorder"
+        },
+        {
+          "value": "U - Mobile phone",
+          "expanded": "User Device - Mobile phone or smartphone"
+        },
+        {
+          "value": "U - Other",
+          "expanded": "User Device - Variety known but not listed"
+        },
+        {
+          "value": "U - POS terminal",
+          "expanded": "User Device - POS terminal"
+        },
+        {
+          "value": "U - Peripheral",
+          "expanded": "User Device - Peripheral (e.g., printer, copier, fax)"
+        },
+        {
+          "value": "U - Tablet",
+          "expanded": "User Device - Tablet"
+        },
+        {
+          "value": "U - Telephone",
+          "expanded": "User Device - Telephone"
+        },
+        {
+          "value": "U - Unknown",
+          "expanded": "User Device - Variety not known"
+        },
+        {
+          "value": "U - VoIP phone",
+          "expanded": "User Device - VoIP phone"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown type of asset"
+        }
+      ]
+    },
+    {
+      "predicate": "attribute:availability:variety",
+      "entry": [
+        {
+          "value": "Acceleration",
+          "expanded": "Acceleration"
+        },
+        {
+          "value": "Degradation",
+          "expanded": "Performance degradation"
+        },
+        {
+          "value": "Destruction",
+          "expanded": "Destruction"
+        },
+        {
+          "value": "Interruption",
+          "expanded": "Interruption"
+        },
+        {
+          "value": "Loss",
+          "expanded": "Loss"
+        },
+        {
+          "value": "Obscuration",
+          "expanded": "Conversion or obscuration"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "attribute:confidentiality:data_disclosure",
+      "entry": [
+        {
+          "value": "No",
+          "expanded": "No"
+        },
+        {
+          "value": "Potentially",
+          "expanded": "Potentially (at risk)"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "Yes",
+          "expanded": "Yes (confirmed)"
+        }
+      ]
+    },
+    {
+      "predicate": "attribute:confidentiality:data_victim",
+      "entry": [
+        {
+          "value": "Customer",
+          "expanded": "Customer"
+        },
+        {
+          "value": "Employee",
+          "expanded": "Employee"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Partner",
+          "expanded": "Partner"
+        },
+        {
+          "value": "Patient",
+          "expanded": "Patient"
+        },
+        {
+          "value": "Student",
+          "expanded": "Student"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "attribute:confidentiality:state",
+      "entry": [
+        {
+          "value": "Other",
+          "expanded": "Data state known but not listed."
+        },
+        {
+          "value": "Printed",
+          "expanded": "Data printed in human-readable format"
+        },
+        {
+          "value": "Processed",
+          "expanded": "Processed"
+        },
+        {
+          "value": "Stored",
+          "expanded": "Stored"
+        },
+        {
+          "value": "Stored encrypted",
+          "expanded": "Stored encrypted"
+        },
+        {
+          "value": "Stored unencrypted",
+          "expanded": "Stored unencrypted"
+        },
+        {
+          "value": "Transmitted",
+          "expanded": "Transmitted"
+        },
+        {
+          "value": "Transmitted encrypted",
+          "expanded": "Transmitted encrypted"
+        },
+        {
+          "value": "Transmitted unencrypted",
+          "expanded": "Transmitted unencrypted"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Data stat not known"
+        }
+      ]
+    },
+    {
+      "predicate": "attribute:integrity:variety",
+      "entry": [
+        {
+          "value": "Alter behavior",
+          "expanded": "Influence or alter human behavior"
+        },
+        {
+          "value": "Created account",
+          "expanded": "Created new user account"
+        },
+        {
+          "value": "Defacement",
+          "expanded": "Deface content"
+        },
+        {
+          "value": "Fraudulent transaction",
+          "expanded": "Initiate fraudulent transaction"
+        },
+        {
+          "value": "Hardware tampering",
+          "expanded": "Hardware tampering or physical alteration"
+        },
+        {
+          "value": "Log tampering",
+          "expanded": "Log tampering or modification"
+        },
+        {
+          "value": "Misrepresentation",
+          "expanded": "Misrepresentation"
+        },
+        {
+          "value": "Modify configuration",
+          "expanded": "Modified configuration or services"
+        },
+        {
+          "value": "Modify data",
+          "expanded": "Modified stored data or content"
+        },
+        {
+          "value": "Modify privileges",
+          "expanded": "Modified privileges or permissions"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Repurpose",
+          "expanded": "Repurposed asset for unauthorized function"
+        },
+        {
+          "value": "Software installation",
+          "expanded": "Software installation or code modification"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "impact:loss:rating",
+      "entry": [
+        {
+          "value": "Major",
+          "expanded": "Major"
+        },
+        {
+          "value": "Minor",
+          "expanded": "Minor"
+        },
+        {
+          "value": "Moderate",
+          "expanded": "Moderate"
+        },
+        {
+          "value": "None",
+          "expanded": "None"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "impact:loss:variety",
+      "entry": [
+        {
+          "value": "Asset and fraud",
+          "expanded": "Asset and fraud-related losses"
+        },
+        {
+          "value": "Brand damage",
+          "expanded": "Brand and market damage"
+        },
+        {
+          "value": "Business disruption",
+          "expanded": "Business disruption"
+        },
+        {
+          "value": "Competitive advantage",
+          "expanded": "Loss of competitive advantage"
+        },
+        {
+          "value": "Legal and regulatory",
+          "expanded": "Legal and regulatory costs"
+        },
+        {
+          "value": "Operating costs",
+          "expanded": "Increased operating costs"
+        },
+        {
+          "value": "Other",
+          "expanded": "Impact variety known but not listed."
+        },
+        {
+          "value": "Response and recovery",
+          "expanded": "Response and recovery costs"
+        }
+      ]
+    },
+    {
+      "predicate": "timeline:compromise:unit",
+      "entry": [
+        {
+          "value": "Days",
+          "expanded": "Days"
+        },
+        {
+          "value": "Hours",
+          "expanded": "Hours"
+        },
+        {
+          "value": "Minutes",
+          "expanded": "Minutes"
+        },
+        {
+          "value": "Months",
+          "expanded": "Months"
+        },
+        {
+          "value": "NA",
+          "expanded": "Compromise does not apply in the context of the security event."
+        },
+        {
+          "value": "Never",
+          "expanded": "Never"
+        },
+        {
+          "value": "Seconds",
+          "expanded": "Seconds"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "Weeks",
+          "expanded": "Weeks"
+        },
+        {
+          "value": "Years",
+          "expanded": "Years"
+        }
+      ]
+    },
+    {
+      "predicate": "timeline:containment:unit",
+      "entry": [
+        {
+          "value": "Days",
+          "expanded": "Days"
+        },
+        {
+          "value": "Hours",
+          "expanded": "Hours"
+        },
+        {
+          "value": "Minutes",
+          "expanded": "Minutes"
+        },
+        {
+          "value": "Months",
+          "expanded": "Months"
+        },
+        {
+          "value": "NA",
+          "expanded": "Containment does not apply in the context of the security event."
+        },
+        {
+          "value": "Never",
+          "expanded": "Never"
+        },
+        {
+          "value": "Seconds",
+          "expanded": "Seconds"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "Weeks",
+          "expanded": "Weeks"
+        },
+        {
+          "value": "Years",
+          "expanded": "Years"
+        }
+      ]
+    },
+    {
+      "predicate": "timeline:discovery:unit",
+      "entry": [
+        {
+          "value": "Days",
+          "expanded": "Days"
+        },
+        {
+          "value": "Hours",
+          "expanded": "Hours"
+        },
+        {
+          "value": "Minutes",
+          "expanded": "Minutes"
+        },
+        {
+          "value": "Months",
+          "expanded": "Months"
+        },
+        {
+          "value": "NA",
+          "expanded": "Discovery does not apply in the context of the security event."
+        },
+        {
+          "value": "Never",
+          "expanded": "Never"
+        },
+        {
+          "value": "Seconds",
+          "expanded": "Seconds"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "Weeks",
+          "expanded": "Weeks"
+        },
+        {
+          "value": "Years",
+          "expanded": "Years"
+        }
+      ]
+    },
+    {
+      "predicate": "timeline:exfiltration:unit",
+      "entry": [
+        {
+          "value": "Days",
+          "expanded": "Days"
+        },
+        {
+          "value": "Hours",
+          "expanded": "Hours"
+        },
+        {
+          "value": "Minutes",
+          "expanded": "Minutes"
+        },
+        {
+          "value": "Months",
+          "expanded": "Months"
+        },
+        {
+          "value": "NA",
+          "expanded": "Exfiltration does not apply in the context of the security event."
+        },
+        {
+          "value": "Never",
+          "expanded": "Never"
+        },
+        {
+          "value": "Seconds",
+          "expanded": "Seconds"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "Weeks",
+          "expanded": "Weeks"
+        },
+        {
+          "value": "Years",
+          "expanded": "Years"
+        }
+      ]
+    },
+    {
+      "predicate": "victim:revenue:iso_currency_code",
+      "entry": [
+        {
+          "value": "AED",
+          "expanded": "AED - UAE Dirham"
+        },
+        {
+          "value": "AFN",
+          "expanded": "AFN - Afghani"
+        },
+        {
+          "value": "ALL",
+          "expanded": "ALL - Lek"
+        },
+        {
+          "value": "AMD",
+          "expanded": "AMD - Armenian Dram"
+        },
+        {
+          "value": "ANG",
+          "expanded": "ANG - Netherlands Antillean Guilder"
+        },
+        {
+          "value": "AOA",
+          "expanded": "AOA - Kwanza"
+        },
+        {
+          "value": "ARS",
+          "expanded": "ARS - Argentine Peso"
+        },
+        {
+          "value": "AUD",
+          "expanded": "AUD - Australian Dollar"
+        },
+        {
+          "value": "AWG",
+          "expanded": "AWG - Aruban Florin"
+        },
+        {
+          "value": "AZN",
+          "expanded": "AZN - Azerbaijanian Manat"
+        },
+        {
+          "value": "BAM",
+          "expanded": "BAM - Convertible Mark"
+        },
+        {
+          "value": "BBD",
+          "expanded": "BBD - Barbados Dollar"
+        },
+        {
+          "value": "BDT",
+          "expanded": "BDT - Taka"
+        },
+        {
+          "value": "BGN",
+          "expanded": "BGN - Bulgarian Lev"
+        },
+        {
+          "value": "BHD",
+          "expanded": "BHD - Bahraini Dinar"
+        },
+        {
+          "value": "BIF",
+          "expanded": "BIF - Burundi Franc"
+        },
+        {
+          "value": "BMD",
+          "expanded": "BMD - Bermudian Dollar"
+        },
+        {
+          "value": "BND",
+          "expanded": "BND - Brunei Dollar"
+        },
+        {
+          "value": "BOB",
+          "expanded": "BOB - Boliviano"
+        },
+        {
+          "value": "BRL",
+          "expanded": "BRL - Brazilian Real"
+        },
+        {
+          "value": "BSD",
+          "expanded": "BSD - Bahamian Dollar"
+        },
+        {
+          "value": "BTN",
+          "expanded": "BTN - Ngultrum"
+        },
+        {
+          "value": "BWP",
+          "expanded": "BWP - Pula"
+        },
+        {
+          "value": "BYR",
+          "expanded": "BYR - Belarussian Ruble"
+        },
+        {
+          "value": "BZD",
+          "expanded": "BZD - Belize Dollar"
+        },
+        {
+          "value": "CAD",
+          "expanded": "CAD - Canadian Dollar"
+        },
+        {
+          "value": "CDF",
+          "expanded": "CDF - Congolese Franc"
+        },
+        {
+          "value": "CHF",
+          "expanded": "CHF - Swiss Franc"
+        },
+        {
+          "value": "CLP",
+          "expanded": "CLP - Chilean Peso"
+        },
+        {
+          "value": "CNY",
+          "expanded": "CNY - Yuan Renminbi"
+        },
+        {
+          "value": "COP",
+          "expanded": "COP - Colombian Peso"
+        },
+        {
+          "value": "CRC",
+          "expanded": "CRC - Costa Rican Colon"
+        },
+        {
+          "value": "CUC",
+          "expanded": "CUC - Peso Convertible"
+        },
+        {
+          "value": "CUP",
+          "expanded": "CUP - Cuban Peso"
+        },
+        {
+          "value": "CVE",
+          "expanded": "CVE - Cape Verde Escudo"
+        },
+        {
+          "value": "CZK",
+          "expanded": "CZK - Czech Koruna"
+        },
+        {
+          "value": "DJF",
+          "expanded": "DJF - Djibouti Franc"
+        },
+        {
+          "value": "DKK",
+          "expanded": "DKK - Danish Krone"
+        },
+        {
+          "value": "DOP",
+          "expanded": "DOP - Dominican Peso"
+        },
+        {
+          "value": "DZD",
+          "expanded": "DZD - Algerian Dinar"
+        },
+        {
+          "value": "EGP",
+          "expanded": "EGP - Egyptian Pound"
+        },
+        {
+          "value": "ERN",
+          "expanded": "ERN - Nakfa"
+        },
+        {
+          "value": "ETB",
+          "expanded": "ETB - Ethiopian Birr"
+        },
+        {
+          "value": "EUR",
+          "expanded": "EUR - Euro"
+        },
+        {
+          "value": "FJD",
+          "expanded": "FJD - Fiji Dollar"
+        },
+        {
+          "value": "FKP",
+          "expanded": "FKP - Falkland Islands Pound"
+        },
+        {
+          "value": "GBP",
+          "expanded": "GBP - Pound Sterling"
+        },
+        {
+          "value": "GEL",
+          "expanded": "GEL - Lari"
+        },
+        {
+          "value": "GGP",
+          "expanded": "GGP - Guernsey pound"
+        },
+        {
+          "value": "GHS",
+          "expanded": "GHS - Ghana Cedi"
+        },
+        {
+          "value": "GIP",
+          "expanded": "GIP - Gibraltar Pound"
+        },
+        {
+          "value": "GMD",
+          "expanded": "GMD - Dalasi"
+        },
+        {
+          "value": "GNF",
+          "expanded": "GNF - Guinea Franc"
+        },
+        {
+          "value": "GTQ",
+          "expanded": "GTQ - Quetzal"
+        },
+        {
+          "value": "GYD",
+          "expanded": "GYD - Guyana Dollar"
+        },
+        {
+          "value": "HKD",
+          "expanded": "HKD - Hong Kong Dollar"
+        },
+        {
+          "value": "HNL",
+          "expanded": "HNL - Lempira"
+        },
+        {
+          "value": "HRK",
+          "expanded": "HRK - Croatian Kuna"
+        },
+        {
+          "value": "HTG",
+          "expanded": "HTG - Gourde"
+        },
+        {
+          "value": "HUF",
+          "expanded": "HUF - Forint"
+        },
+        {
+          "value": "IDR",
+          "expanded": "IDR - Rupiah"
+        },
+        {
+          "value": "ILS",
+          "expanded": "ILS - New Israeli Sheqel"
+        },
+        {
+          "value": "IMP",
+          "expanded": "IMP - Isle of Man Pound"
+        },
+        {
+          "value": "INR",
+          "expanded": "INR - Indian Rupee"
+        },
+        {
+          "value": "IQD",
+          "expanded": "IQD - Iraqi Dinar"
+        },
+        {
+          "value": "IRR",
+          "expanded": "IRR - Iranian Rial"
+        },
+        {
+          "value": "ISK",
+          "expanded": "ISK - Iceland Krona"
+        },
+        {
+          "value": "JEP",
+          "expanded": "JEP - Jersey pound"
+        },
+        {
+          "value": "JMD",
+          "expanded": "JMD - Jamaican Dollar"
+        },
+        {
+          "value": "JOD",
+          "expanded": "JOD - Jordanian Dinar"
+        },
+        {
+          "value": "JPY",
+          "expanded": "JPY - Yen"
+        },
+        {
+          "value": "KES",
+          "expanded": "KES - Kenyan Shilling"
+        },
+        {
+          "value": "KGS",
+          "expanded": "KGS - Som"
+        },
+        {
+          "value": "KHR",
+          "expanded": "KHR - Riel"
+        },
+        {
+          "value": "KMF",
+          "expanded": "KMF - Comoro Franc"
+        },
+        {
+          "value": "KPW",
+          "expanded": "KPW - North Korean Won"
+        },
+        {
+          "value": "KRW",
+          "expanded": "KRW - South Korean Won"
+        },
+        {
+          "value": "KWD",
+          "expanded": "KWD - Kuwaiti Dinar"
+        },
+        {
+          "value": "KYD",
+          "expanded": "KYD - Cayman Islands Dollar"
+        },
+        {
+          "value": "KZT",
+          "expanded": "KZT - Tenge"
+        },
+        {
+          "value": "LAK",
+          "expanded": "LAK - Kip"
+        },
+        {
+          "value": "LBP",
+          "expanded": "LBP - Lebanese Pound"
+        },
+        {
+          "value": "LKR",
+          "expanded": "LKR - Sri Lanka Rupee"
+        },
+        {
+          "value": "LRD",
+          "expanded": "LRD - Liberian Dollar"
+        },
+        {
+          "value": "LSL",
+          "expanded": "LSL - Loti"
+        },
+        {
+          "value": "LTL",
+          "expanded": "LTL - Lithuanian Litas"
+        },
+        {
+          "value": "LVL",
+          "expanded": "LVL - Latvian Lats"
+        },
+        {
+          "value": "LYD",
+          "expanded": "LYD - Libyan Dinar"
+        },
+        {
+          "value": "MAD",
+          "expanded": "MAD - Moroccan Dirham"
+        },
+        {
+          "value": "MDL",
+          "expanded": "MDL - Moldovan Leu"
+        },
+        {
+          "value": "MGA",
+          "expanded": "MGA - Malagasy Ariary"
+        },
+        {
+          "value": "MKD",
+          "expanded": "MKD - Denar"
+        },
+        {
+          "value": "MMK",
+          "expanded": "MMK - Kyat"
+        },
+        {
+          "value": "MNT",
+          "expanded": "MNT - Tugrik"
+        },
+        {
+          "value": "MOP",
+          "expanded": "MOP - Pataca"
+        },
+        {
+          "value": "MRO",
+          "expanded": "MRO - Ouguiya"
+        },
+        {
+          "value": "MUR",
+          "expanded": "MUR - Mauritius Rupee"
+        },
+        {
+          "value": "MVR",
+          "expanded": "MVR - Rufiyaa"
+        },
+        {
+          "value": "MWK",
+          "expanded": "MWK - Kwacha"
+        },
+        {
+          "value": "MXN",
+          "expanded": "MXN - Mexican Peso"
+        },
+        {
+          "value": "MYR",
+          "expanded": "MYR - Malaysian Ringgit"
+        },
+        {
+          "value": "MZN",
+          "expanded": "MZN - Mozambique Metical"
+        },
+        {
+          "value": "NAD",
+          "expanded": "NAD - Namibia Dollar"
+        },
+        {
+          "value": "NGN",
+          "expanded": "NGN - Naira"
+        },
+        {
+          "value": "NIO",
+          "expanded": "NIO - Cordoba Oro"
+        },
+        {
+          "value": "NOK",
+          "expanded": "NOK - Norwegian Krone"
+        },
+        {
+          "value": "NPR",
+          "expanded": "NPR - Nepalese Rupee"
+        },
+        {
+          "value": "NZD",
+          "expanded": "NZD - New Zealand Dollar"
+        },
+        {
+          "value": "OMR",
+          "expanded": "OMR - Rial Omani"
+        },
+        {
+          "value": "PAB",
+          "expanded": "PAB - Balboa"
+        },
+        {
+          "value": "PEN",
+          "expanded": "PEN - Nuevo Sol"
+        },
+        {
+          "value": "PGK",
+          "expanded": "PGK - Kina"
+        },
+        {
+          "value": "PHP",
+          "expanded": "PHP - Philippine Peso"
+        },
+        {
+          "value": "PKR",
+          "expanded": "PKR - Pakistan Rupee"
+        },
+        {
+          "value": "PLN",
+          "expanded": "PLN - Zloty"
+        },
+        {
+          "value": "PYG",
+          "expanded": "PYG - Guarani"
+        },
+        {
+          "value": "QAR",
+          "expanded": "QAR - Qatari Rial"
+        },
+        {
+          "value": "RON",
+          "expanded": "RON - New Romanian Leu"
+        },
+        {
+          "value": "RSD",
+          "expanded": "RSD - Serbian Dinar"
+        },
+        {
+          "value": "RUB",
+          "expanded": "RUB - Russian Ruble"
+        },
+        {
+          "value": "RWF",
+          "expanded": "RWF - Rwanda Franc"
+        },
+        {
+          "value": "SAR",
+          "expanded": "SAR - Saudi Riyal"
+        },
+        {
+          "value": "SBD",
+          "expanded": "SBD - Solomon Islands Dollar"
+        },
+        {
+          "value": "SCR",
+          "expanded": "SCR - Seychelles Rupee"
+        },
+        {
+          "value": "SDG",
+          "expanded": "SDG - Sudanese Pound"
+        },
+        {
+          "value": "SEK",
+          "expanded": "SEK - Swedish Krona"
+        },
+        {
+          "value": "SGD",
+          "expanded": "SGD - Singapore Dollar"
+        },
+        {
+          "value": "SHP",
+          "expanded": "SHP - Saint Helena Pound"
+        },
+        {
+          "value": "SLL",
+          "expanded": "SLL - Leone"
+        },
+        {
+          "value": "SOS",
+          "expanded": "SOS - Somali Shilling"
+        },
+        {
+          "value": "SPL",
+          "expanded": "SPL - Seborga Luigino"
+        },
+        {
+          "value": "SRD",
+          "expanded": "SRD - Surinam Dollar"
+        },
+        {
+          "value": "STD",
+          "expanded": "STD - Dobra"
+        },
+        {
+          "value": "SVC",
+          "expanded": "SVC - El Salvador Colon"
+        },
+        {
+          "value": "SYP",
+          "expanded": "SYP - Syrian Pound"
+        },
+        {
+          "value": "SZL",
+          "expanded": "SZL - Lilangeni"
+        },
+        {
+          "value": "THB",
+          "expanded": "THB - Baht"
+        },
+        {
+          "value": "TJS",
+          "expanded": "TJS - Somoni"
+        },
+        {
+          "value": "TMT",
+          "expanded": "TMT - Turkmenistan New Manat"
+        },
+        {
+          "value": "TND",
+          "expanded": "TND - Tunisian Dinar"
+        },
+        {
+          "value": "TOP",
+          "expanded": "TOP - Pa'anga"
+        },
+        {
+          "value": "TRY",
+          "expanded": "TRY - Turkish Lira"
+        },
+        {
+          "value": "TTD",
+          "expanded": "TTD - Trinidad and Tobago Dollar"
+        },
+        {
+          "value": "TVD",
+          "expanded": "TVD - Tuvalu Dollar"
+        },
+        {
+          "value": "TWD",
+          "expanded": "TWD - New Taiwan Dollar"
+        },
+        {
+          "value": "TZS",
+          "expanded": "TZS - Tanzanian Shilling"
+        },
+        {
+          "value": "UAH",
+          "expanded": "UAH - Hryvnia"
+        },
+        {
+          "value": "UGX",
+          "expanded": "UGX - Uganda Shilling"
+        },
+        {
+          "value": "USD",
+          "expanded": "USD - US Dollar"
+        },
+        {
+          "value": "UYU",
+          "expanded": "UYU - Peso Uruguayo"
+        },
+        {
+          "value": "UZS",
+          "expanded": "UZS - Uzbekistan Sum"
+        },
+        {
+          "value": "VEF",
+          "expanded": "VEF - Bolivar "
+        },
+        {
+          "value": "VND",
+          "expanded": "VND - Dong"
+        },
+        {
+          "value": "VUV",
+          "expanded": "VUV - Vatu"
+        },
+        {
+          "value": "WST",
+          "expanded": "WST - Tala"
+        },
+        {
+          "value": "XAF",
+          "expanded": "XAF - CFA Franc BEAC"
+        },
+        {
+          "value": "XCD",
+          "expanded": "XCD - East Caribbean Dollar"
+        },
+        {
+          "value": "XDR",
+          "expanded": "XDR - SDR (Special Drawing Right)"
+        },
+        {
+          "value": "XOF",
+          "expanded": "XOF - CFA Franc BCEAO"
+        },
+        {
+          "value": "XPF",
+          "expanded": "XPF - CFP Franc"
+        },
+        {
+          "value": "YER",
+          "expanded": "YER - Yemeni Rial"
+        },
+        {
+          "value": "ZAR",
+          "expanded": "ZAR - South African Rand"
+        },
+        {
+          "value": "ZMK",
+          "expanded": "ZMK - Zambian Kwacha"
+        },
+        {
+          "value": "ZWD",
+          "expanded": "ZWD - Zimbabwean Dollar A/06"
+        }
+      ]
+    },
+    {
+      "predicate": "attribute:availability:duration:unit",
+      "entry": [
+        {
+          "value": "Days",
+          "expanded": "Days"
+        },
+        {
+          "value": "Hours",
+          "expanded": "Hours"
+        },
+        {
+          "value": "Minutes",
+          "expanded": "Minutes"
+        },
+        {
+          "value": "Months",
+          "expanded": "Months"
+        },
+        {
+          "value": "NA",
+          "expanded": "NA"
+        },
+        {
+          "value": "Never",
+          "expanded": "Never"
+        },
+        {
+          "value": "Seconds",
+          "expanded": "Seconds"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "Weeks",
+          "expanded": "Weeks"
+        },
+        {
+          "value": "Years",
+          "expanded": "Years"
+        }
+      ]
+    },
+    {
+      "predicate": "attribute:confidentiality:data:variety",
+      "entry": [
+        {
+          "value": "Bank",
+          "expanded": "Bank account data"
+        },
+        {
+          "value": "Classified",
+          "expanded": "Classified information"
+        },
+        {
+          "value": "Copyrighted",
+          "expanded": "Copyrighted material"
+        },
+        {
+          "value": "Credentials",
+          "expanded": "Authentication credentials (e.g., pwds, OTPs, biometrics)"
+        },
+        {
+          "value": "Digital certificate",
+          "expanded": "Digital certificate"
+        },
+        {
+          "value": "Internal",
+          "expanded": "Sensitive internal data (e.g., plans, reports, emails)"
+        },
+        {
+          "value": "Medical",
+          "expanded": "Medical records"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "Payment",
+          "expanded": "Payment card data (e.g., PAN, PIN, CVV2, Expiration)"
+        },
+        {
+          "value": "Personal",
+          "expanded": "Personal or identifying information (e.g., addr, ID#, credit score)"
+        },
+        {
+          "value": "Secrets",
+          "expanded": "Trade secrets"
+        },
+        {
+          "value": "Source code",
+          "expanded": "Source code"
+        },
+        {
+          "value": "System",
+          "expanded": "System information (e.g., config info, open services)"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "Virtual currency",
+          "expanded": "Virtual currency"
+        }
+      ]
+    }
+  ]
+}

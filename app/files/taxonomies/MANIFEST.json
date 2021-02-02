@@ -1,0 +1,429 @@
+{
+  "taxonomies": [
+    {
+      "version": 3,
+      "name": "accessnow",
+      "description": "Access Now classification to classify an issue (such as security, human rights, youth rights)."
+    },
+    {
+      "version": 1,
+      "name": "access-method",
+      "description": "The access method used to remotely access a system."
+    },
+    {
+      "version": 2,
+      "name": "action-taken",
+      "description": "Action taken in the case of a security incident (CSIRT perspective)."
+    },
+    {
+      "version": 2,
+      "name": "admiralty-scale",
+      "description": "The Admiralty Scale (also called the NATO System) is used to rank the reliability of a source and the credibility of an information."
+    },
+    {
+      "version": 4,
+      "name": "adversary",
+      "description": "An overview and description of the adversary infrastructure."
+    },
+    {
+      "version": 1,
+      "name": "ais-marking",
+      "description": "AIS Marking Schema implementation is maintained by the National Cybersecurity and Communication Integration Center (NCCIC) of the U.S. Department of Homeland Security (DHS)"
+    },
+    {
+      "version": 2,
+      "name": "analyst-assessment",
+      "description": "A series of assessment predicates describing the analyst capabilities to perform analysis. These assessment can be assigned by the analyst him/herself or by another party evaluating the analyst."
+    },
+    {
+      "version": 1,
+      "name": "approved-category-of-action",
+      "description": "A pre-approved category of action for indicators being shared with partners (MIMIC)."
+    },
+    {
+      "version": 1,
+      "name": "binary-class",
+      "description": "Custom taxonomy for types of binary file."
+    },
+    {
+      "version": 2,
+      "name": "cccs",
+      "description": "Internal taxonomy for CCCS."
+    },
+    {
+      "version": 1,
+      "name": "CERT-XLM",
+      "description": "CERT-XLM Security Incident Classification."
+    },
+    {
+      "version": 2,
+      "name": "circl",
+      "description": "CIRCL Taxonomy is a simple scheme for incident classification and area topic where the incident took place."
+    },
+    {
+      "version": 2,
+      "name": "collaborative-intelligence",
+      "description": "Collaborative intelligence support language is a common language to support analysts to perform their analysis to get crowdsourced support when using threat intelligence sharing platform like MISP."
+    },
+    {
+      "version": 1,
+      "name": "csirt_case_classification",
+      "description": "FIRST CSIRT Case Classification."
+    },
+    {
+      "version": 4,
+      "name": "cssa",
+      "description": "The CSSA agreed sharing taxonomy."
+    },
+    {
+      "version": 2,
+      "name": "ddos",
+      "description": "Distributed Denial of Service - or short: DDoS - taxonomy supports the description of Denial of Service attacks and especially the types they belong too."
+    },
+    {
+      "version": 1,
+      "name": "de-vs",
+      "description": "Taxonomy for the handling of protectively marked information in MISP with German (DE) Government classification markings (VS)"
+    },
+    {
+      "version": 2,
+      "name": "dhs-ciip-sectors",
+      "description": "DHS critical sectors as described in https://www.dhs.gov/critical-infrastructure-sectors."
+    },
+    {
+      "version": 1,
+      "name": "diamond-model",
+      "description": "The Diamond Model for Intrusion Analysis, a phase-based model developed by Lockheed Martin, aims to help categorise and identify the stage of an attack."
+    },
+    {
+      "version": 1,
+      "name": "DML",
+      "description": "The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.  It's designed for organizations who perform intel-driven detection and response and who put an emphasis on having a mature detection program."
+    },
+    {
+      "version": 3,
+      "name": "dni-ism",
+      "description": "ISM (Information Security Marking Metadata) V13 as described by DNI.gov (Director of National Intelligence - US)."
+    },
+    {
+      "version": 1,
+      "name": "domain-abuse",
+      "description": "Taxonomy to tag domain names used for cybercrime."
+    },
+    {
+      "version": 1,
+      "name": "ecsirt",
+      "description": "eCSIRT incident classification Appendix C of the eCSIRT EU project including IntelMQ updates."
+    },
+    {
+      "version": 201601,
+      "name": "enisa",
+      "description": "ENISA Threat Taxonomy - A tool for structuring threat information as published in https://www.enisa.europa.eu/topics/threat-risk-management/threats-and-trends/enisa-threat-landscape/etl2015/enisa-threat-taxonomy-a-tool-for-structuring-threat-information"
+    },
+    {
+      "version": 3,
+      "name": "estimative-language",
+      "description": "Estimative language - including likelihood or probability of event based on the Intelligence Community Directive 203 (ICD 203) (6.2.(a)) and JP 2-0, Joint Intelligence."
+    },
+    {
+      "version": 1,
+      "name": "euci",
+      "description": "EU classified information (EUCI) means any information or material designated by a EU security classification, the unauthorised disclosure of which could cause varying degrees of prejudice to the interests of the European Union or of one or more of the Member States as described in http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32013D0488&from=EN"
+    },
+    {
+      "version": 2,
+      "name": "eu-marketop-and-publicadmin",
+      "description": "Market operators and public administrations that must comply to some notifications requirements under EU NIS directive."
+    },
+    {
+      "version": 1,
+      "name": "europol-event",
+      "description": "EUROPOL type of events taxonomy."
+    },
+    {
+      "version": 1,
+      "name": "europol-incident",
+      "description": "EUROPOL class of incident taxonomy."
+    },
+    {
+      "version": 1,
+      "name": "event-assessment",
+      "description": "A series of assessment predicates describing the event assessment performed to make judgement(s) under a certain level of uncertainty."
+    },
+    {
+      "version": 1,
+      "name": "fr-classif",
+      "description": "French gov information classification system."
+    },
+    {
+      "version": 1,
+      "name": "iep",
+      "description": "Forum of Incident Response and Security Teams (FIRST) Information Exchange Policy (IEP) framework."
+    },
+    {
+      "version": 1,
+      "name": "information-security-indicators",
+      "description": "Information security indicators have been standardized by the ETSI Industrial Specification Group (ISG) ISI. These indicators provide the basis to switch from a qualitative to a quantitative culture in IT Security Scope of measurements: External and internal threats (attempt and success), user's deviant behaviours, nonconformities and/or vulnerabilities (software, configuration, behavioural, general security framework). ETSI GS ISI 001-1 (V1.1.2): ISI Indicators"
+    },
+    {
+      "version": 1,
+      "name": "interception-method",
+      "description": "The interception method used to intercept traffic."
+    },
+    {
+      "version": 1,
+      "name": "kill-chain",
+      "description": "Cyber Kill Chain from Lockheed Martin as described in Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains."
+    },
+    {
+      "version": 1,
+      "name": "malware_classification",
+      "description": "Malware classification based on a SANS whitepaper about malware."
+    },
+    {
+      "version": 5,
+      "name": "misp",
+      "description": "Internal MISP taxonomy."
+    },
+    {
+      "version": 1,
+      "name": "ms-caro-malware",
+      "description": "Malware Type and Platform classification based on Microsoft's implementation of the Computer Antivirus Research Organization (CARO) Naming Scheme and Malware Terminology."
+    },
+    {
+      "version": 1,
+      "name": "ms-caro-malware-full",
+      "description": "Malware Type and Platform classification based on Microsoft's implementation of the Computer Antivirus Research Organization (CARO) Naming Scheme and Malware Terminology."
+    },
+    {
+      "version": 1,
+      "name": "nato",
+      "description": "Marking of Classified and Unclassified materials as described by the North Atlantic Treaty Organization, NATO."
+    },
+    {
+      "version": 1,
+      "name": "open_threat",
+      "description": "Open Threat Taxonomy v1.1 base on James Tarala of SANS ref. - http://www.auditscripts.com/resources/open_threat_taxonomy_v1.1a.pdf"
+    },
+    {
+      "version": 9,
+      "name": "osint",
+      "description": "Open Source Intelligence - Classification (MISP taxonomies)."
+    },
+    {
+      "version": 1,
+      "name": "PAP",
+      "description": "The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used."
+    },
+    {
+      "version": 1,
+      "name": "passivetotal",
+      "description": "Tags for RiskIQ's passivetotal service"
+    },
+    {
+      "version": 1,
+      "name": "pentest",
+      "description": "Penetration test (pentest) classification."
+    },
+    {
+      "version": 1,
+      "name": "rt_event_status",
+      "description": "Status of events used in Request Tracker."
+    },
+    {
+      "version": 1,
+      "name": "stealth_malware",
+      "description": "Classification based on malware stealth techniques."
+    },
+    {
+      "version": 1,
+      "name": "stix-ttp",
+      "description": "Representation of the behavior or modus operandi of cyber adversaries (a.k.a TTP) as normalized in STIX"
+    },
+    {
+      "version": 1,
+      "name": "targeted-threat-index",
+      "description": "The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk “RATastrophe: Monitoring a Malware Menagerie” along with Katie Kleemola and Greg Wiseman."
+    },
+    {
+      "version": 3,
+      "name": "tlp",
+      "description": "The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time. Extended with TLP:EX:CHR."
+    },
+    {
+      "version": 1,
+      "name": "tor",
+      "description": "Taxonomy to describe Tor network infrastructure"
+    },
+    {
+      "version": 2,
+      "name": "veris",
+      "description": "Vocabulary for Event Recording and Incident Sharing (VERIS)."
+    },
+    {
+      "version": 1,
+      "name": "vocabulaire-des-probabilites-estimatives",
+      "description": "Vocabulaire des probabilités estimatives"
+    },
+    {
+      "version": 2,
+      "name": "workflow",
+      "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information."
+    },
+    {
+      "version": 1,
+      "name": "runtime-packer",
+      "description": "Runtime or software packer used to combine compressed data with the decompression code. The decompression code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries."
+    },
+    {
+      "version": 4,
+      "name": "honeypot-basic",
+      "description": "Christian Seifert, Ian Welch, Peter Komisarczuk, ‘Taxonomy of Honeypots’, Technical Report CS-TR-06/12, VICTORIA UNIVERSITY OF WELLINGTON, School of Mathematical and Computing Sciences, June 2006, http://www.mcs.vuw.ac.nz/comp/Publications/archive/CS-TR-06/CS-TR-06-12.pdf"
+    },
+    {
+      "version": 1,
+      "name": "incident-disposition",
+      "description": "How an incident is classified in its process to be resolved. The taxonomy is inspired from NASA Incident Response and Management Handbook."
+    },
+    {
+      "version": 1,
+      "name": "cyber-threat-framework",
+      "description": "Cyber Threat Framework was developed by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries. https://www.dni.gov/index.php/cyber-threat-framework"
+    },
+    {
+      "version": 1,
+      "name": "priority-level",
+      "description": "After an incident is scored, it is assigned a priority level. The six levels listed below are aligned with NCCIC, DHS, and the CISS to help provide a common lexicon when discussing incidents. This priority assignment drives NCCIC urgency, pre-approved incident response offerings, reporting requirements, and recommendations for leadership escalation. Generally, incident priority distribution should follow a similar pattern to the graph below. Based on https://www.us-cert.gov/NCCIC-Cyber-Incident-Scoring-System."
+    },
+    {
+      "version": 1,
+      "name": "eu-nis-sector-and-subsectors",
+      "description": "Sectors and sub sectors as identified by the NIS Directive."
+    },
+    {
+      "version": 2,
+      "name": "economical-impact",
+      "description": "Economical impact is a taxonomy to describe the financial impact as positive or negative gain to the tagged information."
+    },
+    {
+      "version": 1,
+      "name": "fpf",
+      "description": "The Future of Privacy Forum (FPF) [visual guide to practical de-identification](https://fpf.org/2016/04/25/a-visual-guide-to-practical-data-de-identification/) taxonomy is used to evaluate the degree of identifiability of personal data and the types of pseudonymous data, de-identified data and anonymous data. The work of FPF is licensed under a creative commons attribution 4.0 international license."
+    },
+    {
+      "version": 1,
+      "name": "gdpr",
+      "description": "Taxonomy related to the REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)"
+    },
+    {
+      "version": 1,
+      "name": "infoleak",
+      "description": "A taxonomy describing information leaks and especially information classified as being potentially leaked."
+    },
+    {
+      "version": 1,
+      "name": "copine-scale",
+      "description": "The COPINE Scale is a rating system created in Ireland and used in the United Kingdom to categorise the severity of images of child sex abuse."
+    },
+    {
+      "name": "maec-delivery-vectors",
+      "description": "Vectors used to deliver malware based on MAEC 5.0",
+      "version": 1
+    },
+    {
+      "name": "maec-malware-behavior",
+      "description": "Malware behaviours based on MAEC 5.0",
+      "version": 1
+    },
+    {
+      "name": "maec-malware-obfuscation-methods",
+      "description": "Obfuscation methods used by malware based on MAEC 5.0",
+      "version": 1
+    },
+    {
+      "name": "maec-malware-capabilities",
+      "description": "Malware Capabilities based on MAEC 5.0",
+      "version": 1
+    },
+    {
+      "name": "smart-airports-threats",
+      "description": "Threat taxonomy in the scope of securing smart airports by ENISA.",
+      "version": 1
+    },
+    {
+      "version": 1,
+      "name": "false-positive",
+      "description": "This taxonomy aims to ballpark the expected amount of false positives."
+    },
+    {
+      "version": 1,
+      "name": "rsit",
+      "description": "Reference Security Incident Classification Taxonomy."
+    },
+    {
+      "version": 1,
+      "name": "nis",
+      "description": "NIS Cybersecurity Incident Taxonomy."
+    },
+    {
+      "version": 1,
+      "name": "ifx-vetting",
+      "description": "The IFX taxonomy is used to categorise information (MISP events and attributes) to aid in the intelligence vetting process"
+    },
+    {
+      "version": 1,
+      "name": "monarc-threat",
+      "description": "MONARC threat taxonomy."
+    },
+    {
+      "version": 1,
+      "name": "file-type",
+      "description": "List of known file types."
+    },
+    {
+      "version": 1,
+      "name": "gsma-attack-category",
+      "description": "Taxonomy used by GSMA for their information sharing program with telco describing the attack categories"
+    },
+    {
+      "version": 1,
+      "name": "gsma-fraud",
+      "description": "Taxonomy used by GSMA for their information sharing program with telco describing the various aspects of fraud"
+    },
+    {
+      "version": 1,
+      "name": "gsma-network-technology",
+      "description": "Taxonomy used by GSMA for their information sharing program with telco describing the types of infrastructure. WiP"
+    },
+    {
+      "version": 1,
+      "name": "event-classification",
+      "description": "Event Classification."
+    },
+    {
+      "version": 1,
+      "name": "use-case-applicability",
+      "description": "The Use Case Applicability categories reflect standard resolution categories, to clearly display alerting rule configuration problems."
+    },
+    {
+      "version": 2,
+      "name": "exercise",
+      "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise."
+    },
+    {
+      "version": 1,
+      "name": "data-classification",
+      "description": "Data classification for data potentially at risk of exfiltration based on table 2.1 of Solving Cyber Risk book."
+    },
+    {
+      "version": 1,
+      "name": "type",
+      "description": "Taxonomy to describe different types of intelligence gathering discipline which can be described the origin of intelligence."
+    }
+  ],
+  "path": "machinetag.json",
+  "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
+  "description": "Manifest file of MISP taxonomies available.",
+  "license": "CC-0",
+  "version": "20181225"
+}

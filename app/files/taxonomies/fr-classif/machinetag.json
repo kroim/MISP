@@ -1,0 +1,68 @@
+{
+  "values": [
+    {
+      "entry": [
+        {
+          "expanded": "TRES SECRET DEFENSE",
+          "value": "TRES_SECRET_DEFENSE"
+        },
+        {
+          "expanded": "SECRET DEFENSE",
+          "value": "SECRET_DEFENSE"
+        },
+        {
+          "expanded": "CONFIDENTIEL DEFENSE",
+          "value": "CONFIDENTIEL_DEFENSE"
+        }
+      ],
+      "predicate": "classifiees-defense"
+    },
+    {
+      "entry": [
+        {
+          "expanded": "SECRET",
+          "value": "SECRET"
+        },
+        {
+          "expanded": "CONFIDENTIEL",
+          "value": "CONFIDENTIEL"
+        },
+        {
+          "expanded": "DIFFUSION RESTREINTE",
+          "value": "DIFFUSION_RESTREINTE"
+        }
+      ],
+      "predicate": "non-classifiees-defense"
+    },
+    {
+      "entry": [
+        {
+          "expanded": "NON CLASSIFIEES",
+          "value": "NON-CLASSIFIEES"
+        }
+      ],
+      "predicate": "non-classifiees"
+    }
+  ],
+  "predicates": [
+    {
+      "expanded": "Informations classifiées défense",
+      "value": "classifiees-defense",
+      "exclusive": true
+    },
+    {
+      "expanded": "Informations non classifiées defense",
+      "value": "non-classifiees-defense",
+      "exclusive": true
+    },
+    {
+      "expanded": "Informations non classifiées",
+      "value": "non-classifiees",
+      "exclusive": true
+    }
+  ],
+  "version": 2,
+  "description": "French gov information classification system",
+  "namespace": "fr-classif",
+  "exclusive": true
+}

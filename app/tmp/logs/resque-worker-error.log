@@ -1,0 +1,156 @@
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php(538): Redis->srem('workers', 'dev:8939:defaul...')
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php(265): Resque_Worker->unregisterWorker()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/bin/resque(109): Resque_Worker->work('5')
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/bin/resque(100): startWorker('default', 1, Object(MonologInit\MonologInit), '5')
+#4 {main}
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php(538): Redis->srem('workers', 'dev:8957:prio')
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php(265): Resque_Worker->unregisterWorker()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/bin/resque(109): Resque_Worker->work('5')
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/bin/resque(100): startWorker('prio', 1, Object(MonologInit\MonologInit), '5')
+#4 {main}
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php(538): Redis->srem('workers', 'dev:8994:email')
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php(265): Resque_Worker->unregisterWorker()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/bin/resque(109): Resque_Worker->work('5')
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/bin/resque(100): startWorker('email', 1, Object(MonologInit\MonologInit), '5')
+#4 {main}
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php(538): Redis->srem('workers', 'dev:8975:cache')
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php(265): Resque_Worker->unregisterWorker()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/bin/resque(109): Resque_Worker->work('5')
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/bin/resque(100): startWorker('cache', 1, Object(MonologInit\MonologInit), '5')
+#4 {main}
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php(538): Redis->srem('workers', 'dev:1184:cache')
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php(265): Resque_Worker->unregisterWorker()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/bin/resque(109): Resque_Worker->work('5')
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/bin/resque(100): startWorker('cache', 1, Object(MonologInit\MonologInit), '5')
+#4 {main}
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Warning Error: Redis::srem(): connect() failed: Connection refused in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php, line 538]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php(538): Redis->srem('workers', 'dev:1212:email')
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/lib/Resque/Worker.php(265): Resque_Worker->unregisterWorker()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/bin/resque(109): Resque_Worker->work('5')
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex/bin/resque(100): startWorker('email', 1, Object(MonologInit\MonologInit), '5')
+#4 {main}

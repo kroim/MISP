@@ -1,0 +1,24 @@
+{
+  "name":         "pear/net_geoip",
+  "description":  "Determine physical location from IP address",
+  "type":         "class",
+  "keywords":     [ "Geo IP" ],
+  "homepage":     "https://github.com/pear/Net_GeoIP",
+  "license":      "BSD-3-Clause",
+  "authors":      [
+    {
+      "name":  "Okechukwu Ugwu",
+      "email": "fobilow@gmail.com"
+    }
+  ],
+  "require":      {
+    "php":                 ">=4.4.0",
+    "pear/pear_exception": "dev-master"
+  },
+  "autoload":     {
+    "psr-0": {
+      "Net": ""
+    }
+  },
+  "include-path": ["."]
+}
