@@ -1,0 +1,12 @@
+
+//Setting in PHP.ini file
+
+1	upload_max_filesize = 64M
+2	post_max_size = 64M
+3	max_execution_time = 300
+
+//Set Local http into https (for webrtc)
+
+  -c:\xampp\apache\conf\extra\httpd-ssl.conf
+  -c:\xampp\apache\conf\extra\httpd-vhosts.conf
+  -c:\Windows\System32\drivers\etc\hosts
