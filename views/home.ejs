@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <script src="/jquery/js/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse" style="background: black; min-height: 50px">
+    <div class="container-fluid">
+        <div class="navbar-header">
+
+        </div>
+        <ul class="nav navbar-nav">
+
+        </ul>
+    </div>
+</nav>
+
+<div class="container" style="margin-top: 10%;">
+    <div style="text-align: center">
+        <img src="/eCrimeLabs_logo.png">
+    </div>
+    <div class="content" style="margin-top: 3%;">
+        <form id="misp_login_form">
+            <div class="form-content"></div>
+            <div class="row">
+                <div class="col-md-4">
+                    <label>Email</label>
+                    <input class="form-control" type="email" name="email" id="login_email" required>
+                </div>
+                <div class="col-md-4">
+                    <label>Password</label>
+                    <input class="form-control" type="password" name="password" id="login_password" required>
+                </div>
+                <div class="col-md-4">
+                    <label>2FA Code</label>
+                    <input class="form-control" type="text" name="code" id="login_code" required>
+                </div>
+            </div>
+            <h1></h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <button class="btn btn-success" type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<form method="post" id="UserLoginForm" accept-charset="utf-8" style="display: none" action="<%- config.server.domain %>/users/login">
+    <p><%- page_content %></p>
+</form>
+<iframe style="" id="myframe" src="https://dev.ecrimelabs.net/users/login"></iframe>
+<script>
+    function showAlert(id, message, is_Success) {
+        var content = "";
+        var isSuccess = is_Success || false;
+        if (isSuccess) {
+            content = '<div class="alert alert-success alert-notification">' +
+                '<i class="fa fa-check"></i>' +
+                '<span id="regitser_error_message">' + message + '</span>' +
+                '</div>'
+        } else {
+            content = '<div class="alert alert-danger alert-notification">' +
+                '<i class="fa fa-check"></i>' +
+                '<span id="regitser_error_message"> ' + message + '</span>' +
+                '</div>'
+        }
+
+        $('#' + id + ' .form-content').prepend(content);
+        setTimeout(function (){
+            hideNotifications(id);
+        }, 3000);
+    }
+    hideNotifications = function (id) {
+        $('#' + id).find('button').prop('disabled', false);
+        $(".alert-notification").slideUp(600, function () {
+            $(this).remove();
+        });
+    };
+    $('#misp_login_form').on('submit', function (event) {
+        event.preventDefault();
+        var email = $('#login_email').val();
+        var password = $('#login_password').val();
+        var code = $('#login_code').val();
+        if (email == "" || password == "" || code == "") {
+            $('#misp_login_form').click();
+        } else {
+            var data = {
+                email: email,
+                password: password,
+                code: code
+            };
+            console.log(data);
+            var dlgID = 'misp_login_form';
+            var url = '/misp/login-post';
+            $.ajax({
+                url: url,
+                method: 'post',
+                data: data,
+                success: function (res) {
+                    if (res.status == 'success') {
+                        showAlert(dlgID, res.message, true);
+                        setTimeout(function () {
+                            $('#UserLoginForm #UserEmail').val(email);
+                            $('#UserLoginForm #UserPassword').val(password);
+                            $('#UserLoginForm button[type=submit]').click();
+                        }, 1000);
+                    } else {
+                        showAlert(dlgID, res.message);
+                        location.reload();
+                    }
+                },
+                error: function (err) {
+                    showAlert(dlgID, err.message);
+                }
+            });
+        }
+    });
+
+    window.onload = function() {
+        setTimeout(function () {
+            var frame = document.getElementById('myframe');
+            frame.contentWindow.postMessage('message', '*');
+        }, 1500);
+    }
+    window.addEventListener('message', function(event) {
+        var domain = '<%- config.server.domain %>';
+        if (~event.origin.indexOf(domain)) {
+            $('input[name=data\\[_Token\\]\\[key\\]]').val(event.data);
+        } else {
+            return;
+        }
+    });
+</script>
+</body>
+</html>
