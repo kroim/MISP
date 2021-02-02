@@ -1,3 +1,0 @@
-[submodule "pymisp/data/misp-objects"]
-	path = pymisp/data/misp-objects
-	url = https://github.com/MISP/misp-objects
