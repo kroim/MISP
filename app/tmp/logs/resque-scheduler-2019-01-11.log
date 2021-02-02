@@ -1,3 +1,0 @@
-[2019-01-11 03:51:54] main.INFO: Exiting... {"type":"shutdown","worker":"dev:6466"} []
-[2019-01-11 03:51:54] main.INFO: Exiting... {"type":"shutdown","worker":"dev:6466"} []
-[2019-01-11 03:51:54] main.INFO: CONT received; resuming job processing {"type":"resume","worker":"dev:6466"} []
